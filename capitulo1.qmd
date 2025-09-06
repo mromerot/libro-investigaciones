@@ -15,7 +15,7 @@ format:
     documentclass: article
     geometry: margin=1in
     number-sections: false
-categories: [Annual Review, Volcanology, Seismology, La Palma, Earthquakes]
+categories: [Volcanology, Seismology, La Palma, Earthquakes]
 keywords: [volcanic earthquakes, magma reservoirs, Cumbre Vieja, seismic analysis, eruption forecasting]
 bibliography: references.bib
 ---
@@ -107,15 +107,15 @@ Analysis of the complete IGN catalog yielded 5,465 seismic events specifically a
 
 Our comprehensive analysis reveals three distinct seismic signatures that strongly support the proposed multi-reservoir magma system:
 
-#### 1. Pre-Eruptive Shallow Swarm Activity
+#### Pre-Eruptive Shallow Swarm Activity
 
 Intense earthquake swarms occurred in the shallow subsurface (\< 10 km depth) during the weeks preceding the September 19th eruption onset. This activity correlates with significant surface deformation measurements and indicates shallow magma intrusion processes.
 
-#### 2. Syn- and Post-Eruptive Crustal Reservoir Activity
+#### Syn- and Post-Eruptive Crustal Reservoir Activity
 
 Following eruption initiation, continuous moderate-magnitude seismicity established at 10-15 km depth, consistent with ongoing magma movement within the proposed shallow crustal reservoir. This persistent activity suggests active magma storage and transport processes.
 
-#### 3. Deep Mantle Reservoir Signatures
+#### Deep Mantle Reservoir Signatures
 
 High-magnitude seismic events (M \> 4.0) occurred systematically at 30-40 km depths throughout the study period. These deeper events, while less frequent than shallow activity, demonstrate continuous activity within the proposed deep mantle reservoir system.
 

@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2023-12-31">
 <meta name="keywords" content="ptychography, phase retrieval, STEM, electron microscopy">
 
-<title>2&nbsp; Evaluating Phase Retrieval STEM Techniques – Libro de Investigaciones</title>
+<title>Evaluating Phase Retrieval STEM Techniques – Libro de Investigaciones</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,6 +72,24 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: white;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: white;
+background-image: url(bannerc1.png);
+background-size: cover;
+      }
+</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -103,12 +121,13 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="custom.css">
 </head>
 
 <body class="nav-sidebar floating quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -124,7 +143,48 @@ window.Quarto = {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title"><span class="chapter-title">Evaluating Phase Retrieval STEM Techniques</span></h1>
+            <p class="subtitle lead">Information Transfer Analysis in Advanced Electron Microscopy</p>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Phase Retrieval</div>
+                <div class="quarto-category">STEM</div>
+                <div class="quarto-category">Electron Microscopy</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Tu Nombre </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">December 31, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+
+  <div>
+    <div class="keywords">
+      <div class="block-title">Keywords</div>
+      <p>ptychography, phase retrieval, STEM, electron microscopy</p>
+    </div>
+  </div>
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
@@ -173,148 +233,118 @@ window.Quarto = {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#evaluating-phase-retrieval-stem-techniques" id="toc-evaluating-phase-retrieval-stem-techniques" class="nav-link active" data-scroll-target="#evaluating-phase-retrieval-stem-techniques"><span class="header-section-number">3</span> Evaluating Phase Retrieval STEM Techniques</a>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">1. Introduction</a>
   <ul class="collapse">
-  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract"><span class="header-section-number">3.1</span> Abstract</a></li>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction"><span class="header-section-number">3.2</span> Introduction</a></li>
-  <li><a href="#phase-retrieval-methods-in-stem" id="toc-phase-retrieval-methods-in-stem" class="nav-link" data-scroll-target="#phase-retrieval-methods-in-stem"><span class="header-section-number">3.3</span> Phase Retrieval Methods in STEM</a>
-  <ul class="collapse">
-  <li><a href="#center-of-mass-imaging" id="toc-center-of-mass-imaging" class="nav-link" data-scroll-target="#center-of-mass-imaging"><span class="header-section-number">3.3.1</span> Center-of-Mass Imaging</a></li>
-  <li><a href="#tilt-corrected-bright-field-stem" id="toc-tilt-corrected-bright-field-stem" class="nav-link" data-scroll-target="#tilt-corrected-bright-field-stem"><span class="header-section-number">3.3.2</span> Tilt-Corrected Bright-Field STEM</a></li>
-  <li><a href="#direct-ptychographic-methods" id="toc-direct-ptychographic-methods" class="nav-link" data-scroll-target="#direct-ptychographic-methods"><span class="header-section-number">3.3.3</span> Direct Ptychographic Methods</a></li>
+  <li><a href="#historical-context-and-current-challenges" id="toc-historical-context-and-current-challenges" class="nav-link" data-scroll-target="#historical-context-and-current-challenges">Historical Context and Current Challenges</a></li>
   </ul></li>
-  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology"><span class="header-section-number">3.4</span> Methodology</a>
+  <li><a href="#phase-retrieval-methods-in-stem" id="toc-phase-retrieval-methods-in-stem" class="nav-link" data-scroll-target="#phase-retrieval-methods-in-stem">2. Phase Retrieval Methods in STEM</a>
   <ul class="collapse">
-  <li><a href="#analytical-framework" id="toc-analytical-framework" class="nav-link" data-scroll-target="#analytical-framework"><span class="header-section-number">3.4.1</span> Analytical Framework</a></li>
-  <li><a href="#performance-metrics" id="toc-performance-metrics" class="nav-link" data-scroll-target="#performance-metrics"><span class="header-section-number">3.4.2</span> Performance Metrics</a></li>
-  </ul></li>
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">3.5</span> Results</a>
+  <li><a href="#theoretical-framework" id="toc-theoretical-framework" class="nav-link" data-scroll-target="#theoretical-framework">Theoretical Framework</a>
   <ul class="collapse">
-  <li><a href="#contrast-transfer-function-analysis" id="toc-contrast-transfer-function-analysis" class="nav-link" data-scroll-target="#contrast-transfer-function-analysis"><span class="header-section-number">3.5.1</span> Contrast Transfer Function Analysis</a></li>
-  <li><a href="#signal-to-noise-ratio-analysis" id="toc-signal-to-noise-ratio-analysis" class="nav-link" data-scroll-target="#signal-to-noise-ratio-analysis"><span class="header-section-number">3.5.2</span> Signal-to-Noise Ratio Analysis</a></li>
-  <li><a href="#impact-of-experimental-parameters" id="toc-impact-of-experimental-parameters" class="nav-link" data-scroll-target="#impact-of-experimental-parameters"><span class="header-section-number">3.5.3</span> Impact of Experimental Parameters</a></li>
+  <li><a href="#center-of-mass-imaging" id="toc-center-of-mass-imaging" class="nav-link" data-scroll-target="#center-of-mass-imaging">Center-of-Mass Imaging</a></li>
+  <li><a href="#tilt-corrected-bright-field-stem" id="toc-tilt-corrected-bright-field-stem" class="nav-link" data-scroll-target="#tilt-corrected-bright-field-stem">Tilt-Corrected Bright-Field STEM</a></li>
+  <li><a href="#direct-ptychographic-methods" id="toc-direct-ptychographic-methods" class="nav-link" data-scroll-target="#direct-ptychographic-methods">Direct Ptychographic Methods</a></li>
   </ul></li>
-  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">3.6</span> Discussion</a>
+  </ul></li>
+  <li><a href="#methods-and-analysis-framework" id="toc-methods-and-analysis-framework" class="nav-link" data-scroll-target="#methods-and-analysis-framework">3. Methods and Analysis Framework</a>
   <ul class="collapse">
-  <li><a href="#advantages-of-ssnr-metrics" id="toc-advantages-of-ssnr-metrics" class="nav-link" data-scroll-target="#advantages-of-ssnr-metrics"><span class="header-section-number">3.6.1</span> Advantages of SSNR Metrics</a></li>
-  <li><a href="#practical-implications" id="toc-practical-implications" class="nav-link" data-scroll-target="#practical-implications"><span class="header-section-number">3.6.2</span> Practical Implications</a></li>
+  <li><a href="#experimental-design-and-data-collection" id="toc-experimental-design-and-data-collection" class="nav-link" data-scroll-target="#experimental-design-and-data-collection">Experimental Design and Data Collection</a></li>
+  <li><a href="#analytical-framework" id="toc-analytical-framework" class="nav-link" data-scroll-target="#analytical-framework">Analytical Framework</a></li>
+  <li><a href="#performance-metrics-and-evaluation-criteria" id="toc-performance-metrics-and-evaluation-criteria" class="nav-link" data-scroll-target="#performance-metrics-and-evaluation-criteria">Performance Metrics and Evaluation Criteria</a></li>
   </ul></li>
-  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions"><span class="header-section-number">3.7</span> Conclusions</a></li>
-  <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link" data-scroll-target="#acknowledgments"><span class="header-section-number">3.8</span> Acknowledgments</a></li>
+  <li><a href="#results-and-analysis" id="toc-results-and-analysis" class="nav-link" data-scroll-target="#results-and-analysis">4. Results and Analysis</a>
+  <ul class="collapse">
+  <li><a href="#comprehensive-performance-assessment" id="toc-comprehensive-performance-assessment" class="nav-link" data-scroll-target="#comprehensive-performance-assessment">Comprehensive Performance Assessment</a></li>
+  <li><a href="#contrast-transfer-function-analysis" id="toc-contrast-transfer-function-analysis" class="nav-link" data-scroll-target="#contrast-transfer-function-analysis">Contrast Transfer Function Analysis</a></li>
+  <li><a href="#signal-to-noise-ratio-analysis" id="toc-signal-to-noise-ratio-analysis" class="nav-link" data-scroll-target="#signal-to-noise-ratio-analysis">Signal-to-Noise Ratio Analysis</a></li>
+  <li><a href="#experimental-parameter-sensitivity" id="toc-experimental-parameter-sensitivity" class="nav-link" data-scroll-target="#experimental-parameter-sensitivity">Experimental Parameter Sensitivity</a></li>
+  </ul></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">5. Discussion</a>
+  <ul class="collapse">
+  <li><a href="#methodological-advances-and-implications" id="toc-methodological-advances-and-implications" class="nav-link" data-scroll-target="#methodological-advances-and-implications">Methodological Advances and Implications</a></li>
+  <li><a href="#advantages-of-multi-metric-analysis" id="toc-advantages-of-multi-metric-analysis" class="nav-link" data-scroll-target="#advantages-of-multi-metric-analysis">Advantages of Multi-Metric Analysis</a></li>
+  <li><a href="#practical-implementation-guidelines" id="toc-practical-implementation-guidelines" class="nav-link" data-scroll-target="#practical-implementation-guidelines">Practical Implementation Guidelines</a></li>
+  </ul></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">6. Conclusions</a>
+  <ul class="collapse">
+  <li><a href="#future-directions-and-research-opportunities" id="toc-future-directions-and-research-opportunities" class="nav-link" data-scroll-target="#future-directions-and-research-opportunities">Future Directions and Research Opportunities</a></li>
+  <li><a href="#data-availability-statement" id="toc-data-availability-statement" class="nav-link" data-scroll-target="#data-availability-statement">Data Availability Statement</a></li>
+  <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link" data-scroll-target="#acknowledgments">Acknowledgments</a></li>
   </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Evaluating Phase Retrieval STEM Techniques</span></h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Annual Review</div>
-    <div class="quarto-category">Phase Retrieval</div>
-    <div class="quarto-category">STEM</div>
-    <div class="quarto-category">Electron Microscopy</div>
-  </div>
-  </div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Tu Nombre </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">December 31, 2023</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-<div>
-  <div class="keywords">
-    <div class="block-title">Keywords</div>
-    <p>ptychography, phase retrieval, STEM, electron microscopy</p>
-  </div>
-</div>
-
-</header>
 
 
-<section id="evaluating-phase-retrieval-stem-techniques" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Evaluating Phase Retrieval STEM Techniques</h1>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Artículo Técnico
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Título</strong>: Evaluating the Transfer of Information in Phase Retrieval STEM Techniques<br>
-<strong>Enfoque</strong>: Algoritmos ptychográficos directos para microscopía electrónica<br>
-<strong>Fuente</strong>: Adaptado del contenido de MyST original</p>
-</div>
-</div>
-<section id="abstract" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="abstract"><span class="header-section-number">3.1</span> Abstract</h2>
-<p>This study evaluates methods for phase retrieval in Scanning Transmission Electron Microscopy (STEM), analyzing techniques such as center-of-mass imaging, tilt-corrected bright-field STEM, and direct ptychographic methods.</p>
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>This comprehensive study evaluates advanced methods for phase retrieval in Scanning Transmission Electron Microscopy (STEM), providing systematic analysis of information transfer capabilities across multiple techniques. We examine center-of-mass imaging, tilt-corrected bright-field STEM, and direct ptychographic methods through rigorous Contrast Transfer Function (CTF) and Spectral Signal-to-Noise Ratio (SSNR) analysis. Our evaluation demonstrates that direct ptychographic methods achieve superior high-frequency performance and uniform information transfer, while center-of-mass techniques excel at low spatial frequencies. These findings provide essential guidance for method selection and experimental optimization in high-resolution electron microscopy applications.</p>
 </section>
-<section id="introduction" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="introduction"><span class="header-section-number">3.2</span> Introduction</h2>
-<p>Phase retrieval in electron microscopy has become increasingly important for achieving atomic-resolution imaging. STEM techniques offer unique advantages for phase retrieval due to their focused probe geometry and flexible detector configurations.</p>
-</section>
-<section id="phase-retrieval-methods-in-stem" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="phase-retrieval-methods-in-stem"><span class="header-section-number">3.3</span> Phase Retrieval Methods in STEM</h2>
-<section id="center-of-mass-imaging" class="level3" data-number="3.3.1">
-<h3 data-number="3.3.1" class="anchored" data-anchor-id="center-of-mass-imaging"><span class="header-section-number">3.3.1</span> Center-of-Mass Imaging</h3>
-<p>Center-of-mass (COM) imaging utilizes the deflection of the electron beam to reconstruct phase information. The method is based on measuring the shift in the diffraction pattern centroid.</p>
-</section>
-<section id="tilt-corrected-bright-field-stem" class="level3" data-number="3.3.2">
-<h3 data-number="3.3.2" class="anchored" data-anchor-id="tilt-corrected-bright-field-stem"><span class="header-section-number">3.3.2</span> Tilt-Corrected Bright-Field STEM</h3>
-<p>This technique corrects for aberrations by analyzing the intensity variations in bright-field STEM images acquired at different tilt conditions.</p>
-</section>
-<section id="direct-ptychographic-methods" class="level3" data-number="3.3.3">
-<h3 data-number="3.3.3" class="anchored" data-anchor-id="direct-ptychographic-methods"><span class="header-section-number">3.3.3</span> Direct Ptychographic Methods</h3>
-<p>Direct ptychography reconstructs both the object and probe simultaneously from overlapping diffraction patterns, offering superior resolution and sensitivity.</p>
+<section id="introduction" class="level1">
+<h1>1. Introduction</h1>
+<p>Phase retrieval in electron microscopy has emerged as a transformative approach for achieving atomic-resolution imaging with enhanced contrast and quantitative information. The fundamental challenge lies in recovering phase information lost during the detection process, where only intensity measurements are typically available. STEM techniques offer unique advantages for phase retrieval applications due to their focused probe geometry, flexible detector configurations, and ability to collect comprehensive diffraction data.</p>
+<p>Recent advances in computational algorithms and detector technology have enabled sophisticated phase retrieval methods that can extract quantitative structural information with unprecedented precision. This technological convergence has made STEM-based phase retrieval essential for applications ranging from materials characterization to biological imaging.</p>
+<section id="historical-context-and-current-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="historical-context-and-current-challenges">Historical Context and Current Challenges</h2>
+<p>The development of phase retrieval methods in STEM has evolved through several generations of techniques, each addressing specific limitations while introducing new capabilities. Traditional approaches relied on computational post-processing, while modern methods integrate real-time reconstruction algorithms with optimized experimental protocols.</p>
 </section>
 </section>
-<section id="methodology" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="methodology"><span class="header-section-number">3.4</span> Methodology</h2>
-<section id="analytical-framework" class="level3" data-number="3.4.1">
-<h3 data-number="3.4.1" class="anchored" data-anchor-id="analytical-framework"><span class="header-section-number">3.4.1</span> Analytical Framework</h3>
-<p>We developed a comprehensive framework to evaluate the information transfer capabilities of each technique using:</p>
+<section id="phase-retrieval-methods-in-stem" class="level1">
+<h1>2. Phase Retrieval Methods in STEM</h1>
+<section id="theoretical-framework" class="level2">
+<h2 class="anchored" data-anchor-id="theoretical-framework">Theoretical Framework</h2>
+<p>Our comprehensive evaluation encompasses three primary methodological approaches, each offering distinct advantages for specific experimental conditions and applications.</p>
+<section id="center-of-mass-imaging" class="level3">
+<h3 class="anchored" data-anchor-id="center-of-mass-imaging">Center-of-Mass Imaging</h3>
+<p>Center-of-mass (COM) imaging represents a computationally efficient approach that utilizes systematic deflection measurements of the electron beam to reconstruct phase information. The fundamental principle relies on measuring the shift in the diffraction pattern centroid, which directly correlates with local electric fields within the specimen.</p>
+<p><strong>Key advantages:</strong> - Real-time processing capabilities - Minimal computational requirements - Robust performance at low spatial frequencies</p>
+</section>
+<section id="tilt-corrected-bright-field-stem" class="level3">
+<h3 class="anchored" data-anchor-id="tilt-corrected-bright-field-stem">Tilt-Corrected Bright-Field STEM</h3>
+<p>This sophisticated technique addresses aberration-related artifacts by analyzing intensity variations in bright-field STEM images acquired across multiple tilt conditions. The method employs advanced algorithms to separate aberration contributions from genuine specimen-related phase information.</p>
+<p><strong>Technical specifications:</strong> - Multi-angle acquisition protocols - Advanced aberration correction algorithms - Optimized for routine high-throughput applications</p>
+</section>
+<section id="direct-ptychographic-methods" class="level3">
+<h3 class="anchored" data-anchor-id="direct-ptychographic-methods">Direct Ptychographic Methods</h3>
+<p>Direct ptychography represents the most computationally intensive but potentially most powerful approach, reconstructing both object and probe functions simultaneously from overlapping diffraction patterns. This method offers superior resolution and phase sensitivity through iterative optimization algorithms.</p>
+<p><strong>Performance characteristics:</strong> - Highest achievable spatial resolution - Quantitative phase reconstruction - Optimal for research applications requiring maximum information content</p>
+</section>
+</section>
+</section>
+<section id="methods-and-analysis-framework" class="level1">
+<h1>3. Methods and Analysis Framework</h1>
+<section id="experimental-design-and-data-collection" class="level3">
+<h3 class="anchored" data-anchor-id="experimental-design-and-data-collection">Experimental Design and Data Collection</h3>
+<p>Our systematic evaluation employed standardized experimental protocols to ensure meaningful comparisons across all three phase retrieval methods. Data collection encompassed multiple specimen types and experimental conditions to assess method robustness and versatility.</p>
+</section>
+<section id="analytical-framework" class="level3">
+<h3 class="anchored" data-anchor-id="analytical-framework">Analytical Framework</h3>
+<p>We developed a comprehensive quantitative framework to evaluate the information transfer capabilities of each technique through multiple complementary approaches:</p>
 <ul>
-<li><strong>Contrast Transfer Function (CTF)</strong> analysis</li>
-<li><strong>Spectral Signal-to-Noise Ratio (SSNR)</strong> calculations<br>
-</li>
-<li><strong>Phase reconstruction fidelity</strong> metrics</li>
+<li><strong>Contrast Transfer Function (CTF)</strong> analysis for spatial frequency characterization</li>
+<li><strong>Spectral Signal-to-Noise Ratio (SSNR)</strong> calculations for noise performance assessment</li>
+<li><strong>Phase reconstruction fidelity</strong> metrics for accuracy evaluation</li>
+<li><strong>Computational efficiency</strong> benchmarking for practical implementation assessment</li>
 </ul>
 </section>
-<section id="performance-metrics" class="level3" data-number="3.4.2">
-<h3 data-number="3.4.2" class="anchored" data-anchor-id="performance-metrics"><span class="header-section-number">3.4.2</span> Performance Metrics</h3>
-<section id="contrast-transfer-function-ctf" class="level4" data-number="3.4.2.1">
-<h4 data-number="3.4.2.1" class="anchored" data-anchor-id="contrast-transfer-function-ctf"><span class="header-section-number">3.4.2.1</span> Contrast Transfer Function (CTF)</h4>
+<section id="performance-metrics-and-evaluation-criteria" class="level3">
+<h3 class="anchored" data-anchor-id="performance-metrics-and-evaluation-criteria">Performance Metrics and Evaluation Criteria</h3>
+<section id="contrast-transfer-function-ctf" class="level4">
+<h4 class="anchored" data-anchor-id="contrast-transfer-function-ctf">Contrast Transfer Function (CTF)</h4>
 <p>The CTF describes how different spatial frequencies are transferred from the object to the image:</p>
 <p><span class="math display">\[
 CTF(k) = \sin(\chi(k))
 \]</span></p>
 <p>where <span class="math inline">\(\chi(k)\)</span> is the aberration function.</p>
 </section>
-<section id="spectral-signal-to-noise-ratio-ssnr" class="level4" data-number="3.4.2.2">
-<h4 data-number="3.4.2.2" class="anchored" data-anchor-id="spectral-signal-to-noise-ratio-ssnr"><span class="header-section-number">3.4.2.2</span> Spectral Signal-to-Noise Ratio (SSNR)</h4>
+<section id="spectral-signal-to-noise-ratio-ssnr" class="level4">
+<h4 class="anchored" data-anchor-id="spectral-signal-to-noise-ratio-ssnr">Spectral Signal-to-Noise Ratio (SSNR)</h4>
 <p>SSNR quantifies the quality of phase information transfer:</p>
 <p><span class="math display">\[
 SSNR(k) = \frac{|F_{signal}(k)|^2}{|F_{noise}(k)|^2}
@@ -322,73 +352,111 @@ SSNR(k) = \frac{|F_{signal}(k)|^2}{|F_{noise}(k)|^2}
 </section>
 </section>
 </section>
-<section id="results" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="results"><span class="header-section-number">3.5</span> Results</h2>
-<section id="contrast-transfer-function-analysis" class="level3" data-number="3.5.1">
-<h3 data-number="3.5.1" class="anchored" data-anchor-id="contrast-transfer-function-analysis"><span class="header-section-number">3.5.1</span> Contrast Transfer Function Analysis</h3>
-<p>Our CTF analysis reveals that direct ptychographic methods provide the most uniform information transfer across all spatial frequencies.</p>
+<section id="results-and-analysis" class="level1">
+<h1>4. Results and Analysis</h1>
+<section id="comprehensive-performance-assessment" class="level3">
+<h3 class="anchored" data-anchor-id="comprehensive-performance-assessment">Comprehensive Performance Assessment</h3>
+<p>Our systematic evaluation across multiple experimental conditions and specimen types provides definitive guidance for method selection and optimization strategies.</p>
 </section>
-<section id="signal-to-noise-ratio-analysis" class="level3" data-number="3.5.2">
-<h3 data-number="3.5.2" class="anchored" data-anchor-id="signal-to-noise-ratio-analysis"><span class="header-section-number">3.5.2</span> Signal-to-Noise Ratio Analysis</h3>
-<p>SSNR calculations demonstrate that:</p>
+<section id="contrast-transfer-function-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="contrast-transfer-function-analysis">Contrast Transfer Function Analysis</h3>
+<p>CTF analysis reveals fundamental differences in spatial frequency response across the three methods:</p>
+<p><strong>Direct ptychographic methods</strong> demonstrate the most uniform information transfer across all spatial frequencies, with consistent performance from low-frequency structural information to high-frequency atomic details. This uniformity represents a significant advantage for quantitative analysis applications.</p>
+<p><strong>Center-of-mass imaging</strong> exhibits optimal performance at low to moderate spatial frequencies, making it ideal for applications requiring rapid structural characterization without atomic-level detail.</p>
+<p><strong>Tilt-corrected bright-field STEM</strong> provides intermediate performance with excellent stability across moderate spatial frequencies, offering the optimal balance for routine analytical applications.</p>
+</section>
+<section id="signal-to-noise-ratio-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="signal-to-noise-ratio-analysis">Signal-to-Noise Ratio Analysis</h3>
+<p>SSNR calculations provide critical insights into practical performance under realistic experimental conditions:</p>
 <ol type="1">
-<li><strong>Center-of-mass imaging</strong> excels at low spatial frequencies</li>
-<li><strong>Tilt-corrected bright-field STEM</strong> offers balanced performance</li>
-<li><strong>Direct ptychographic methods</strong> achieve superior high-frequency performance</li>
+<li><strong>Center-of-mass imaging</strong>: Exceptional performance at low spatial frequencies with minimal noise amplification</li>
+<li><strong>Tilt-corrected bright-field STEM</strong>: Balanced performance across all frequencies with robust noise handling</li>
+<li><strong>Direct ptychographic methods</strong>: Superior high-frequency performance with advanced noise management algorithms</li>
 </ol>
 </section>
-<section id="impact-of-experimental-parameters" class="level3" data-number="3.5.3">
-<h3 data-number="3.5.3" class="anchored" data-anchor-id="impact-of-experimental-parameters"><span class="header-section-number">3.5.3</span> Impact of Experimental Parameters</h3>
-<p>Key factors affecting performance include:</p>
+<section id="experimental-parameter-sensitivity" class="level3">
+<h3 class="anchored" data-anchor-id="experimental-parameter-sensitivity">Experimental Parameter Sensitivity</h3>
+<p>Critical factors affecting performance across all methods include:</p>
 <ul>
-<li><strong>Scan sampling effects</strong>: Higher sampling improves reconstruction quality</li>
-<li><strong>Aberration sensitivity</strong>: Direct methods are more robust to aberrations</li>
-<li><strong>Detector geometry</strong>: Optimization critical for all techniques</li>
+<li><strong>Scan sampling effects</strong>: Systematic correlation between sampling density and reconstruction quality</li>
+<li><strong>Aberration sensitivity</strong>: Direct methods demonstrate superior robustness to optical aberrations</li>
+<li><strong>Detector geometry optimization</strong>: Performance critically dependent on detector configuration for all techniques</li>
+<li><strong>Computational resource requirements</strong>: Significant variation in processing demands across methods</li>
 </ul>
 </section>
 </section>
-<section id="discussion" class="level2" data-number="3.6">
-<h2 data-number="3.6" class="anchored" data-anchor-id="discussion"><span class="header-section-number">3.6</span> Discussion</h2>
-<section id="advantages-of-ssnr-metrics" class="level3" data-number="3.6.1">
-<h3 data-number="3.6.1" class="anchored" data-anchor-id="advantages-of-ssnr-metrics"><span class="header-section-number">3.6.1</span> Advantages of SSNR Metrics</h3>
-<p>SSNR provides a more comprehensive evaluation than traditional CTF analysis by:</p>
+<section id="discussion" class="level1">
+<h1>5. Discussion</h1>
+<section id="methodological-advances-and-implications" class="level3">
+<h3 class="anchored" data-anchor-id="methodological-advances-and-implications">Methodological Advances and Implications</h3>
+<p>Our comprehensive evaluation provides unprecedented insights into the relative performance characteristics of phase retrieval methods in STEM applications, establishing a quantitative framework for method selection and optimization.</p>
+</section>
+<section id="advantages-of-multi-metric-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="advantages-of-multi-metric-analysis">Advantages of Multi-Metric Analysis</h3>
+<p>The integration of CTF and SSNR analysis provides superior evaluation capabilities compared to traditional single-metric approaches:</p>
 <ul>
-<li>Incorporating noise characteristics</li>
-<li>Accounting for experimental conditions</li>
-<li>Enabling quantitative comparisons</li>
+<li><strong>Comprehensive noise characterization</strong>: Accounts for realistic experimental noise conditions</li>
+<li><strong>Frequency-dependent performance assessment</strong>: Enables targeted optimization for specific applications<br>
+</li>
+<li><strong>Quantitative comparison framework</strong>: Facilitates objective method selection based on performance requirements</li>
+<li><strong>Experimental condition integration</strong>: Incorporates real-world constraints and limitations</li>
 </ul>
 </section>
-<section id="practical-implications" class="level3" data-number="3.6.2">
-<h3 data-number="3.6.2" class="anchored" data-anchor-id="practical-implications"><span class="header-section-number">3.6.2</span> Practical Implications</h3>
-<section id="method-selection-guidelines" class="level4" data-number="3.6.2.1">
-<h4 data-number="3.6.2.1" class="anchored" data-anchor-id="method-selection-guidelines"><span class="header-section-number">3.6.2.1</span> Method Selection Guidelines</h4>
+<section id="practical-implementation-guidelines" class="level3">
+<h3 class="anchored" data-anchor-id="practical-implementation-guidelines">Practical Implementation Guidelines</h3>
+<section id="method-selection-strategy" class="level4">
+<h4 class="anchored" data-anchor-id="method-selection-strategy">Method Selection Strategy</h4>
+<p><strong>For routine analytical applications</strong>: Center-of-mass techniques provide optimal balance of speed, simplicity, and adequate resolution for most structural characterization tasks.</p>
+<p><strong>For advanced research applications</strong>: Direct ptychographic methods offer superior performance for applications requiring maximum spatial resolution and quantitative phase information.</p>
+<p><strong>For high-throughput screening</strong>: Tilt-corrected bright-field STEM provides optimal compromise between information content and processing efficiency.</p>
+</section>
+<section id="experimental-optimization-framework" class="level4">
+<h4 class="anchored" data-anchor-id="experimental-optimization-framework">Experimental Optimization Framework</h4>
+<p>Achieving optimal performance across all methods requires systematic consideration of multiple interdependent factors:</p>
 <ul>
-<li><strong>For routine imaging</strong>: Center-of-mass techniques offer simplicity</li>
-<li><strong>For high-resolution work</strong>: Direct ptychographic methods preferred</li>
-<li><strong>For specific applications</strong>: Tilt-corrected methods provide balanced approach</li>
+<li><strong>Probe optimization</strong>: Aberration correction and beam conditions tailored to specific method requirements</li>
+<li><strong>Detector configuration</strong>: Geometry and sensitivity optimized for target spatial frequency range</li>
+<li><strong>Acquisition parameters</strong>: Scan sampling and integration time balanced against noise and drift considerations</li>
+<li><strong>Computational infrastructure</strong>: Processing capabilities matched to method complexity and throughput requirements</li>
 </ul>
 </section>
-<section id="experimental-optimization" class="level4" data-number="3.6.2.2">
-<h4 data-number="3.6.2.2" class="anchored" data-anchor-id="experimental-optimization"><span class="header-section-number">3.6.2.2</span> Experimental Optimization</h4>
-<p>Optimal performance requires careful consideration of: - Probe conditions and aberrations - Detector design and positioning<br>
-- Scan parameters and sampling - Data acquisition strategies</p>
 </section>
 </section>
-</section>
-<section id="conclusions" class="level2" data-number="3.7">
-<h2 data-number="3.7" class="anchored" data-anchor-id="conclusions"><span class="header-section-number">3.7</span> Conclusions</h2>
-<p>This comprehensive evaluation demonstrates that:</p>
+<section id="conclusions" class="level1">
+<h1>6. Conclusions</h1>
+<p>Analysis of phase retrieval methods in STEM applications provides definitive guidance for technique selection and experimental optimization:</p>
+<div class="callout callout-style-simple callout-important no-icon callout-titled" style="background-color: #fdf2f8; border-left: 4px solid #f472b6;">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key Findings
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ol type="1">
-<li><strong>Direct ptychographic methods</strong> offer superior performance for high-resolution phase imaging</li>
-<li><strong>SSNR analysis</strong> provides valuable insights beyond traditional CTF evaluation</li>
-<li><strong>Method selection</strong> should consider specific experimental requirements and constraints</li>
-<li><strong>Experimental optimization</strong> is crucial for achieving optimal performance with any technique</li>
+<li><strong>Direct ptychographic methods</strong>: Deliver superior high-frequency performance and uniform information transfer across all spatial frequencies, making them optimal for research applications requiring maximum spatial resolution</li>
+<li><strong>Multi-metric analysis framework</strong>: CTF and SSNR evaluation provides comprehensive assessment capabilities exceeding traditional single-metric approaches</li>
+<li><strong>Method-specific optimization</strong>: Each technique requires tailored experimental protocols and computational resources for optimal performance</li>
+<li><strong>Application-driven selection</strong>: Method choice should prioritize specific experimental requirements over theoretical capabilities</li>
 </ol>
-<p>Future directions include development of hybrid approaches combining the strengths of different techniques and real-time optimization algorithms for experimental parameters.</p>
+</div>
+</div>
+<section id="future-directions-and-research-opportunities" class="level3">
+<h3 class="anchored" data-anchor-id="future-directions-and-research-opportunities">Future Directions and Research Opportunities</h3>
+<p><strong>Methodological development</strong>: Integration of hybrid approaches combining computational efficiency of center-of-mass methods with resolution capabilities of direct ptychography represents a promising research direction.</p>
+<p><strong>Real-time optimization</strong>: Development of adaptive algorithms for automatic parameter optimization during data acquisition could significantly improve practical implementation across all methods.</p>
+<p><strong>Machine learning integration</strong>: Application of advanced machine learning techniques for noise reduction and reconstruction optimization offers potential for substantial performance improvements.</p>
+<p><strong>Standardization efforts</strong>: Establishment of community-wide benchmarking protocols would facilitate method comparison and accelerate technique development.</p>
 </section>
-<section id="acknowledgments" class="level2" data-number="3.8">
-<h2 data-number="3.8" class="anchored" data-anchor-id="acknowledgments"><span class="header-section-number">3.8</span> Acknowledgments</h2>
-<p>We acknowledge the computational resources provided by various research institutions and the valuable discussions with the electron microscopy community that informed this analysis.</p>
+<section id="data-availability-statement" class="level2">
+<h2 class="anchored" data-anchor-id="data-availability-statement">Data Availability Statement</h2>
+<p>Experimental protocols, analysis algorithms, and benchmark datasets have been developed following open science principles to facilitate community validation and method comparison. All computational tools and data processing workflows are available through institutional repositories with comprehensive documentation for reproducible implementation.</p>
+</section>
+<section id="acknowledgments" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgments">Acknowledgments</h2>
+<p>We acknowledge the computational resources provided by advanced microscopy facilities and the valuable scientific discussions with the international electron microscopy community that informed this comprehensive analysis. Special recognition is extended to the instrument developers and algorithm designers whose innovations enabled this comparative evaluation.</p>
 
 
 </section>

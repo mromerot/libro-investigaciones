@@ -10,36 +10,6 @@
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "References"
-    ]
-  },
-  {
     "objectID": "index.html#estructura-del-libro",
     "href": "index.html#estructura-del-libro",
     "title": "Libro de Investigaciones",
@@ -80,136 +50,6 @@
     ]
   },
   {
-    "objectID": "capitulo1.html#introduction",
-    "href": "capitulo1.html#introduction",
-    "title": "1  La Palma Earthquakes: Seismic Analysis of Volcanic Activity",
-    "section": "2.1 Introduction",
-    "text": "2.1 Introduction\nLa Palma, situated in the westernmost region of the Canary Islands archipelago, represents one of Earth’s most active volcanic systems. Located approximately 100 km from the African coast, this Spanish territory exemplifies ongoing oceanic island formation processes. The island’s geological evolution has been dominated by multiple phases of volcanism, with the Cumbre Vieja volcanic ridge—a north-south oriented structure comprising the southern half of the island—representing the most recent and currently active phase.\nUnderstanding volcanic earthquake patterns is crucial for eruption forecasting and hazard assessment. The 2021 eruption of Cumbre Vieja provided an exceptional opportunity to study real-time seismic signatures associated with magma movement through proposed multi-reservoir systems.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>La Palma Earthquakes: Seismic Analysis of Volcanic Activity</span>"
-    ]
-  },
-  {
-    "objectID": "capitulo1.html#dataset",
-    "href": "capitulo1.html#dataset",
-    "title": "1  La Palma Earthquakes: Seismic Analysis of Volcanic Activity",
-    "section": "2.4 Dataset",
-    "text": "2.4 Dataset\nThe earthquake dataset used in our analysis was generated from the IGN web portal - this is public data released under a permissive license. Data was recorded using a network of seismic monitoring stations on the island. A web scraping script was developed to pull data into a machine-readable form for analysis.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>La Palma Earthquakes: Seismic Analysis of Volcanic Activity</span>"
-    ]
-  },
-  {
-    "objectID": "capitulo1.html#results",
-    "href": "capitulo1.html#results",
-    "title": "1  La Palma Earthquakes: Seismic Analysis of Volcanic Activity",
-    "section": "2.5 Results",
-    "text": "2.5 Results\nThe dataset was loaded and filtered down to La Palma events only. This results in 5465 data points which were then visualized to understand their distributions spatially, by depth, by magnitude and in time.\nFrom our analysis, we can see 3 different systems in play:\n\nShallow earthquake swarm leading up to the eruption on 19th September, related to significant surface deformation and shallow magma intrusion.\nContinuous shallow seismicity started at 10-15km corresponding to magma movement in the crustal reservoir after the eruption.\nHigh magnitude events begin occurring at 30-40km depths corresponding to changes in the mantle reservoir. These are continuous but occur with a lower frequency than in the crustal reservoir.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>La Palma Earthquakes: Seismic Analysis of Volcanic Activity</span>"
-    ]
-  },
-  {
-    "objectID": "capitulo1.html#conclusions",
-    "href": "capitulo1.html#conclusions",
-    "title": "1  La Palma Earthquakes: Seismic Analysis of Volcanic Activity",
-    "section": "2.6 Conclusions",
-    "text": "2.6 Conclusions\nFrom the analysis of the earthquake data collected and published by IGN for the period of 11 September through to 9 November 2021, visualization of the earthquake events at different depths appears to confirm the presence of both mantle and crustal reservoirs as proposed in previous studies.\nThe two-reservoir model is supported by: - Distinct depth clustering of seismic events - Temporal correlation with volcanic activity phases\n- Magnitude distribution patterns\nThis analysis demonstrates the value of continuous seismic monitoring for understanding volcanic systems and improving eruption forecasting capabilities.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>La Palma Earthquakes: Seismic Analysis of Volcanic Activity</span>"
-    ]
-  },
-  {
-    "objectID": "capitulo1.html#data-availability",
-    "href": "capitulo1.html#data-availability",
-    "title": "1  La Palma Earthquakes: Seismic Analysis of Volcanic Activity",
-    "section": "2.7 Data Availability",
-    "text": "2.7 Data Availability\nA web scraping script was developed to pull data into a machine-readable form for analysis. The code and recently updated data are available on GitHub along with analysis notebooks and visualization tools.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>La Palma Earthquakes: Seismic Analysis of Volcanic Activity</span>"
-    ]
-  },
-  {
-    "objectID": "capitulo2.html",
-    "href": "capitulo2.html",
-    "title": "2  Evaluating Phase Retrieval STEM Techniques",
-    "section": "",
-    "text": "3 Evaluating Phase Retrieval STEM Techniques",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Evaluating Phase Retrieval STEM Techniques</span>"
-    ]
-  },
-  {
-    "objectID": "capitulo2.html#introduction",
-    "href": "capitulo2.html#introduction",
-    "title": "2  Evaluating Phase Retrieval STEM Techniques",
-    "section": "3.2 Introduction",
-    "text": "3.2 Introduction\nPhase retrieval in electron microscopy has become increasingly important for achieving atomic-resolution imaging. STEM techniques offer unique advantages for phase retrieval due to their focused probe geometry and flexible detector configurations.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Evaluating Phase Retrieval STEM Techniques</span>"
-    ]
-  },
-  {
-    "objectID": "capitulo2.html#phase-retrieval-methods-in-stem",
-    "href": "capitulo2.html#phase-retrieval-methods-in-stem",
-    "title": "2  Evaluating Phase Retrieval STEM Techniques",
-    "section": "3.3 Phase Retrieval Methods in STEM",
-    "text": "3.3 Phase Retrieval Methods in STEM\n\n3.3.1 Center-of-Mass Imaging\nCenter-of-mass (COM) imaging utilizes the deflection of the electron beam to reconstruct phase information. The method is based on measuring the shift in the diffraction pattern centroid.\n\n\n3.3.2 Tilt-Corrected Bright-Field STEM\nThis technique corrects for aberrations by analyzing the intensity variations in bright-field STEM images acquired at different tilt conditions.\n\n\n3.3.3 Direct Ptychographic Methods\nDirect ptychography reconstructs both the object and probe simultaneously from overlapping diffraction patterns, offering superior resolution and sensitivity.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Evaluating Phase Retrieval STEM Techniques</span>"
-    ]
-  },
-  {
-    "objectID": "capitulo2.html#methodology",
-    "href": "capitulo2.html#methodology",
-    "title": "2  Evaluating Phase Retrieval STEM Techniques",
-    "section": "3.4 Methodology",
-    "text": "3.4 Methodology\n\n3.4.1 Analytical Framework\nWe developed a comprehensive framework to evaluate the information transfer capabilities of each technique using:\n\nContrast Transfer Function (CTF) analysis\nSpectral Signal-to-Noise Ratio (SSNR) calculations\n\nPhase reconstruction fidelity metrics\n\n\n\n3.4.2 Performance Metrics\n\n3.4.2.1 Contrast Transfer Function (CTF)\nThe CTF describes how different spatial frequencies are transferred from the object to the image:\n\\[\nCTF(k) = \\sin(\\chi(k))\n\\]\nwhere \\(\\chi(k)\\) is the aberration function.\n\n\n3.4.2.2 Spectral Signal-to-Noise Ratio (SSNR)\nSSNR quantifies the quality of phase information transfer:\n\\[\nSSNR(k) = \\frac{|F_{signal}(k)|^2}{|F_{noise}(k)|^2}\n\\]",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Evaluating Phase Retrieval STEM Techniques</span>"
-    ]
-  },
-  {
-    "objectID": "capitulo2.html#results",
-    "href": "capitulo2.html#results",
-    "title": "2  Evaluating Phase Retrieval STEM Techniques",
-    "section": "3.5 Results",
-    "text": "3.5 Results\n\n3.5.1 Contrast Transfer Function Analysis\nOur CTF analysis reveals that direct ptychographic methods provide the most uniform information transfer across all spatial frequencies.\n\n\n3.5.2 Signal-to-Noise Ratio Analysis\nSSNR calculations demonstrate that:\n\nCenter-of-mass imaging excels at low spatial frequencies\nTilt-corrected bright-field STEM offers balanced performance\nDirect ptychographic methods achieve superior high-frequency performance\n\n\n\n3.5.3 Impact of Experimental Parameters\nKey factors affecting performance include:\n\nScan sampling effects: Higher sampling improves reconstruction quality\nAberration sensitivity: Direct methods are more robust to aberrations\nDetector geometry: Optimization critical for all techniques",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Evaluating Phase Retrieval STEM Techniques</span>"
-    ]
-  },
-  {
-    "objectID": "capitulo2.html#discussion",
-    "href": "capitulo2.html#discussion",
-    "title": "2  Evaluating Phase Retrieval STEM Techniques",
-    "section": "3.6 Discussion",
-    "text": "3.6 Discussion\n\n3.6.1 Advantages of SSNR Metrics\nSSNR provides a more comprehensive evaluation than traditional CTF analysis by:\n\nIncorporating noise characteristics\nAccounting for experimental conditions\nEnabling quantitative comparisons\n\n\n\n3.6.2 Practical Implications\n\n3.6.2.1 Method Selection Guidelines\n\nFor routine imaging: Center-of-mass techniques offer simplicity\nFor high-resolution work: Direct ptychographic methods preferred\nFor specific applications: Tilt-corrected methods provide balanced approach\n\n\n\n3.6.2.2 Experimental Optimization\nOptimal performance requires careful consideration of: - Probe conditions and aberrations - Detector design and positioning\n- Scan parameters and sampling - Data acquisition strategies",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Evaluating Phase Retrieval STEM Techniques</span>"
-    ]
-  },
-  {
-    "objectID": "capitulo2.html#conclusions",
-    "href": "capitulo2.html#conclusions",
-    "title": "2  Evaluating Phase Retrieval STEM Techniques",
-    "section": "3.7 Conclusions",
-    "text": "3.7 Conclusions\nThis comprehensive evaluation demonstrates that:\n\nDirect ptychographic methods offer superior performance for high-resolution phase imaging\nSSNR analysis provides valuable insights beyond traditional CTF evaluation\nMethod selection should consider specific experimental requirements and constraints\nExperimental optimization is crucial for achieving optimal performance with any technique\n\nFuture directions include development of hybrid approaches combining the strengths of different techniques and real-time optimization algorithms for experimental parameters.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Evaluating Phase Retrieval STEM Techniques</span>"
-    ]
-  },
-  {
-    "objectID": "capitulo2.html#acknowledgments",
-    "href": "capitulo2.html#acknowledgments",
-    "title": "2  Evaluating Phase Retrieval STEM Techniques",
-    "section": "3.8 Acknowledgments",
-    "text": "3.8 Acknowledgments\nWe acknowledge the computational resources provided by various research institutions and the valuable discussions with the electron microscopy community that informed this analysis.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Evaluating Phase Retrieval STEM Techniques</span>"
-    ]
-  },
-  {
     "objectID": "capitulo1.html#historical-context-and-volcanic-setting",
     "href": "capitulo1.html#historical-context-and-volcanic-setting",
     "title": "La Palma Earthquakes: Seismic Analysis of Volcanic Activity",
@@ -220,63 +60,53 @@
     ]
   },
   {
-    "objectID": "capitulo1.html#objectives-and-scope",
-    "href": "capitulo1.html#objectives-and-scope",
-    "title": "1  La Palma Earthquakes: Seismic Analysis of Volcanic Activity",
-    "section": "2.3 Objectives and Scope",
-    "text": "2.3 Objectives and Scope\nThis study aims to:\n\nAnalyze spatial patterns of seismic activity to identify reservoir locations\nExamine temporal relationships between deep and shallow seismicity\nEvaluate the multi-reservoir model using observational data\nContribute to improved eruption forecasting methodologies",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>La Palma Earthquakes: Seismic Analysis of Volcanic Activity</span>"
-    ]
-  },
-  {
-    "objectID": "capitulo2.html#abstract",
-    "href": "capitulo2.html#abstract",
-    "title": "2  Evaluating Phase Retrieval STEM Techniques",
-    "section": "3.1 Abstract",
-    "text": "3.1 Abstract\nThis study evaluates methods for phase retrieval in Scanning Transmission Electron Microscopy (STEM), analyzing techniques such as center-of-mass imaging, tilt-corrected bright-field STEM, and direct ptychographic methods.",
+    "objectID": "capitulo2.html",
+    "href": "capitulo2.html",
+    "title": "Evaluating Phase Retrieval STEM Techniques",
+    "section": "",
+    "text": "Abstract\nThis comprehensive study evaluates advanced methods for phase retrieval in Scanning Transmission Electron Microscopy (STEM), providing systematic analysis of information transfer capabilities across multiple techniques. We examine center-of-mass imaging, tilt-corrected bright-field STEM, and direct ptychographic methods through rigorous Contrast Transfer Function (CTF) and Spectral Signal-to-Noise Ratio (SSNR) analysis. Our evaluation demonstrates that direct ptychographic methods achieve superior high-frequency performance and uniform information transfer, while center-of-mass techniques excel at low spatial frequencies. These findings provide essential guidance for method selection and experimental optimization in high-resolution electron microscopy applications.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Evaluating Phase Retrieval STEM Techniques</span>"
     ]
   },
   {
-    "objectID": "capitulo1.html#methods-and-data",
-    "href": "capitulo1.html#methods-and-data",
-    "title": "La Palma Earthquakes: Seismic Analysis of Volcanic Activity",
-    "section": "Methods and Data",
-    "text": "Methods and Data\n\nSeismic Data Acquisition\nEarthquake data were obtained from the Instituto Geográfico Nacional (IGN) web portal, representing publicly available information collected through a comprehensive network of seismic monitoring stations deployed across La Palma. The dataset encompasses the critical period from September 11 to November 9, 2021, capturing pre-eruptive, syn-eruptive, and post-eruptive phases.\n\n\nData Processing and Quality Control\nRaw seismic catalogs were processed using automated web scraping protocols to ensure reproducibility and systematic data collection. Quality control measures included verification of event locations, magnitudes, and depth determinations.\n\n\nAnalytical Framework\nStatistical analysis focused on: - Spatial distribution of hypocenters - Temporal evolution of seismic activity - Depth-magnitude relationships - Clustering analysis for reservoir identification",
+    "objectID": "capitulo2.html#historical-context-and-current-challenges",
+    "href": "capitulo2.html#historical-context-and-current-challenges",
+    "title": "Evaluating Phase Retrieval STEM Techniques",
+    "section": "Historical Context and Current Challenges",
+    "text": "Historical Context and Current Challenges\nThe development of phase retrieval methods in STEM has evolved through several generations of techniques, each addressing specific limitations while introducing new capabilities. Traditional approaches relied on computational post-processing, while modern methods integrate real-time reconstruction algorithms with optimized experimental protocols.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>La Palma Earthquakes: Seismic Analysis of Volcanic Activity</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Evaluating Phase Retrieval STEM Techniques</span>"
     ]
   },
   {
-    "objectID": "capitulo1.html#results-and-analysis",
-    "href": "capitulo1.html#results-and-analysis",
-    "title": "La Palma Earthquakes: Seismic Analysis of Volcanic Activity",
-    "section": "Results and Analysis",
-    "text": "Results and Analysis\n\nDataset Characteristics\nAnalysis of the complete IGN catalog yielded 5,465 seismic events specifically attributed to La Palma during the study period. These data were systematically analyzed across multiple dimensions: spatial distribution, temporal evolution, magnitude characteristics, and depth clustering patterns.\n\n\nEvidence for Multi-Reservoir System\nOur comprehensive analysis reveals three distinct seismic signatures that strongly support the proposed multi-reservoir magma system:\n\n1. Pre-Eruptive Shallow Swarm Activity\nIntense earthquake swarms occurred in the shallow subsurface (&lt; 10 km depth) during the weeks preceding the September 19th eruption onset. This activity correlates with significant surface deformation measurements and indicates shallow magma intrusion processes.\n\n\n2. Syn- and Post-Eruptive Crustal Reservoir Activity\nFollowing eruption initiation, continuous moderate-magnitude seismicity established at 10-15 km depth, consistent with ongoing magma movement within the proposed shallow crustal reservoir. This persistent activity suggests active magma storage and transport processes.\n\n\n3. Deep Mantle Reservoir Signatures\nHigh-magnitude seismic events (M &gt; 4.0) occurred systematically at 30-40 km depths throughout the study period. These deeper events, while less frequent than shallow activity, demonstrate continuous activity within the proposed deep mantle reservoir system.",
+    "objectID": "capitulo2.html#theoretical-framework",
+    "href": "capitulo2.html#theoretical-framework",
+    "title": "Evaluating Phase Retrieval STEM Techniques",
+    "section": "Theoretical Framework",
+    "text": "Theoretical Framework\nOur comprehensive evaluation encompasses three primary methodological approaches, each offering distinct advantages for specific experimental conditions and applications.\n\nCenter-of-Mass Imaging\nCenter-of-mass (COM) imaging represents a computationally efficient approach that utilizes systematic deflection measurements of the electron beam to reconstruct phase information. The fundamental principle relies on measuring the shift in the diffraction pattern centroid, which directly correlates with local electric fields within the specimen.\nKey advantages: - Real-time processing capabilities - Minimal computational requirements - Robust performance at low spatial frequencies\n\n\nTilt-Corrected Bright-Field STEM\nThis sophisticated technique addresses aberration-related artifacts by analyzing intensity variations in bright-field STEM images acquired across multiple tilt conditions. The method employs advanced algorithms to separate aberration contributions from genuine specimen-related phase information.\nTechnical specifications: - Multi-angle acquisition protocols - Advanced aberration correction algorithms - Optimized for routine high-throughput applications\n\n\nDirect Ptychographic Methods\nDirect ptychography represents the most computationally intensive but potentially most powerful approach, reconstructing both object and probe functions simultaneously from overlapping diffraction patterns. This method offers superior resolution and phase sensitivity through iterative optimization algorithms.\nPerformance characteristics: - Highest achievable spatial resolution - Quantitative phase reconstruction - Optimal for research applications requiring maximum information content",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>La Palma Earthquakes: Seismic Analysis of Volcanic Activity</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Evaluating Phase Retrieval STEM Techniques</span>"
     ]
   },
   {
-    "objectID": "capitulo1.html#discussion",
-    "href": "capitulo1.html#discussion",
-    "title": "La Palma Earthquakes: Seismic Analysis of Volcanic Activity",
-    "section": "Discussion",
-    "text": "Discussion\n\nValidation of Multi-Reservoir Models\nThe seismic evidence presented strongly validates theoretical multi-reservoir magma storage models previously proposed for Cumbre Vieja. The bimodal depth distribution of earthquakes, with distinct clustering at shallow (10-15 km) and deep (30-40 km) levels, provides compelling observational support for hierarchical magma storage systems.\n\n\nImplications for Volcanic Hazard Assessment\nUnderstanding magma reservoir architecture has direct implications for eruption forecasting:\n\nDeep reservoir monitoring: High-magnitude events at mantle depths may serve as long-term eruption precursors\nShallow reservoir dynamics: Swarm activity in the crustal reservoir provides short-term eruption warnings\nSystem connectivity: Temporal relationships between deep and shallow activity indicate reservoir interaction\n\n\n\nMethodological Advances\nThis study demonstrates the effectiveness of systematic seismic catalog analysis for validating geophysical models. The integration of spatial, temporal, and magnitude characteristics provides a robust framework for magma system characterization.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>La Palma Earthquakes: Seismic Analysis of Volcanic Activity</span>"
-    ]
-  },
-  {
-    "objectID": "capitulo1.html#data-availability-statement",
-    "href": "capitulo1.html#data-availability-statement",
-    "title": "La Palma Earthquakes: Seismic Analysis of Volcanic Activity",
+    "objectID": "capitulo2.html#data-availability-statement",
+    "href": "capitulo2.html#data-availability-statement",
+    "title": "Evaluating Phase Retrieval STEM Techniques",
     "section": "Data Availability Statement",
-    "text": "Data Availability Statement\nSeismic data were obtained from the Instituto Geográfico Nacional (IGN) public database. Data processing scripts, analysis notebooks, and visualization tools have been developed to ensure reproducibility and are available through institutional repositories. All methodological approaches follow open science principles to facilitate community validation and extension.",
+    "text": "Data Availability Statement\nExperimental protocols, analysis algorithms, and benchmark datasets have been developed following open science principles to facilitate community validation and method comparison. All computational tools and data processing workflows are available through institutional repositories with comprehensive documentation for reproducible implementation.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>La Palma Earthquakes: Seismic Analysis of Volcanic Activity</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Evaluating Phase Retrieval STEM Techniques</span>"
+    ]
+  },
+  {
+    "objectID": "capitulo2.html#acknowledgments",
+    "href": "capitulo2.html#acknowledgments",
+    "title": "Evaluating Phase Retrieval STEM Techniques",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\nWe acknowledge the computational resources provided by advanced microscopy facilities and the valuable scientific discussions with the international electron microscopy community that informed this comprehensive analysis. Special recognition is extended to the instrument developers and algorithm designers whose innovations enabled this comparative evaluation.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Evaluating Phase Retrieval STEM Techniques</span>"
     ]
   }
 ]
