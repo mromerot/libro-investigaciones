@@ -4,19 +4,29 @@
     "href": "index.html",
     "title": "Libro de Investigaciones",
     "section": "",
-    "text": "Bienvenido\nBienvenido al Libro de Investigaciones, una colección de artículos científicos y estudios de investigación organizados en capítulos independientes.",
+    "text": "Inicio\nBienvenido al Libro de Investigaciones, una colección de capítulos de investigación organizados en capítulos independientes.",
     "crumbs": [
-      "Bienvenido"
+      "Inicio"
     ]
   },
   {
-    "objectID": "index.html#estructura-del-libro",
-    "href": "index.html#estructura-del-libro",
+    "objectID": "index.html#capítulo-1-la-palma-seismicity-2021",
+    "href": "index.html#capítulo-1-la-palma-seismicity-2021",
     "title": "Libro de Investigaciones",
-    "section": "Estructura del Libro",
-    "text": "Estructura del Libro\nEste libro está organizado con Quarto, donde cada capítulo presenta un artículo científico completo:\n\nCapítulo 1: La Palma Seismicity 2021\nAnálisis de enjambres de terremotos en relación con la erupción de 2021\nEn septiembre de 2021, un salto significativo en la actividad sísmica en la isla de La Palma (Islas Canarias, España) señaló el comienzo de una crisis volcánica. Este estudio analiza los datos de terremotos recopilados y publicados por el Instituto Geográfico Nacional (IGN), revelando sismicidad que se origina en dos profundidades distintas.\n\nFuente: GitHub Repository\nEnfoque: Análisis de datos sísmicos y modelado de reservorios magmáticos\n\n\n\nCapítulo 2: Evaluating the Transfer of Information in Phase Retrieval STEM Techniques\nAlgoritmos ptychográficos directos para microscopía electrónica de transmisión de barrido\nEste estudio evalúa métodos de recuperación de fase en microscopía electrónica de transmisión de barrido (STEM), analizando técnicas como imágenes del centro de masa, STEM de campo brillante corregido por inclinación y métodos ptychográficos directos.\n\nFuente: Elemental Microscopy\nEnfoque: Desarrollo de algoritmos ptychográficos directos mejorados",
+    "section": "Capítulo 1: La Palma Seismicity 2021",
+    "text": "Capítulo 1: La Palma Seismicity 2021\nEn septiembre de 2021, un salto significativo en la actividad sísmica en la isla de La Palma (Islas Canarias, España) señaló el comienzo de una crisis volcánica. Este estudio analiza los datos de terremotos recopilados y publicados por el Instituto Geográfico Nacional (IGN), revelando sismicidad que se origina en dos profundidades distintas.",
     "crumbs": [
-      "Bienvenido"
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#capítulo-2-evaluating-the-transfer-of-information-in-phase-retrieval-stem-techniques",
+    "href": "index.html#capítulo-2-evaluating-the-transfer-of-information-in-phase-retrieval-stem-techniques",
+    "title": "Libro de Investigaciones",
+    "section": "Capítulo 2: Evaluating the Transfer of Information in Phase Retrieval STEM Techniques",
+    "text": "Capítulo 2: Evaluating the Transfer of Information in Phase Retrieval STEM Techniques\nEste estudio evalúa métodos de recuperación de fase en microscopía electrónica de transmisión de barrido (STEM), analizando técnicas como imágenes del centro de masa, STEM de campo brillante corregido por inclinación y métodos ptychográficos directos.",
+    "crumbs": [
+      "Inicio"
     ]
   },
   {
@@ -26,7 +36,7 @@
     "section": "Arquitectura del Proyecto",
     "text": "Arquitectura del Proyecto\nEsta implementación en Quarto ofrece:\n\n✅ Estabilidad garantizada: Servidor web confiable y funcional\n✅ Navegación fluida: Enlaces internos que funcionan correctamente\n✅ Formato científico: Soporte nativo para ecuaciones, referencias y figuras\n✅ Exports múltiples: HTML interactivo y PDF profesional\n✅ Live preview: Actualización automática durante edición\n✅ Mantenimiento sencillo: Configuración simple y robusta",
     "crumbs": [
-      "Bienvenido"
+      "Inicio"
     ]
   },
   {
@@ -36,7 +46,7 @@
     "section": "Navegación",
     "text": "Navegación\nUtiliza la navegación lateral o los enlaces de capítulos para explorar los diferentes estudios de investigación incluidos en este libro.",
     "crumbs": [
-      "Bienvenido"
+      "Inicio"
     ]
   },
   {

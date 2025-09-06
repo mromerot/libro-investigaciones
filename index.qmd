@@ -16,12 +16,12 @@ Este estudio evalúa métodos de recuperación de fase en microscopía electrón
 
 Esta implementación en **Quarto** ofrece:
 
-- ✅ **Estabilidad garantizada**: Servidor web confiable y funcional
-- ✅ **Navegación fluida**: Enlaces internos que funcionan correctamente
-- ✅ **Formato científico**: Soporte nativo para ecuaciones, referencias y figuras
-- ✅ **Exports múltiples**: HTML interactivo y PDF profesional
-- ✅ **Live preview**: Actualización automática durante edición
-- ✅ **Mantenimiento sencillo**: Configuración simple y robusta
+-   ✅ **Estabilidad garantizada**: Servidor web confiable y funcional
+-   ✅ **Navegación fluida**: Enlaces internos que funcionan correctamente
+-   ✅ **Formato científico**: Soporte nativo para ecuaciones, referencias y figuras
+-   ✅ **Exports múltiples**: HTML interactivo y PDF profesional
+-   ✅ **Live preview**: Actualización automática durante edición
+-   ✅ **Mantenimiento sencillo**: Configuración simple y robusta
 
 ## Navegación
 
