@@ -1,0 +1,138 @@
+---
+title: "Evaluating Phase Retrieval STEM Techniques"
+author: "Tu Nombre"
+date: "2024"
+format: 
+  html:
+    theme: cosmo
+    toc: true
+  pdf:
+    documentclass: article
+    geometry: margin=1in
+categories: [Annual Review, Phase Retrieval, STEM, Electron Microscopy]
+keywords: [ptychography, phase retrieval, STEM, electron microscopy]
+---
+
+# Evaluating Phase Retrieval STEM Techniques
+
+::: {.callout-note}
+## Artículo Técnico
+**Título**: Evaluating the Transfer of Information in Phase Retrieval STEM Techniques  
+**Enfoque**: Algoritmos ptychográficos directos para microscopía electrónica  
+**Fuente**: Adaptado del contenido de MyST original
+:::
+
+## Abstract
+
+This study evaluates methods for phase retrieval in Scanning Transmission Electron Microscopy (STEM), analyzing techniques such as center-of-mass imaging, tilt-corrected bright-field STEM, and direct ptychographic methods.
+
+## Introduction
+
+Phase retrieval in electron microscopy has become increasingly important for achieving atomic-resolution imaging. STEM techniques offer unique advantages for phase retrieval due to their focused probe geometry and flexible detector configurations.
+
+## Phase Retrieval Methods in STEM
+
+### Center-of-Mass Imaging
+
+Center-of-mass (COM) imaging utilizes the deflection of the electron beam to reconstruct phase information. The method is based on measuring the shift in the diffraction pattern centroid.
+
+### Tilt-Corrected Bright-Field STEM
+
+This technique corrects for aberrations by analyzing the intensity variations in bright-field STEM images acquired at different tilt conditions.
+
+### Direct Ptychographic Methods
+
+Direct ptychography reconstructs both the object and probe simultaneously from overlapping diffraction patterns, offering superior resolution and sensitivity.
+
+## Methodology
+
+### Analytical Framework
+
+We developed a comprehensive framework to evaluate the information transfer capabilities of each technique using:
+
+- **Contrast Transfer Function (CTF)** analysis
+- **Spectral Signal-to-Noise Ratio (SSNR)** calculations  
+- **Phase reconstruction fidelity** metrics
+
+### Performance Metrics
+
+#### Contrast Transfer Function (CTF)
+
+The CTF describes how different spatial frequencies are transferred from the object to the image:
+
+$$
+CTF(k) = \sin(\chi(k))
+$$
+
+where $\chi(k)$ is the aberration function.
+
+#### Spectral Signal-to-Noise Ratio (SSNR)
+
+SSNR quantifies the quality of phase information transfer:
+
+$$
+SSNR(k) = \frac{|F_{signal}(k)|^2}{|F_{noise}(k)|^2}
+$$
+
+## Results
+
+### Contrast Transfer Function Analysis
+
+Our CTF analysis reveals that direct ptychographic methods provide the most uniform information transfer across all spatial frequencies.
+
+### Signal-to-Noise Ratio Analysis
+
+SSNR calculations demonstrate that:
+
+1. **Center-of-mass imaging** excels at low spatial frequencies
+2. **Tilt-corrected bright-field STEM** offers balanced performance
+3. **Direct ptychographic methods** achieve superior high-frequency performance
+
+### Impact of Experimental Parameters
+
+Key factors affecting performance include:
+
+- **Scan sampling effects**: Higher sampling improves reconstruction quality
+- **Aberration sensitivity**: Direct methods are more robust to aberrations
+- **Detector geometry**: Optimization critical for all techniques
+
+## Discussion
+
+### Advantages of SSNR Metrics
+
+SSNR provides a more comprehensive evaluation than traditional CTF analysis by:
+
+- Incorporating noise characteristics
+- Accounting for experimental conditions
+- Enabling quantitative comparisons
+
+### Practical Implications
+
+#### Method Selection Guidelines
+
+- **For routine imaging**: Center-of-mass techniques offer simplicity
+- **For high-resolution work**: Direct ptychographic methods preferred
+- **For specific applications**: Tilt-corrected methods provide balanced approach
+
+#### Experimental Optimization
+
+Optimal performance requires careful consideration of:
+- Probe conditions and aberrations
+- Detector design and positioning  
+- Scan parameters and sampling
+- Data acquisition strategies
+
+## Conclusions
+
+This comprehensive evaluation demonstrates that:
+
+1. **Direct ptychographic methods** offer superior performance for high-resolution phase imaging
+2. **SSNR analysis** provides valuable insights beyond traditional CTF evaluation
+3. **Method selection** should consider specific experimental requirements and constraints
+4. **Experimental optimization** is crucial for achieving optimal performance with any technique
+
+Future directions include development of hybrid approaches combining the strengths of different techniques and real-time optimization algorithms for experimental parameters.
+
+## Acknowledgments
+
+We acknowledge the computational resources provided by various research institutions and the valuable discussions with the electron microscopy community that informed this analysis.

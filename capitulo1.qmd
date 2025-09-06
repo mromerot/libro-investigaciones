@@ -1,0 +1,162 @@
+---
+title: "La Palma Earthquakes: Seismic Analysis of Volcanic Activity"
+subtitle: "Evidence for Multi-Reservoir Magma Systems"
+author: "Tu Nombre"
+date: "2024"
+title-block-banner: bannerc1.png
+title-block-banner-color: "white"
+css: custom.css
+format: 
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: false
+  pdf:
+    documentclass: article
+    geometry: margin=1in
+    number-sections: false
+categories: [Annual Review, Volcanology, Seismology, La Palma, Earthquakes]
+keywords: [volcanic earthquakes, magma reservoirs, Cumbre Vieja, seismic analysis, eruption forecasting]
+bibliography: references.bib
+---
+
+::: {#abstract}
+# Abstract
+
+This study analyzes seismic activity associated with the 2021 La Palma volcanic eruption to investigate evidence for proposed multi-reservoir magma systems. Using earthquake data from the Instituto Geográfico Nacional, we examine spatial and temporal patterns of seismicity to validate theoretical models of magma storage and transport. Our analysis of 5,465 seismic events reveals distinct clustering at shallow (10-15 km) and deep (30-40 km) depths, providing strong evidence for both crustal and mantle magma reservoirs feeding the Cumbre Vieja volcanic system.
+:::
+
+# 1. Introduction
+
+La Palma, situated in the westernmost region of the Canary Islands archipelago, represents one of Earth's most active volcanic systems. Located approximately 100 km from the African coast, this Spanish territory exemplifies ongoing oceanic island formation processes. The island's geological evolution has been dominated by multiple phases of volcanism, with the *Cumbre Vieja* volcanic ridge—a north-south oriented structure comprising the southern half of the island—representing the most recent and currently active phase.
+
+Understanding volcanic earthquake patterns is crucial for eruption forecasting and hazard assessment. The 2021 eruption of Cumbre Vieja provided an exceptional opportunity to study real-time seismic signatures associated with magma movement through proposed multi-reservoir systems.
+
+## 1.2 Historical Context and Volcanic Setting
+
+### Eruption History
+
+The historical volcanic record of La Palma spans over five centuries, providing valuable insights into the long-term behavior of the Cumbre Vieja system. Since European colonization in the late 1400s, eight major eruptions have been documented, establishing patterns crucial for probabilistic hazard assessment.
+
+| Name                | Year |
+|---------------------|------|
+| Current             | 2021 |
+| Teneguía            | 1971 |
+| Nambroque           | 1949 |
+| El Charco           | 1712 |
+| Volcán San Antonio  | 1677 |
+| Volcán San Martin   | 1646 |
+| Tajuya near El Paso | 1585 |
+| Montaña Quemada     | 1492 |
+
+: Recent historic eruptions on La Palma
+
+This equates to an eruption on average every 79 years up until the 1971 event. The probability of a future eruption can be modeled by a Poisson distribution:
+
+$$
+p(x)=\frac{e^{-\lambda} \lambda^{x}}{x !}
+$$
+
+Where $\lambda$ is the number of eruptions per year, $\lambda=\frac{1}{79}$ in this case. The probability of a future eruption in the next $t$ years can be calculated by:
+
+$$
+p_e = 1-\mathrm{e}^{-t \lambda}
+$$
+
+So following the 1971 eruption the probability of an eruption in the following 50 years — the period ending this year — was 0.469. After the event, the number of eruptions per year moves to $\lambda=\frac{1}{75}$ and the probability of a further eruption within the next 50 years (2022-2071) rises to 0.487 and in the next 100 years, this rises again to 0.736.
+
+### Theoretical Framework: Multi-Reservoir Magma Systems
+
+Previous geophysical and petrological investigations have proposed a conceptual model involving two primary magma storage zones beneath Cumbre Vieja:
+
+1.  **Deep mantle reservoir** (30-40 km depth): Primary magma storage and differentiation zone
+2.  **Shallow crustal reservoir** (10-20 km depth): Secondary storage feeding eruptions
+
+This hierarchical system suggests that magma ascends from the deep reservoir, undergoes further processing in the shallow chamber, and eventually reaches the surface during eruptions. Seismic monitoring provides a unique opportunity to test this model through analysis of earthquake depth distributions and temporal patterns.
+
+# 2. Objectives and Scope
+
+This study aims to:
+
+-   Analyze spatial patterns of seismic activity to identify reservoir locations
+-   Examine temporal relationships between deep and shallow seismicity
+-   Evaluate the multi-reservoir model using observational data
+-   Contribute to improved eruption forecasting methodologies
+
+# 3.Methods and Data
+
+### Seismic Data Acquisition
+
+Earthquake data were obtained from the Instituto Geográfico Nacional (IGN) web portal, representing publicly available information collected through a comprehensive network of seismic monitoring stations deployed across La Palma. The dataset encompasses the critical period from September 11 to November 9, 2021, capturing pre-eruptive, syn-eruptive, and post-eruptive phases.
+
+### Data Processing and Quality Control
+
+Raw seismic catalogs were processed using automated web scraping protocols to ensure reproducibility and systematic data collection. Quality control measures included verification of event locations, magnitudes, and depth determinations.
+
+### Analytical Framework
+
+Statistical analysis focused on: - Spatial distribution of hypocenters - Temporal evolution of seismic activity - Depth-magnitude relationships - Clustering analysis for reservoir identification
+
+# 3. Results and Analysis
+
+### Dataset Characteristics
+
+Analysis of the complete IGN catalog yielded 5,465 seismic events specifically attributed to La Palma during the study period. These data were systematically analyzed across multiple dimensions: spatial distribution, temporal evolution, magnitude characteristics, and depth clustering patterns.
+
+### Evidence for Multi-Reservoir System
+
+Our comprehensive analysis reveals three distinct seismic signatures that strongly support the proposed multi-reservoir magma system:
+
+#### 1. Pre-Eruptive Shallow Swarm Activity
+
+Intense earthquake swarms occurred in the shallow subsurface (\< 10 km depth) during the weeks preceding the September 19th eruption onset. This activity correlates with significant surface deformation measurements and indicates shallow magma intrusion processes.
+
+#### 2. Syn- and Post-Eruptive Crustal Reservoir Activity
+
+Following eruption initiation, continuous moderate-magnitude seismicity established at 10-15 km depth, consistent with ongoing magma movement within the proposed shallow crustal reservoir. This persistent activity suggests active magma storage and transport processes.
+
+#### 3. Deep Mantle Reservoir Signatures
+
+High-magnitude seismic events (M \> 4.0) occurred systematically at 30-40 km depths throughout the study period. These deeper events, while less frequent than shallow activity, demonstrate continuous activity within the proposed deep mantle reservoir system.
+
+# 4. Discussion
+
+### Validation of Multi-Reservoir Models
+
+The seismic evidence presented strongly validates theoretical multi-reservoir magma storage models previously proposed for Cumbre Vieja. The bimodal depth distribution of earthquakes, with distinct clustering at shallow (10-15 km) and deep (30-40 km) levels, provides compelling observational support for hierarchical magma storage systems.
+
+### Implications for Volcanic Hazard Assessment
+
+Understanding magma reservoir architecture has direct implications for eruption forecasting:
+
+-   **Deep reservoir monitoring**: High-magnitude events at mantle depths may serve as long-term eruption precursors
+-   **Shallow reservoir dynamics**: Swarm activity in the crustal reservoir provides short-term eruption warnings
+-   **System connectivity**: Temporal relationships between deep and shallow activity indicate reservoir interaction
+
+### Methodological Advances
+
+This study demonstrates the effectiveness of systematic seismic catalog analysis for validating geophysical models. The integration of spatial, temporal, and magnitude characteristics provides a robust framework for magma system characterization.
+
+# 5. Conclusions
+
+Analysis of 5,465 seismic events from the 2021 La Palma eruption provides unprecedented insight into active volcanic processes:
+
+# Key Findings
+
+::: {.callout-important style="background-color: #fdf2f8; border-left: 4px solid #f472b6;" appearance="minimal" icon="false"}
+1.  **Multi-reservoir validation**: Clear evidence supports two-level magma storage system
+2.  **Depth stratification**: Distinct seismic signatures at mantle (30-40 km) and crustal (10-15 km) depths
+3.  **Temporal relationships**: Systematic progression from deep to shallow activity preceding eruption
+4.  **Monitoring implications**: Seismic patterns offer robust indicators for eruption forecasting
+:::
+
+# Future Directions
+
+-   Integration with additional geophysical datasets (deformation, gas emissions)
+-   Development of real-time monitoring algorithms
+-   Comparative analysis with other volcanic systems
+-   Enhancement of probabilistic eruption forecasting models
+
+# Data Availability Statement
+
+Seismic data were obtained from the Instituto Geográfico Nacional (IGN) public database. Data processing scripts, analysis notebooks, and visualization tools have been developed to ensure reproducibility and are available through institutional repositories. All methodological approaches follow open science principles to facilitate community validation and extension.

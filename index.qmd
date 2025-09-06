@@ -1,0 +1,40 @@
+# Bienvenido {.unnumbered}
+
+Bienvenido al **Libro de Investigaciones**, una colección de artículos científicos y estudios de investigación organizados en capítulos independientes.
+
+## Estructura del Libro
+
+Este libro está organizado con **Quarto**, donde cada capítulo presenta un artículo científico completo:
+
+### Capítulo 1: La Palma Seismicity 2021
+
+**Análisis de enjambres de terremotos en relación con la erupción de 2021**
+
+En septiembre de 2021, un salto significativo en la actividad sísmica en la isla de La Palma (Islas Canarias, España) señaló el comienzo de una crisis volcánica. Este estudio analiza los datos de terremotos recopilados y publicados por el Instituto Geográfico Nacional (IGN), revelando sismicidad que se origina en dos profundidades distintas.
+
+- **Fuente**: [GitHub Repository](https://github.com/Notebooks-Now/submission-myst-full/)
+- **Enfoque**: Análisis de datos sísmicos y modelado de reservorios magmáticos
+
+### Capítulo 2: Evaluating the Transfer of Information in Phase Retrieval STEM Techniques
+
+**Algoritmos ptychográficos directos para microscopía electrónica de transmisión de barrido**
+
+Este estudio evalúa métodos de recuperación de fase en microscopía electrónica de transmisión de barrido (STEM), analizando técnicas como imágenes del centro de masa, STEM de campo brillante corregido por inclinación y métodos ptychográficos directos.
+
+- **Fuente**: [Elemental Microscopy](https://www.elementalmicroscopy.org/)
+- **Enfoque**: Desarrollo de algoritmos ptychográficos directos mejorados
+
+## Arquitectura del Proyecto
+
+Esta implementación en **Quarto** ofrece:
+
+- ✅ **Estabilidad garantizada**: Servidor web confiable y funcional
+- ✅ **Navegación fluida**: Enlaces internos que funcionan correctamente
+- ✅ **Formato científico**: Soporte nativo para ecuaciones, referencias y figuras
+- ✅ **Exports múltiples**: HTML interactivo y PDF profesional
+- ✅ **Live preview**: Actualización automática durante edición
+- ✅ **Mantenimiento sencillo**: Configuración simple y robusta
+
+## Navegación
+
+Utiliza la navegación lateral o los enlaces de capítulos para explorar los diferentes estudios de investigación incluidos en este libro.

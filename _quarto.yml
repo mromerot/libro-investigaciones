@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "Libro de Investigaciones"
+  subtitle: "Una colección de artículos científicos y estudios de investigación"
+  author: "Mauricio Romero"
+  date: "Septiembre 2025"
+  chapters:
+    - index.qmd
+    - capitulo1.qmd
+    - capitulo2.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+
