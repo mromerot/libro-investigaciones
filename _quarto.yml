@@ -17,11 +17,12 @@ bibliography: references.bib
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
+    toc: true
+    number-sections: false
   pdf:
-    documentclass: scrreprt
+    documentclass: article
+    geometry: margin=1in
 
 
 

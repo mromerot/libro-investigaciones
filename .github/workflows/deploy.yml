@@ -1,10 +1,9 @@
-name: Publish Quarto to GitHub Pages
+name: Build and Deploy Quarto Site
 
 on:
   push:
-    branches: main
-  pull_request:
-    branches: main
+    branches: [ main ]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -22,24 +21,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Quarto
+      - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: pre-release
-
-      - name: Render Quarto Project
-        uses: quarto-dev/quarto-actions/render@v2
-        with:
-          to: html
-          path: .
+          tinytex: true
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v3
 
+      - name: Render Quarto Project
+        run: |
+          quarto render --to html
+          
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v2
         with:
-          path: '_book'
+          path: ./_book
 
   deploy:
     environment:
@@ -50,4 +47,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v2
