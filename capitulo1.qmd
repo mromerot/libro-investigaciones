@@ -1,5 +1,5 @@
 ---
-title: "La Palma Earthquakes: Seismic Analysis of Volcanic Activity"
+title: "1. La Palma Earthquakes: Seismic Analysis of Volcanic Activity"
 subtitle: "Evidence for Multi-Reservoir Magma Systems"
 author: "Tu Nombre"
 date: "2024"
