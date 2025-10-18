@@ -5,7 +5,9 @@ author: "Tu Nombre"
 date: "2024"
 title-block-banner: bannerc1.png
 title-block-banner-color: "white"
-css: custom.css
+css: 
+  - custom.css
+  - pdf-styles.css
 format: 
   html:
     theme: cosmo
@@ -15,6 +17,15 @@ format:
     documentclass: article
     geometry: margin=1in
     number-sections: false
+    include-in-header:
+      - text: |
+          \usepackage{graphicx}
+          \usepackage{xcolor}
+          \usepackage{fancyhdr}
+          \usepackage{wallpaper}
+    title-block-banner: bannerc1.png
+    colorlinks: true
+    keep-tex: true
 categories: [Volcanology, Seismology, La Palma, Earthquakes]
 keywords: [volcanic earthquakes, magma reservoirs, Cumbre Vieja, seismic analysis, eruption forecasting]
 bibliography: references.bib
@@ -160,3 +171,5 @@ Analysis of 5,465 seismic events from the 2021 La Palma eruption provides unprec
 # Data Availability Statement
 
 Seismic data were obtained from the Instituto Geográfico Nacional (IGN) public database. Data processing scripts, analysis notebooks, and visualization tools have been developed to ensure reproducibility and are available through institutional repositories. All methodological approaches follow open science principles to facilitate community validation and extension.
+
+------------------------------------------------------------------------

@@ -9,8 +9,9 @@ book:
   date: "Septiembre 2025"
   chapters:
     - index.qmd
-    - capitulo1.qmd
-    - capitulo2.qmd
+    - Capitulo1.qmd
+    - Capitulo2.qmd
+    - Capitulo3.qmd
     - references.qmd
 
 bibliography: references.bib
@@ -21,7 +22,7 @@ format:
     toc: true
     number-sections: false
   pdf:
-    documentclass: article
+    documentclass: book
     geometry: margin=1in
 
 
