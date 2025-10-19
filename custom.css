@@ -158,12 +158,6 @@ th {
 figcaption,
 .figure-caption,
 caption {
-  color: #000000;
+  color: #000000 !important;
   font-weight: normal;
-}
-
-/* Bold only figure prefix and number (e.g., "Figura 1:") */
-figcaption .quarto-float-number,
-.figure-caption .quarto-float-number {
-  font-weight: bold;
 }

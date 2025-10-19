@@ -4,3 +4,4 @@ _book/
 site_libs/
 *.html
 !_book/*.html
+!caption-bold.html
