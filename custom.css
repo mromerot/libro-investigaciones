@@ -153,3 +153,10 @@ th {
   font-family: Arial, sans-serif;
   font-size: 13px;
 }
+
+/* Figure caption styling */
+figcaption,
+.figure-caption,
+caption {
+  color: #000000 !important;
+}
