@@ -161,3 +161,10 @@ caption {
   color: #000000 !important;
   font-weight: normal;
 }
+
+/* Table caption alignment - left justified */
+.quarto-float-tbl .quarto-float-caption,
+table caption,
+.tbl-cap {
+  text-align: left !important;
+}
