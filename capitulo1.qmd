@@ -96,7 +96,7 @@ This hierarchical system suggests that magma ascends from the deep reservoir, un
 
 This study aims to: - Analyze spatial patterns of seismic activity to identify reservoir locations - Examine temporal relationships between deep and shallow seismicity - Evaluate the multi-reservoir model using observational data - Contribute to improved eruption forecasting methodologies [Caja 1](#box1). 
 
-::: {#box1 .callout-important style="background-color: #d4e8f9ff; border-left: 4px solid #d4e8f9ff;" appearance="minimal" icon="false"}
+::: {#box1 .callout-important style="background-color: #e3f0fbff; border-left: 4px solid #d4e8f9ff;" appearance="minimal" icon="false"}
 <h2 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.5rem;">Caja 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commod.</h2>
 
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
@@ -265,37 +265,26 @@ This study demonstrates the effectiveness of systematic seismic catalog analysis
 
 Analysis of 5,465 seismic events from the 2021 La Palma eruption provides unprecedented insight into active volcanic processes:
 
-::: {.callout-important style="background-color: #f7ebcaff; border-left: 4px solid #f7ebcaff;" appearance="minimal" icon="false"}
-<h2 style="font-size: 2rem; margin-top: 0;">
+::: {.callout-important style="background-color: #f8f0ddff; border-left: 4px solid #f7ebcaff;" appearance="minimal" icon="false"}
+<h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0.5rem;">
+Puntos Clave </h2>
+-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
+-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
+-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
+:::
 
-Puntos Clave
-
-</h2>
+::: {.callout-important style="background-color: #f3eaf8ff; border-left: 4px solid #efe0f9ff;" appearance="minimal" icon="false"}
+<h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0.5rem;">
+Preguntas por resolver </h2>
 
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 :::
 
-::: {.callout-important style="background-color: #efe0f9ff; border-left: 4px solid #efe0f9ff;" appearance="minimal" icon="false"}
-<h2 style="font-size: 2rem; margin-top: 0;">
-
-Preguntas por resolver
-
-</h2>
-
--   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
--   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
--   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
-:::
-
-::: {.callout-important style="background-color: #f9c9c6ff; border-left: 4px solid #f9c9c6ff;" appearance="minimal" icon="false"}
-<h2 style="font-size: 2rem; margin-top: 0;">
-
-Recomendaciones para tomar decisiones
-
-</h2>
-
+::: {.callout-important style="background-color: #f8dedcff; border-left: 4px solid #f9c9c6ff;" appearance="minimal" icon="false"}
+<h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0.5rem;">
+Recomendaciones para tomar decisiones</h2>
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
