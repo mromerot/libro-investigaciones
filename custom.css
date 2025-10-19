@@ -160,3 +160,16 @@ figcaption,
 caption {
   color: #000000 !important;
 }
+
+/* Bold figure number and prefix (e.g., "Figura 1") */
+.figure-caption .figure-number,
+figcaption .figure-number,
+.quarto-float-caption .quarto-float-number {
+  font-weight: bold !important;
+}
+
+/* Alternative: make the entire prefix bold */
+figcaption::first-line,
+.figure-caption::first-line {
+  font-weight: bold;
+}
