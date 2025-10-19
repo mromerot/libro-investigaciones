@@ -146,12 +146,18 @@ th {
 #box1 h2 {
   font-family: Arial, sans-serif;
   font-size: 13px;
+  margin-bottom: 0 !important;
 }
 
 #box1 ul,
 #box1 li {
   font-family: Arial, sans-serif;
   font-size: 13px;
+}
+
+#box1 ul {
+  margin-top: 0.3rem !important;
+  margin-bottom: 0 !important;
 }
 
 /* Figure caption styling */
