@@ -127,9 +127,9 @@ table {
 th, td {
   border: 1px solid #d1d5db;
   padding: 0.75rem;
-  text-align: left;
+  text-align: center;
   font-family: Arial, sans-serif;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 th {
