@@ -34,9 +34,15 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      - name: Check Quarto version
+        run: quarto --version
+
+      - name: List files
+        run: ls -la
+
       - name: Render Quarto Project
         run: |
-          quarto render --to html
+          quarto render --to html --verbose
         continue-on-error: false
           
       - name: Upload artifact
