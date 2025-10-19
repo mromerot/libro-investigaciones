@@ -47,7 +47,15 @@ jobs:
 
       - name: Render Quarto Project
         run: |
-          quarto render --to html --verbose
+          echo "Starting Quarto render..."
+          quarto render --to html --verbose 2>&1 | tee render_output.log
+          echo "Render completed with exit code: $?"
+          if [ ! -d "_book" ]; then
+            echo "ERROR: _book directory was not created!"
+            exit 1
+          fi
+          echo "Contents of _book:"
+          ls -la _book/
         continue-on-error: false
           
       - name: Upload artifact

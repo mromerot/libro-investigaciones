@@ -1,3 +1,6 @@
 /.quarto/
 _book/
 .DS_Store
+site_libs/
+*.html
+!_book/*.html
