@@ -64,6 +64,46 @@
 \fi
 \makeatother
 
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{241,243,245}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.40,0.45,0.13}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.28,0.35,0.67}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.46,0.62}{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.07,0.07,0.07}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
 
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
@@ -449,11 +489,12 @@ This study aims to: - Analyze spatial patterns of seismic activity to
 identify reservoir locations - Examine temporal relationships between
 deep and shallow seismicity - Evaluate the multi-reservoir model using
 observational data - Contribute to improved eruption forecasting
-methodologies
+methodologies \hyperref[box1]{Caja 1}.
 
-\begin{tcolorbox}[enhanced jigsaw, toprule=.15mm, breakable, colframe=quarto-callout-important-color-frame, opacityback=0, arc=.35mm, rightrule=.15mm, left=2mm, leftrule=.75mm, bottomrule=.15mm, colback=white]
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, toprule=.15mm, left=2mm, breakable, colback=white, rightrule=.15mm, colframe=quarto-callout-important-color-frame, arc=.35mm, leftrule=.75mm, opacityback=0]
 
-Caja 1. ejemplo
+Caja 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Praesent tincidunt, arcu vitae suscipit commod.
 
 \begin{itemize}
 \tightlist
@@ -540,6 +581,111 @@ systematically at 30-40 km depths throughout the study period. These
 deeper events, while less frequent than shallow activity, demonstrate
 continuous activity within the proposed deep mantle reservoir system.
 
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{//| echo: false}
+\NormalTok{//| label: fig{-}radar}
+\NormalTok{//| fig{-}cap: "Gráfico radar de 30 indicadores de resiliencia comunitaria. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo"}
+\NormalTok{// Datos: 30 indicadores con su valor (aquí puse valores ficticios que puedes reemplazar)}
+\NormalTok{data = [}
+\NormalTok{  \{axis: "1. Evaluación comunitaria", value: 1.2\},}
+\NormalTok{  \{axis: "2. Evaluación científica del riesgo", value: 2.0\},}
+\NormalTok{  \{axis: "3. Diseminación de información en RRD", value: 2.5\},}
+\NormalTok{  \{axis: "4. Educación de los niños en RRD", value: 3.0\},}
+\NormalTok{  \{axis: "5. RRD en la planificación del desarrollo", value: 1.8\},}
+\NormalTok{  \{axis: "6. RRD en la planificación territorial", value: 2.0\},}
+\NormalTok{  \{axis: "7. Toma comunitaria de decisiones", value: 2.2\},}
+\NormalTok{  \{axis: "8. Inclusión de grupos vulnerables", value: 1.7\},}
+\NormalTok{  \{axis: "9. Participación de las mujeres", value: 2.3\},}
+\NormalTok{  \{axis: "10. Conocimiento de derechos", value: 1.9\},}
+\NormalTok{  \{axis: "11. Alianzas para la RRD", value: 2.6\},}
+\NormalTok{  \{axis: "12. Gestión ambiental sostenible", value: 2.1\},}
+\NormalTok{  \{axis: "13. Seguridad y gestión del agua", value: 1.8\},}
+\NormalTok{  \{axis: "14. Acceso y conciencia de la salud", value: 1.6\},}
+\NormalTok{  \{axis: "15. Suministro seguro de alimentos", value: 1.4\},}
+\NormalTok{  \{axis: "16. Prácticas de medios de vida", value: 1.3\},}
+\NormalTok{  \{axis: "17. Acceso a mercado", value: 1.5\},}
+\NormalTok{  \{axis: "18. Acceso a servicios financieros", value: 1.2\},}
+\NormalTok{  \{axis: "19. Protección de ingresos y activos", value: 1.7\},}
+\NormalTok{  \{axis: "20. Acceso a protección social", value: 2.0\},}
+\NormalTok{  \{axis: "21. Cohesión social", value: 3.2\},}
+\NormalTok{  \{axis: "22. Infraestructura crítica", value: 2.8\},}
+\NormalTok{  \{axis: "23. Vivienda", value: 1.9\},}
+\NormalTok{  \{axis: "24. Planificación de contingencia", value: 2.1\},}
+\NormalTok{  \{axis: "25. Sistema de alerta temprana", value: 2.3\},}
+\NormalTok{  \{axis: "26. Capacidad de preparación", value: 2.0\},}
+\NormalTok{  \{axis: "27. Servicios de salud", value: 2.5\},}
+\NormalTok{  \{axis: "28. Servicios de educación", value: 2.9\},}
+\NormalTok{  \{axis: "29. Infraestructura en emergencias", value: 2.7\},}
+\NormalTok{  \{axis: "30. Liderazgo y voluntariado", value: 3.0\}}
+\NormalTok{]}
+
+\NormalTok{// Radar chart con D3}
+\NormalTok{\{}
+\NormalTok{  const width = 550, height = 550;}
+\NormalTok{  const radius = Math.min(width, height) / 2 {-} 60;}
+\NormalTok{  const levels = 5; // número de círculos concéntricos}
+\NormalTok{  const maxValue = 3.5; // escala máxima}
+
+\NormalTok{  const angleSlice = (Math.PI * 2) / data.length;}
+
+\NormalTok{  const rScale = d3.scaleLinear()}
+\NormalTok{    .domain([0, maxValue])}
+\NormalTok{    .range([0, radius]);}
+
+\NormalTok{  const svg = d3.create("svg")}
+\NormalTok{    .attr("width", width)}
+\NormalTok{    .attr("height", height);}
+
+\NormalTok{  const g = svg.append("g")}
+\NormalTok{    .attr("transform", \textasciigrave{}translate($\{width/2\},$\{height/2\})\textasciigrave{});}
+
+\NormalTok{  // Dibujar círculos concéntricos}
+\NormalTok{  for (let i = 0; i \textless{}= levels; i++) \{}
+\NormalTok{    g.append("circle")}
+\NormalTok{      .attr("r", radius/levels * i)}
+\NormalTok{      .attr("fill", "none")}
+\NormalTok{      .attr("stroke", "\#ccc");}
+\NormalTok{  \}}
+
+\NormalTok{  // Ejes radiales}
+\NormalTok{  data.forEach((d, i) =\textgreater{} \{}
+\NormalTok{    const angle = angleSlice * i {-} Math.PI/2;}
+\NormalTok{    g.append("line")}
+\NormalTok{      .attr("x1", 0)}
+\NormalTok{      .attr("y1", 0)}
+\NormalTok{      .attr("x2", rScale(maxValue) * Math.cos(angle))}
+\NormalTok{      .attr("y2", rScale(maxValue) * Math.sin(angle))}
+\NormalTok{      .attr("stroke", "\#999");}
+
+\NormalTok{    // Etiquetas}
+\NormalTok{    g.append("text")}
+\NormalTok{      .attr("x", (rScale(maxValue + 0.2)) * Math.cos(angle))}
+\NormalTok{      .attr("y", (rScale(maxValue + 0.2)) * Math.sin(angle))}
+\NormalTok{      .attr("dy", "0.35em")}
+\NormalTok{      .style("font{-}size", "10px")}
+\NormalTok{      .style("text{-}anchor", angle \textgreater{} Math.PI/2 \&\& angle \textless{} 3*Math.PI/2 ? "end" : "start")}
+\NormalTok{      .text(d.axis);}
+\NormalTok{  \});}
+
+\NormalTok{  // Línea de valores}
+\NormalTok{  const line = d3.lineRadial()}
+\NormalTok{    .radius(d =\textgreater{} rScale(d.value))}
+\NormalTok{    .angle((d,i) =\textgreater{} i * angleSlice)}
+\NormalTok{    .curve(d3.curveLinearClosed);}
+
+\NormalTok{  g.append("path")}
+\NormalTok{    .datum(data)}
+\NormalTok{    .attr("d", line)}
+\NormalTok{    .attr("fill", "rgba(50,150,250,0.5)")}
+\NormalTok{    .attr("stroke", "steelblue")}
+\NormalTok{    .attr("stroke{-}width", 2);}
+
+\NormalTok{  return svg.node();}
+\NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
 \bookmarksetup{startatroot}
 
 \chapter{4. Discussion}\label{discussion}
@@ -587,7 +733,7 @@ magma system characterization.
 Analysis of 5,465 seismic events from the 2021 La Palma eruption
 provides unprecedented insight into active volcanic processes:
 
-\begin{tcolorbox}[enhanced jigsaw, toprule=.15mm, breakable, colframe=quarto-callout-important-color-frame, opacityback=0, arc=.35mm, rightrule=.15mm, left=2mm, leftrule=.75mm, bottomrule=.15mm, colback=white]
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, toprule=.15mm, left=2mm, breakable, colback=white, rightrule=.15mm, colframe=quarto-callout-important-color-frame, arc=.35mm, leftrule=.75mm, opacityback=0]
 
 Puntos Clave
 
@@ -606,7 +752,7 @@ Puntos Clave
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, toprule=.15mm, breakable, colframe=quarto-callout-important-color-frame, opacityback=0, arc=.35mm, rightrule=.15mm, left=2mm, leftrule=.75mm, bottomrule=.15mm, colback=white]
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, toprule=.15mm, left=2mm, breakable, colback=white, rightrule=.15mm, colframe=quarto-callout-important-color-frame, arc=.35mm, leftrule=.75mm, opacityback=0]
 
 Preguntas por resolver
 
@@ -625,7 +771,7 @@ Preguntas por resolver
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, toprule=.15mm, breakable, colframe=quarto-callout-important-color-frame, opacityback=0, arc=.35mm, rightrule=.15mm, left=2mm, leftrule=.75mm, bottomrule=.15mm, colback=white]
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, toprule=.15mm, left=2mm, breakable, colback=white, rightrule=.15mm, colframe=quarto-callout-important-color-frame, arc=.35mm, leftrule=.75mm, opacityback=0]
 
 Recomendaciones para tomar decisiones
 
