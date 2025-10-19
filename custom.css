@@ -160,6 +160,20 @@ th {
   margin-bottom: 0 !important;
 }
 
+/* Conclusion callout boxes styling */
+#puntos-clave h2,
+#preguntas h2,
+#recomendaciones h2 {
+  margin-bottom: 0 !important;
+}
+
+#puntos-clave ul,
+#preguntas ul,
+#recomendaciones ul {
+  margin-top: 0.3rem !important;
+  margin-bottom: 0 !important;
+}
+
 /* Figure caption styling */
 figcaption,
 .figure-caption,
