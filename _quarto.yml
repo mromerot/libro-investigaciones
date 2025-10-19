@@ -10,20 +10,23 @@ book:
   chapters:
     - index.qmd
     - Capitulo1.qmd
-    - Capitulo2.qmd
-    - Capitulo3.qmd
     - references.qmd
 
 bibliography: references.bib
+csl: vancouver-brackets.csl
 
 format:
   html:
     theme: cosmo
     toc: true
     number-sections: false
+    css:
+      - custom.css
+      - pdf-styles.css
   pdf:
     documentclass: book
     geometry: margin=1in
+    keep-tex: true
 
 
 

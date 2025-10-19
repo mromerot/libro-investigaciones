@@ -68,8 +68,8 @@ h1 { font-size: 1.875rem; }
 h2 { font-size: 1.5rem; }
 h3 { font-size: 1.25rem; }
 
-/* Abstract styling with light blue background */
-#abstract {
+/* Resumen styling with light blue background */
+#resumen {
   background-color: #eff6ff;
   padding: 2rem;
   border-radius: 0.5rem;
@@ -77,11 +77,28 @@ h3 { font-size: 1.25rem; }
   margin: 2rem 0;
 }
 
-#abstract h1 {
+#resumen h1 {
   color: #3b82f6;
   margin-top: 0;
   margin-bottom: 1rem;
   border-bottom: 2px solid #bfdbfe;
+  padding-bottom: 0.5rem;
+}
+
+/* Abstract styling with light yellow background */
+#abstract {
+  background-color: #FDF6D9;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid #F4E9B5;
+  margin: 2rem 0;
+}
+
+#abstract h1 {
+  color: #B8860B;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #E8D995;
   padding-bottom: 0.5rem;
 }
 
