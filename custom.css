@@ -158,18 +158,12 @@ th {
 figcaption,
 .figure-caption,
 caption {
-  color: #000000 !important;
+  color: #000000;
+  font-weight: normal;
 }
 
-/* Bold figure number and prefix (e.g., "Figura 1") */
-.figure-caption .figure-number,
-figcaption .figure-number,
-.quarto-float-caption .quarto-float-number {
-  font-weight: bold !important;
-}
-
-/* Alternative: make the entire prefix bold */
-figcaption::first-line,
-.figure-caption::first-line {
+/* Bold only figure prefix and number (e.g., "Figura 1:") */
+figcaption .quarto-float-number,
+.figure-caption .quarto-float-number {
   font-weight: bold;
 }
