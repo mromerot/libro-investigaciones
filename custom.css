@@ -188,3 +188,8 @@ table caption,
 .tbl-cap {
   text-align: left !important;
 }
+
+/* Fix bibliography display issue */
+#refs.references.csl-bib-body {
+  display: block !important;
+}
