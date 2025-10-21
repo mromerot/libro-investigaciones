@@ -16,6 +16,7 @@ format:
     documentclass: article
     geometry: margin=1in
     number-sections: false
+    prefer-html: true
     include-in-header:
       - text: |
           \usepackage{graphicx}
@@ -97,7 +98,12 @@ This hierarchical system suggests that magma ascends from the deep reservoir, un
 This study aims to: - Analyze spatial patterns of seismic activity to identify reservoir locations - Examine temporal relationships between deep and shallow seismicity - Evaluate the multi-reservoir model using observational data - Contribute to improved eruption forecasting methodologies [Caja 1](#box1).
 
 ::: {#box1 .callout-important style="background-color: #e3f0fbff; border-left: 4px solid #d4e8f9ff;" appearance="minimal" icon="false"}
-<h2 style="font-size: 1rem; margin-top: 0; margin-bottom: 0;">Caja 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commod.</h2>
+<h2 style="font-size: 1rem; margin-top: 0; margin-bottom: 0;">
+
+Caja 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commod.
+
+</h2>
+
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
@@ -136,6 +142,50 @@ Intense earthquake swarms occurred in the shallow subsurface (\< 10 km depth) du
 ## 3.4 Syn- and Post-Eruptive Crustal Reservoir Activity
 
 Following eruption initiation, continuous moderate-magnitude seismicity established at 10-15 km depth, consistent with ongoing magma movement within the proposed shallow crustal reservoir. This persistent activity suggests active magma storage and transport processes [@woodford2015].
+
+```{r}
+#| code-fold: show
+#| code-summary: "Ocultar/Mostrar código"
+#| warning: false
+#| message: false
+#| eval: false
+
+# Instalar plotly si no está instalado
+if (!require("plotly")) {
+  install.packages("plotly")
+  library(plotly)
+}
+
+library(plotly)
+
+fig <- plot_ly(
+    type = 'scatterpolar',
+    fill = 'toself'
+  )
+fig <- fig %>%
+  add_trace(
+    r = c(39, 28, 8, 7, 28, 39),
+    theta = c('A','B','C', 'D', 'E', 'A'),
+    name = 'Group A'
+  )
+fig <- fig %>%
+  add_trace(
+    r = c(1.5, 10, 39, 31, 15, 1.5),
+    theta = c('A','B','C', 'D', 'E', 'A'),
+    name = 'Group B'
+  )
+fig <- fig %>%
+  layout(
+    polar = list(
+      radialaxis = list(
+        visible = TRUE,
+        range = c(0,50)
+      )
+    )
+  )
+
+fig
+```
 
 ## 3.5 Deep Mantle Reservoir Signatures
 
@@ -267,21 +317,36 @@ This study demonstrates the effectiveness of systematic seismic catalog analysis
 Analysis of 5,465 seismic events from the 2021 La Palma eruption provides unprecedented insight into active volcanic processes:
 
 ::: {#puntos-clave .callout-important style="background-color: #f8f0ddff; border-left: 4px solid #f7eed3ff;" appearance="minimal" icon="false"}
-<h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0;">Puntos Clave</h2>
+<h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0;">
+
+Puntos Clave
+
+</h2>
+
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 :::
 
 ::: {#preguntas .callout-important style="background-color: #f3eaf8ff; border-left: 4px solid #efe3f7ff;" appearance="minimal" icon="false"}
-<h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0;">Preguntas por resolver</h2>
+<h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0;">
+
+Preguntas por resolver
+
+</h2>
+
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 :::
 
 ::: {#recomendaciones .callout-important style="background-color: #f8dedcff; border-left: 4px solid #fad4d1ff;" appearance="minimal" icon="false"}
-<h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0;">Recomendaciones para tomar decisiones</h2>
+<h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0;">
+
+Recomendaciones para tomar decisiones
+
+</h2>
+
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
