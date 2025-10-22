@@ -5,3 +5,9 @@ site_libs/
 *.html
 !_book/*.html
 !caption-bold.html
+*.tex
+*.aux
+*.log
+*.toc
+*.pdf
+!cover.png
