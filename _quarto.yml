@@ -36,6 +36,7 @@ format:
     documentclass: book
     geometry: margin=1in
     keep-tex: true
+    prefer-html: true
 
 
 

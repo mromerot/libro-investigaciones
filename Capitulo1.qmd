@@ -141,7 +141,7 @@ Intense earthquake swarms occurred in the shallow subsurface (\< 10 km depth) du
 
 ## 3.4 Syn- and Post-Eruptive Crustal Reservoir Activity
 
-Following eruption initiation, continuous moderate-magnitude seismicity established at 10-15 km depth, consistent with ongoing magma movement within the proposed shallow crustal reservoir. This persistent activity suggests active magma storage and transport processes [@woodford2015].
+Following eruption initiation, continuous moderate-magnitude seismicity established at 10-15 km depth, consistent with ongoing magma movement within the proposed shallow crustal reservoir (ver @fig-spider). This persistent activity suggests active magma storage and transport processes [@woodford2015].
 
 ```{r}
 #| code-fold: true
@@ -149,8 +149,8 @@ Following eruption initiation, continuous moderate-magnitude seismicity establis
 #| warning: false
 #| message: false
 #| label: fig-spider
-#| fig-cap: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo"
-#| eval: false
+#| fig-cap: "Figura (radar). Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo"
+#| eval: true
 
 # Instalar plotly si no está instalado
 if (!require("plotly")) {
