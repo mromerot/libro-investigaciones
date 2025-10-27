@@ -28,7 +28,7 @@ format:
     keep-tex: true
 keywords: [Volcanic earthquakes, magma reservoirs, Cumbre Vieja, seismic analysis, eruption forecasting]
 bibliography: references.bib
-csl: vancouver-brackets.csl
+csl: vancouver-apa-hybrid.csl
 crossref:
   fig-prefix: "Figura"
   tbl-prefix: "Tabla"
@@ -101,9 +101,7 @@ This study aims to: - Analyze spatial patterns of seismic activity to identify r
 <h2 style="font-size: 1rem; margin-top: 0; margin-bottom: 0;">
 
 Caja 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commod.
-
 </h2>
-
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
