@@ -35,13 +35,13 @@ crossref:
   chapters: false
 ---
 
-::: {#resumen}
+::: {#resumen style="padding-top: 0.5rem; padding-bottom: 0.5rem;"}
 # Resumen
 
 Este estudio analiza la actividad sísmica asociada a la erupción volcánica de La Palma de 2021 para investigar la existencia de sistemas magmáticos multireservorio. Utilizando datos sísmicos del Instituto Geográfico Nacional, examinamos patrones espaciales y temporales de sismicidad para validar modelos teóricos de almacenamiento y transporte de magma. Nuestro análisis de 5465 eventos sísmicos revela una agrupación distintiva a profundidades superficiales (10-15 km) y profundas (30-40 km), lo que proporciona evidencia sólida de la existencia de reservorios magmáticos tanto en la corteza como en el manto que alimentan el sistema volcánico de Cumbre Vieja
 :::
 
-::: {#abstract}
+::: {#abstract style="padding-top: 0.5rem; padding-bottom: 0.5rem;"}
 # La Palma Earthquakes: Seismic Analysis of Volcanic Activity
 
 **Abstract**. This study analyzes seismic activity associated with the 2021 La Palma volcanic eruption to investigate evidence for proposed multi-reservoir magma systems. Using earthquake data from the Instituto Geográfico Nacional, we examine spatial and temporal patterns of seismicity to validate theoretical models of magma storage and transport. Our analysis of 5,465 seismic events reveals distinct clustering at shallow (10-15 km) and deep (30-40 km) depths, providing strong evidence for both crustal and mantle magma reservoirs feeding the Cumbre Vieja volcanic system.
@@ -189,12 +189,12 @@ fig
 
 ## 3.5 Deep Mantle Reservoir Signatures
 
-High-magnitude seismic events (M \> 4.0) occurred systematically at 30-40 km depths throughout the study period (@fig-radar). These deeper events, while less frequent than shallow activity, demonstrate continuous activity within the proposed deep mantle reservoir system.
+High-magnitude seismic events (M \> 4.0) occurred systematically at 30-40 km depths throughout the study period. These deeper events, while less frequent than shallow activity, demonstrate continuous activity within the proposed deep mantle reservoir system.
 
 ```{ojs}
 //| echo: false
 //| label: fig-radar
-//| fig-cap: "Gráfico radar de 30 indicadores de resiliencia comunitaria. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo"
+//| fig-cap: "Gráfico radar de 30 indicadores de resiliencia comunitaria"
 // Datos: 30 indicadores con su valor (aquí puse valores ficticios que puedes reemplazar)
 data = [
   {axis: "1. Evaluación comunitaria", value: 1.2},
@@ -318,11 +318,8 @@ Analysis of 5,465 seismic events from the 2021 La Palma eruption provides unprec
 
 ::: {#puntos-clave .callout-important style="background-color: #f8f1e1ff; border-left: 4px solid #f7eed3ff;" appearance="minimal" icon="false"}
 <h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0;">
-
 Puntos Clave
-
 </h2>
-
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
@@ -332,9 +329,7 @@ Puntos Clave
 <h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0;">
 
 Preguntas por resolver
-
 </h2>
-
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
@@ -342,11 +337,8 @@ Preguntas por resolver
 
 ::: {#recomendaciones .callout-important style="background-color: #f9e8e6ff; border-left: 4px solid #fad4d1ff;" appearance="minimal" icon="false"}
 <h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0;">
-
 Recomendaciones para tomar decisiones
-
 </h2>
-
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 -   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
@@ -356,7 +348,19 @@ Recomendaciones para tomar decisiones
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
 
-# DECLARACIÓN DE AUTORIA CREDIT
+# CONFLICTO DE INTERESES
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
+
+# USO DE HERRAMIENTAS DE INTELIGENCIA ARTIFICIAL
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
+
+# IDENTIFICACIÓN DE AUTORES
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.
+
+# DECLARACIÓN DE AUTORIA CRediT
 
 Seismic data were obtained from the Instituto Geográfico Nacional (IGN) public database. Data processing scripts, analysis notebooks, and visualization tools have been developed to ensure reproducibility and are available through institutional repositories. All methodological approaches follow open science principles to facilitate community validation and extension.
 
