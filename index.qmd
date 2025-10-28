@@ -4,13 +4,15 @@ Bienvenido al **Libro de Investigaciones**, una colección de capítulos de inve
 
 # Contenido
 
-## Capítulo 1: La Palma Seismicity 2021
+## Capítulo Plantilla: Estructura de Referencia
 
-En septiembre de 2021, un salto significativo en la actividad sísmica en la isla de La Palma (Islas Canarias, España) señaló el comienzo de una crisis volcánica. Este estudio analiza los datos de terremotos recopilados y publicados por el Instituto Geográfico Nacional (IGN), revelando sismicidad que se origina en dos profundidades distintas.
+Este capítulo sirve como plantilla de referencia para la estructura y formato que deben seguir todos los capítulos del libro. Contiene ejemplos de:
 
-## Capítulo 2: Evaluating the Transfer of Information in Phase Retrieval STEM Techniques
-
-Este estudio evalúa métodos de recuperación de fase en microscopía electrónica de transmisión de barrido (STEM), analizando técnicas como imágenes del centro de masa, STEM de campo brillante corregido por inclinación y métodos ptychográficos directos.
+- Formato de encabezados y secciones
+- Tablas con estilo personalizado
+- Figuras y gráficos interactivos
+- Referencias bibliográficas
+- Cajas informativas y callouts
 
 ## Arquitectura del Proyecto
 

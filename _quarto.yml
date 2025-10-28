@@ -9,7 +9,7 @@ book:
   date: "Septiembre 2025"
   chapters:
     - index.qmd
-    - Capitulo1.qmd
+    - capitulo-plantilla.qmd
     - references.qmd
 
 lang: es
