@@ -21,11 +21,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install system dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
-
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
         with:
@@ -40,37 +35,16 @@ jobs:
         with:
           tinytex: true
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-
-      - name: Install OJS dependencies
-        run: |
-          npm install -g d3
-          npm install -g @observablehq/runtime
-
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Check Quarto version
-        run: quarto --version
-
-      - name: List files
-        run: ls -la
-
       - name: Render Quarto Project
         run: |
-          echo "Starting Quarto render..."
-          quarto render --to html --verbose 2>&1 | tee render_output.log
-          echo "Render completed with exit code: $?"
+          quarto render --to html
           if [ ! -d "docs" ]; then
             echo "ERROR: docs directory was not created!"
             exit 1
           fi
-          echo "Contents of docs:"
-          ls -la docs/
-        continue-on-error: false
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
