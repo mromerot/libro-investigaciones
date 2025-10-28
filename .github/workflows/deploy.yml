@@ -33,7 +33,7 @@ jobs:
 
       - name: Install R packages
         run: |
-          R -e 'install.packages(c("plotly", "ggplot2", "dplyr", "tidyr", "knitr", "rmarkdown", "reticulate", "webshot2"), repos="https://cloud.r-project.org")'
+          R -e 'install.packages(c("ggplot2", "knitr", "rmarkdown"), repos="https://cloud.r-project.org")'
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2

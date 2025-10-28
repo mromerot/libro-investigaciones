@@ -146,43 +146,37 @@ Following eruption initiation, continuous moderate-magnitude seismicity establis
 #| echo: false
 #| warning: false
 #| message: false
-#| fig-cap: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, arcu vitae suscipit commodo.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#| fig-cap: "Gráfico radar comparando Group A y Group B en cinco variables"
+#| fig-width: 6
+#| fig-height: 6
 
-# Instalar plotly si no está instalado
-if (!require("plotly")) {
-  install.packages("plotly")
-  library(plotly)
-}
+library(ggplot2)
 
-library(plotly)
+# Crear datos para el gráfico radar/polar
+df <- data.frame(
+  group = rep(c('Group A', 'Group B'), each = 6),
+  variable = rep(c('A', 'B', 'C', 'D', 'E', 'A'), 2),
+  value = c(39, 28, 8, 7, 28, 39,  # Group A
+            1.5, 10, 39, 31, 15, 1.5)  # Group B
+)
 
-fig <- plot_ly(
-    type = 'scatterpolar',
-    fill = 'toself'
-  )
-fig <- fig %>%
-  add_trace(
-    r = c(39, 28, 8, 7, 28, 39),
-    theta = c('A','B','C', 'D', 'E', 'A'),
-    name = 'Group A'
-  )
-fig <- fig %>%
-  add_trace(
-    r = c(1.5, 10, 39, 31, 15, 1.5),
-    theta = c('A','B','C', 'D', 'E', 'A'),
-    name = 'Group B'
-  )
-fig <- fig %>%
-  layout(
-    polar = list(
-      radialaxis = list(
-        visible = TRUE,
-        range = c(0,50)
-      )
-    )
-  )
-
-fig
+# Crear gráfico polar con ggplot2
+ggplot(df, aes(x = variable, y = value, group = group, color = group, fill = group)) +
+  geom_polygon(alpha = 0.3, size = 1) +
+  geom_point(size = 3) +
+  coord_polar() +
+  ylim(0, 50) +
+  scale_color_manual(values = c("Group A" = "#1f77b4", "Group B" = "#ff7f0e")) +
+  scale_fill_manual(values = c("Group A" = "#1f77b4", "Group B" = "#ff7f0e")) +
+  theme_minimal() +
+  theme(
+    axis.title = element_blank(),
+    legend.position = "bottom",
+    legend.title = element_blank(),
+    panel.grid.major = element_line(color = "gray90"),
+    panel.grid.minor = element_blank()
+  ) +
+  labs(title = NULL)
 ```
 
 ## 3.5 Deep Mantle Reservoir Signatures
