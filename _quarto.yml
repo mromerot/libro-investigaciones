@@ -3,9 +3,8 @@ project:
   output-dir: docs
 
 book:
-  title: "Libro de Investigaciones"
-  subtitle: "Una colección de artículos científicos y estudios de investigación"
-  author: "Mauricio Romero"
+  title: "Investigaciones en Gestión del Riesgo de Desastres para Colombia"
+  editor: "Comisión Nacional Asesora para la Investigación en Gestión del Riesgo de Desastres"
   date: "Septiembre 2025"
   chapters:
     - index.qmd

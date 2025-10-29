@@ -1,57 +1,36 @@
 # Inicio {.unnumbered}
 
-Bienvenido al **Libro de Investigaciones**, una colección de capítulos de investigación organizados en capítulos independientes.
-
 # Contenido
 
-## Capítulos del Libro
-
-### Capítulo 1: Entre el conocimiento y la acción
+## Capítulo 1: Entre el conocimiento y la acción
 
 **Autores:** Yazmín Cardona, Adriana Carolina Herrera-López, María Alejandra Parra-Góez, Olga Ramírez, Julián Sepúlveda, Esneider Zapata
 
 Estrategias para la gestión del riesgo de desastres y la adaptación climática en el Valle de Aburrá. Este estudio analiza el papel del proyecto SIATA frente a la apropiación social del conocimiento y el fortalecimiento ciudadano.
 
-### Capítulo 2: Enfoque etnodiferencial en la Gestión del Riesgo de Desastres
+## Capítulo 2: Enfoque etnodiferencial en la Gestión del Riesgo de Desastres
 
 **Autores:** William Oswaldo Gaviria-Gutiérrez, Lina Andrea Zambrano-Hernández
 
 Investigación cualitativa sobre la inclusión del enfoque etnodiferencial en la gestión del riesgo de desastres en Colombia. Basado en grupos focales y entrevistas con representantes de pueblos afrodescendientes, indígenas y personas con discapacidad.
 
-### Capítulo 3: Cartografía participativa y mapeo abierto
+## Capítulo 3: Cartografía participativa y mapeo abierto
 
 **Autores:** Yessica De los ríos Olarte, Ana Milena Prada Uribe, Céline Jacquin
 
 Análisis de experiencias de cartografía participativa y mapeo abierto como herramientas metodológicas para la gestión del riesgo. Incluye casos de estudio en Medellín y otras ciudades, explorando el uso de tecnologías participativas y su rol en la construcción de territorios más seguros y resilientes.
 
-### Capítulo 4: Resiliencia comunitaria tras el desastre de 2011
+## Capítulo 4: Resiliencia comunitaria tras el desastre de 2011
 
 **Autores:** Jefferson Alexis Arias-Giraldo, Édgar Fernando Cataño-Hernández, Oscar Ariel López-Cortés
 
 Estudio longitudinal (2011-2021) sobre la evolución de la resiliencia comunitaria en la Comuna 10 de Dosquebradas, Colombia, tras el desastre de 2011. Utilizando la herramienta ARC-D, se evalúan 30 componentes de resiliencia y se documenta un aumento del 100% en la capacidad de respuesta comunitaria, con análisis detallado de fortalezas, debilidades y lecciones aprendidas.
 
-### Capítulo 5: Gestión del riesgo volcánico en animales de producción
+## Capítulo 5: Gestión del riesgo volcánico en animales de producción
 
 **Autores:** Jefferson Alexis Arias-Giraldo, Felipe Gómez-Gutiérrez, Diana Marcela Durango-Usuga
 
 Revisión completa de estrategias para la gestión del riesgo volcánico en sistemas ganaderos, integrando el marco LEGS (Livestock Emergency Guidelines and Standards). Incluye análisis de casos reales de erupciones en Chile y Costa Rica, medidas de prevención, respuesta ante emergencias, y recomendaciones para la protección de animales de producción frente a amenazas volcánicas.
-
-## Referencias
-
-Al final del libro encontrarás:
-- **Capítulo Plantilla:** Ejemplo de referencia con la estructura y formato que siguen todos los capítulos
-- **Bibliografía:** Referencias completas de todos los capítulos
-
-## Arquitectura del Proyecto
-
-Esta implementación en **Quarto** ofrece:
-
--   ✅ **Estabilidad garantizada**: Servidor web confiable y funcional
--   ✅ **Navegación fluida**: Enlaces internos que funcionan correctamente
--   ✅ **Formato científico**: Soporte nativo para ecuaciones, referencias y figuras
--   ✅ **Exports múltiples**: HTML interactivo y PDF profesional
--   ✅ **Live preview**: Actualización automática durante edición
--   ✅ **Mantenimiento sencillo**: Configuración simple y robusta
 
 ## Navegación
 

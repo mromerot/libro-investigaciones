@@ -2,7 +2,7 @@
 title: "3. Gestión del Riesgo de Desastres Comunitario a través de Cartografía Participativa y Tecnologías Abiertas en San José del Prado, Colombia"
 author: "Yessica De los ríos Olarte, Ana Milena Prada Uribe, Céline Jacquin"
 date: "2025"
-title-block-banner: bannerC3.png
+title-block-banner: bannerc1.png
 title-block-banner-color: "white"
 css:
   - custom.css
@@ -22,7 +22,7 @@ format:
           \usepackage{xcolor}
           \usepackage{fancyhdr}
           \usepackage{wallpaper}
-    title-block-banner: bannerC3.png
+    title-block-banner: bannerc1.png
     colorlinks: true
     keep-tex: true
 keywords: [participatory mapping, community mapping, open technologies, drones, community participation, OpenStreetMap, disaster risk management]

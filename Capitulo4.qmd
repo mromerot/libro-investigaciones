@@ -2,7 +2,7 @@
 title: "4. Evaluación multitemporal de la resiliencia comunitaria ante eventos tecnológicos en la Comuna 10 del municipio de Dosquebradas"
 author: "Evelin Langebeck Cuéllar & Nicolás Giraldo Hernández"
 date: "2025"
-title-block-banner: bannerC4.png
+title-block-banner: bannerc1.png
 title-block-banner-color: "white"
 css:
   - custom.css
@@ -23,7 +23,7 @@ format:
           \usepackage{xcolor}
           \usepackage{fancyhdr}
           \usepackage{wallpaper}
-    title-block-banner: bannerC4.png
+    title-block-banner: bannerc1.png
     colorlinks: true
     keep-tex: true
 keywords: [community resilience, technological risk, ARC-D tool, disaster risk management, multi-temporal resilience, risk perception]

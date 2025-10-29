@@ -2,7 +2,7 @@
 title: "2. Enfoque etnodiferencial y riesgo de desastre en Colombia: líneas de fuga para una digna vida"
 author: "William Oswaldo Gaviria-Gutiérrez, Lina Andrea Zambrano-Hernández"
 date: "2025"
-title-block-banner: bannerC2.png
+title-block-banner: bannerc1.png
 title-block-banner-color: "white"
 css:
   - custom.css
@@ -22,7 +22,7 @@ format:
           \usepackage{xcolor}
           \usepackage{fancyhdr}
           \usepackage{wallpaper}
-    title-block-banner: bannerC2.png
+    title-block-banner: bannerc1.png
     colorlinks: true
     keep-tex: true
 keywords: [subalternization, risk management, ethno-differential, diversity, justice]

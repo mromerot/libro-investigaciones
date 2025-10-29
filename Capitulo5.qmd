@@ -2,7 +2,7 @@
 title: "5. Avances y desafíos del manejo de desastres y gestión del riesgo volcánico con animales de producción"
 author: "Diego Hernández Pulido & Julia Inés Lema Vélez"
 date: "2025"
-title-block-banner: bannerC5.png
+title-block-banner: bannerc1.png
 title-block-banner-color: "white"
 css:
   - custom.css
@@ -23,7 +23,7 @@ format:
           \usepackage{xcolor}
           \usepackage{fancyhdr}
           \usepackage{wallpaper}
-    title-block-banner: bannerC5.png
+    title-block-banner: bannerc1.png
     colorlinks: true
     keep-tex: true
 keywords: [disasters, risk reduction, livestock, volcanoes, animal welfare]

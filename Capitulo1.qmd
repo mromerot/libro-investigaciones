@@ -2,7 +2,7 @@
 title: "1. Entre el conocimiento y la acción: estrategias para la gestión del riesgo de desastres y la adaptación climática en el Valle de Aburrá"
 author: "Yazmín Cardona, Adriana Carolina Herrera-López, María Alejandra Parra-Góez, Olga Ramírez, Julián Sepúlveda, Esneider Zapata"
 date: "2025"
-title-block-banner: bannerC1.png
+title-block-banner: bannerc1.png
 title-block-banner-color: "white"
 css:
   - custom.css
@@ -22,7 +22,7 @@ format:
           \usepackage{xcolor}
           \usepackage{fancyhdr}
           \usepackage{wallpaper}
-    title-block-banner: bannerC1.png
+    title-block-banner: bannerc1.png
     colorlinks: true
     keep-tex: true
 keywords: [resilience, Social Appropriation of Knowledge, SIATA, citizen empowerment, extreme hydrometeorological events]
