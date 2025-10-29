@@ -5,6 +5,11 @@ body {
   color: #333;
 }
 
+/* Hide breadcrumbs that appear above the banner */
+.quarto-title-breadcrumbs {
+  display: none !important;
+}
+
 /* Quarto title block banner styling */
 .title-block-banner {
   background-size: cover !important;
