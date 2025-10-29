@@ -3,7 +3,7 @@
 **Documento:** Metodología para convertir capítulos Word a Quarto Markdown
 **Versión:** 1.0
 **Fecha:** 2025-01-19
-**Basado en:** capitulo1.qmd (Terremotos de La Palma)
+**Basado en:** capitulo-plantilla.qmd (Plantilla de referencia)
 
 ---
 
@@ -320,7 +320,7 @@ Se ha creado un **sistema modular, completo y profesional** para la conversión 
 ---
 
 **Sistema creado por:** Claude Code
-**Basado en:** Análisis detallado de capitulo1.qmd
+**Basado en:** Análisis detallado de capitulo-plantilla.qmd
 **Archivos CSS:** custom.css, pdf-styles.css
 **Formato bibliográfico:** Vancouver con corchetes
 

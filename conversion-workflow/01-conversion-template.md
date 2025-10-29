@@ -2,6 +2,8 @@
 
 Este archivo muestra la estructura exacta que debe seguir cada capítulo convertido desde Word.
 
+**IMPORTANTE:** Puedes consultar el archivo `capitulo-plantilla.qmd` en la raíz del proyecto como ejemplo real y funcional de esta plantilla.
+
 ---
 
 ## ESTRUCTURA DEL YAML HEADER
@@ -110,8 +112,10 @@ Texto...
 ### Imágenes externas:
 
 ```markdown
-![Descripción de la figura.](ruta/imagen.png){#fig-identificador width="383"}
+![Descripción de la figura.](images/capituloN/imagen.png){#fig-identificador width="383"}
 ```
+
+**Nota:** Todas las imágenes deben estar en la carpeta `images/capituloN/` donde N es el número del capítulo.
 
 ### Gráficos OJS (interactivos):
 

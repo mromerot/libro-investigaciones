@@ -74,7 +74,7 @@ capituloN.qmd  # En la raíz del proyecto
 # Agrega la línea en la sección chapters:
 chapters:
   - index.qmd
-  - Capitulo1.qmd
+  - capitulo-plantilla.qmd
   - capituloN.qmd        # ← Tu nuevo capítulo
   - references.qmd
 ```
@@ -263,7 +263,7 @@ TOTAL:                   25-40 min
 2. **Renderiza frecuentemente** para detectar errores temprano
 3. **Copia las cajas de conclusiones** del template para asegurar colores exactos
 4. **Usa IDs descriptivos** para figuras y tablas (no solo números)
-5. **Revisa el capítulo1.qmd** cuando tengas dudas
+5. **Revisa el capitulo-plantilla.qmd** cuando tengas dudas
 
 ---
 

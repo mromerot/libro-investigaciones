@@ -9,8 +9,17 @@ book:
   date: "Septiembre 2025"
   chapters:
     - index.qmd
-    - capitulo-plantilla.qmd
-    - references.qmd
+    - part: "Capítulos"
+      chapters:
+        - Capitulo1.qmd
+        - Capitulo2.qmd
+        - Capitulo3.qmd
+        - Capitulo4.qmd
+        - Capitulo5.qmd
+    - part: "Referencias"
+      chapters:
+        - capitulo-plantilla.qmd  # Plantilla de referencia
+        - references.qmd
 
 lang: es
 

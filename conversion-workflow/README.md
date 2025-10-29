@@ -261,7 +261,7 @@ quarto render --to pdf
 - `vancouver-brackets.csl` - Estilo de citación
 
 ### Capítulo de referencia
-- `capitulo1.qmd` - Ejemplo completo ya formateado
+- `capitulo-plantilla.qmd` - Ejemplo completo ya formateado
 
 ---
 
@@ -332,16 +332,16 @@ Si tienes problemas:
 
 1. Consulta el `04-validation-checklist.md`
 2. Revisa el `03-style-guide.md`
-3. Compara con `capitulo1.qmd`
+3. Compara con `capitulo-plantilla.qmd`
 4. Verifica la documentación de Quarto: https://quarto.org/docs/books
 
 ---
 
 ## ✨ VERSIÓN
 
-**Workflow versión:** 1.0
-**Fecha de creación:** 2025-01-19
-**Basado en:** capitulo1.qmd (Capítulo de La Palma)
+**Workflow versión:** 1.1
+**Fecha de actualización:** 2025-10-28
+**Basado en:** capitulo-plantilla.qmd (Plantilla de referencia)
 
 ---
 
