@@ -10,55 +10,55 @@ Esta página contiene los términos clave utilizados a lo largo del libro con en
 
 ## A
 
-- **Adaptación al cambio climático (ACC)** → [Capítulo 1](Capitulo1.qmd#introducción)
-- **Apropiación Social del Conocimiento (ASC)** → [Capítulo 1](Capitulo1.qmd#resumen)
+- **Adaptación al cambio climático (ACC)**: [Capítulo 1](Capitulo1.qmd#introducción)
+- **Apropiación Social del Conocimiento (ASC)**: [Capítulo 1](Capitulo1.qmd#resumen)
 
 ## C
 
-- **Capital social** → Capítulo 4
-- **Ceniza volcánica** → Capítulo 5
+- **Capital social**: [Capítulo 4](Capitulo4.qmd)
+- **Ceniza volcánica**: [Capítulo 5](Capitulo5.qmd)
 
 ## D
 
-- **Drones** → Capítulo 3
+- **Drones**: [Capítulo 3](Capitulo3.qmd)
 
 ## F
 
-- **Fluorosis** → Capítulo 5
+- **Fluorosis**: [Capítulo 5](Capitulo5.qmd)
 
 ## G
 
-- **Gestión del Riesgo de Desastres (GRD)** → [Capítulo 1](Capitulo1.qmd#resumen)
+- **Gestión del Riesgo de Desastres (GRD)**: [Capítulo 1](Capitulo1.qmd#resumen)
 
 ## K
 
-- **KoboToolbox** → Capítulo 3
+- **KoboToolbox**: [Capítulo 3](Capitulo3.qmd)
 
 ## L
 
-- **LEGS (Normas para intervenciones ganaderas en emergencias)** → Capítulo 5
+- **LEGS (Normas para intervenciones ganaderas en emergencias)**: [Capítulo 5](Capitulo5.qmd)
 
 ## M
 
-- **Medios de subsistencia** → Capítulo 5
+- **Medios de subsistencia**: [Capítulo 5](Capitulo5.qmd)
 
 ## O
 
-- **OpenStreetMap (OSM)** → Capítulo 3
+- **OpenStreetMap (OSM)**: [Capítulo 3](Capitulo3.qmd)
 
 ## R
 
-- **Resiliencia** → [Capítulo 1](Capitulo1.qmd#introducción)
+- **Resiliencia**: [Capítulo 1](Capitulo1.qmd#introducción), [Capítulo 4](Capitulo4.qmd)
 
 ## S
 
-- **SIATA (Sistema de Alerta Temprana de Medellín y el Valle de Aburrá)** → [Capítulo 1](Capitulo1.qmd#resumen)
-- **Sistemas de Alerta Temprana Comunitarios (SATC)** → [Capítulo 1](Capitulo1.qmd#estrategias-siata)
+- **SIATA (Sistema de Alerta Temprana de Medellín y el Valle de Aburrá)**: [Capítulo 1](Capitulo1.qmd#resumen)
+- **Sistemas de Alerta Temprana Comunitarios (SATC)**: [Capítulo 1](Capitulo1.qmd#estrategias-siata)
 
 ## V
 
-- **Valle de Aburrá** → [Capítulo 1](Capitulo1.qmd#resumen)
-- **Vulnerabilidad** → Capítulo 4
+- **Valle de Aburrá**: [Capítulo 1](Capitulo1.qmd#resumen)
+- **Vulnerabilidad**: [Capítulo 4](Capitulo4.qmd)
 
 ---
 
