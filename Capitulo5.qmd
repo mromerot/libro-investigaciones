@@ -139,7 +139,7 @@ El envenenamiento y la muerte por flúor pueden ocurrir en el ganado que pastea 
 
 La supervivencia de los cultivos agrícolas y los pastos suele verse gravemente limitada cuando el espesor de la ceniza es superior a 100-150 mm. Sin embargo, predecir las posibles pérdidas de cultivos por la caída de cenizas es difícil y suele ser exagerado debido a la gran variedad de condiciones ambientales y vegetales que existen en las zonas tropicales y templadas durante y después de las caídas de cenizas de distinto grosor. La abrasividad de la ceniza puede dañar la maquinaria y los equipos agrícolas, pero un mayor mantenimiento y unas pocas medidas de precaución pueden reducir significativamente el costo de mantener la maquinaria en condiciones de funcionamiento [@contrafatto2022].
 
-![Suministro de alimento seco (Henolaje -- método de conservación de forraje) al ganado bovino después de la caída de ceniza volcánica.](images/capitulo5/ganado-henolaje-ceniza.jpg){#fig-henolaje width="450"}
+![Suministro de alimento seco (Henolaje - método de conservación de forraje) al ganado bovino después de la caída de ceniza volcánica.](images/capitulo5/ganado-henolaje-ceniza.jpg){#fig-henolaje width="450"}
 
 : Ganado alimentándose con henolaje después de caída de ceniza en el volcán Chaitén, Chile 2008. Los granjeros suministraban alimento en las áreas con menor densidad de caída de ceniza ≤ 5 mm para que sus animales pastaran, mientras se recuperaban las praderas de 2 a 3 semanas después. Fuente: Diego Hernández Pulido.
 
