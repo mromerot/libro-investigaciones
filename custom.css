@@ -46,12 +46,15 @@ h1.title {
   line-height: 1.2;
 }
 
-/* Subtitle styling */
+/* Subtitle styling - used for author affiliations */
 .subtitle {
-  font-size: 1.25rem;
+  font-size: 0.85rem;
   font-weight: 400;
   color: #6b7280;
+  margin-top: 0.5rem;
   margin-bottom: 1rem;
+  font-style: italic;
+  line-height: 1.4;
 }
 
 /* Author and date styling */
@@ -149,7 +152,7 @@ th, td {
 }
 
 th {
-  background-color: #f9fafb;
+  background-color: #d1d5db;
   font-weight: 600;
 }
 
