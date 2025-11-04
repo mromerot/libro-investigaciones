@@ -468,89 +468,199 @@
   {
     "objectID": "glosario.html",
     "href": "glosario.html",
-    "title": "Glosario e Índice Temático",
+    "title": "Índice Temático",
     "section": "",
-    "text": "Glosario e Índice Temático\nEste glosario contiene los términos clave utilizados a lo largo del libro, con sus definiciones y referencias a los capítulos donde aparecen.",
+    "text": "Índice Temático\nEsta página contiene los términos clave utilizados a lo largo del libro con enlaces directos a donde aparecen.",
     "crumbs": [
       "Referencias",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Glosario e Índice Temático</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
     ]
   },
   {
     "objectID": "glosario.html#a",
     "href": "glosario.html#a",
-    "title": "Glosario e Índice Temático",
+    "title": "Índice Temático",
     "section": "A",
-    "text": "A\n\nAdaptación al cambio climático (ACC)\nProceso de ajuste al clima actual o esperado y sus efectos, buscando moderar daños o aprovechar oportunidades beneficiosas.\nAparece en: Capítulo 1\n\n\n\nApropiación Social del Conocimiento (ASC)\nProceso social y cultural complejo que va más allá de la divulgación científica, refiriéndose a las diversas formas de participación de diferentes actores sociales en el diálogo, la cocreación y la coproducción de la ciencia, tecnología e innovación.\nAparece en: Capítulo 1",
+    "text": "A\n\nAcceso a mercado: Capítulo 4\nAcceso a protección social: Capítulo 4\nAcceso a servicios financieros: Capítulo 4\nAcceso y conciencia de la salud: Capítulo 4\nAdaptación al cambio climático: Capítulo 1\nAlianzas para la RRD: Capítulo 4\nAnimal welfare: Capítulo 5\nAnimales: Capítulo 5\nApropiación Social del Conocimiento (ASC): Capítulo 1",
     "crumbs": [
       "Referencias",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Glosario e Índice Temático</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
+    ]
+  },
+  {
+    "objectID": "glosario.html#c",
+    "href": "glosario.html#c",
+    "title": "Índice Temático",
+    "section": "C",
+    "text": "C\n\nCapacidad de preparación, respuesta y recuperación: Capítulo 4\nCartografía participativa: Capítulo 3\nCitizen empowerment: Capítulo 1\nCohesión social y prevención de conflictos: Capítulo 4\nComunicación, preparación y respuesta: Capítulo 1\nCommunity mapping: Capítulo 3\nCommunity participation: Capítulo 3\nCommunity resilience: Capítulo 4\nComunidades: Capítulo 3\nConocimiento de derechos e incidencia: Capítulo 4",
+    "crumbs": [
+      "Referencias",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
+    ]
+  },
+  {
+    "objectID": "glosario.html#d",
+    "href": "glosario.html#d",
+    "title": "Índice Temático",
+    "section": "D",
+    "text": "D\n\nDesastres: Capítulo 5\nDisaster risk management: Capítulo 3\nDiseminación de información en RRD: Capítulo 4\nDiversidad: Capítulo 2\nDrones: Capítulo 3",
+    "crumbs": [
+      "Referencias",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
+    ]
+  },
+  {
+    "objectID": "glosario.html#e",
+    "href": "glosario.html#e",
+    "title": "Índice Temático",
+    "section": "E",
+    "text": "E\n\nEducación de los niños en RRD: Capítulo 4\nEnfoque etnodiferencial: Capítulo 2\nEtnodiferencial: Capítulo 2\nEvaluación científica del riesgo: Capítulo 4\nEvaluación comunitaria participativa: Capítulo 4\nEventos hidrometeorológicos extremos: Capítulo 1\nExtreme hydrometeorological events: Capítulo 1",
+    "crumbs": [
+      "Referencias",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
+    ]
+  },
+  {
+    "objectID": "glosario.html#f",
+    "href": "glosario.html#f",
+    "title": "Índice Temático",
+    "section": "F",
+    "text": "F\n\nFortalecimiento ciudadano: Capítulo 1",
+    "crumbs": [
+      "Referencias",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
     ]
   },
   {
     "objectID": "glosario.html#g",
     "href": "glosario.html#g",
-    "title": "Glosario e Índice Temático",
+    "title": "Índice Temático",
     "section": "G",
-    "text": "G\n\nGestión del Riesgo de Desastres (GRD)\nProceso sistemático de utilizar decisiones administrativas, organización, destrezas operacionales y capacidades para implementar políticas, estrategias y acciones orientadas a reducir el impacto de amenazas naturales y desastres ambientales y tecnológicos.\nAparece en: Capítulo 1",
+    "text": "G\n\nGanadería: Capítulo 5\nGestión ambiental sostenible: Capítulo 4\nGestión del riesgo: Capítulo 2",
     "crumbs": [
       "Referencias",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Glosario e Índice Temático</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
+    ]
+  },
+  {
+    "objectID": "glosario.html#h",
+    "href": "glosario.html#h",
+    "title": "Índice Temático",
+    "section": "H",
+    "text": "H\n\nHerramienta ARC-D: Capítulo 4",
+    "crumbs": [
+      "Referencias",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
+    ]
+  },
+  {
+    "objectID": "glosario.html#i",
+    "href": "glosario.html#i",
+    "title": "Índice Temático",
+    "section": "I",
+    "text": "I\n\nInclusión de grupos vulnerables: Capítulo 4\nInfraestructura crítica: Capítulo 4\nInfraestructura en emergencias: Capítulo 4",
+    "crumbs": [
+      "Referencias",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
+    ]
+  },
+  {
+    "objectID": "glosario.html#j",
+    "href": "glosario.html#j",
+    "title": "Índice Temático",
+    "section": "J",
+    "text": "J\n\nJustice: Capítulo 2\nJusticia: Capítulo 2",
+    "crumbs": [
+      "Referencias",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
+    ]
+  },
+  {
+    "objectID": "glosario.html#l",
+    "href": "glosario.html#l",
+    "title": "Índice Temático",
+    "section": "L",
+    "text": "L\n\nLiderazgo y voluntariado en respuesta: Capítulo 4\nLivestock: Capítulo 5",
+    "crumbs": [
+      "Referencias",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
+    ]
+  },
+  {
+    "objectID": "glosario.html#m",
+    "href": "glosario.html#m",
+    "title": "Índice Temático",
+    "section": "M",
+    "text": "M\n\nMapeo comunitario: Capítulo 3\nMulti-temporal resilience: Capítulo 4",
+    "crumbs": [
+      "Referencias",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
+    ]
+  },
+  {
+    "objectID": "glosario.html#o",
+    "href": "glosario.html#o",
+    "title": "Índice Temático",
+    "section": "O",
+    "text": "O\n\nOpen technologies: Capítulo 3\nOpenStreetMap (OSM): Capítulo 3",
+    "crumbs": [
+      "Referencias",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
+    ]
+  },
+  {
+    "objectID": "glosario.html#p",
+    "href": "glosario.html#p",
+    "title": "Índice Temático",
+    "section": "P",
+    "text": "P\n\nParticipación comunitaria: Capítulo 3\nParticipación de las mujeres: Capítulo 4\nParticipatory mapping: Capítulo 3\nPercepción del riesgo: Capítulo 4\nPlanificación de contingencia y recuperación: Capítulo 4\nPrácticas de medios de vida resistentes: Capítulo 4\nProtección de ingresos y activos: Capítulo 4",
+    "crumbs": [
+      "Referencias",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
     ]
   },
   {
     "objectID": "glosario.html#r",
     "href": "glosario.html#r",
-    "title": "Glosario e Índice Temático",
+    "title": "Índice Temático",
     "section": "R",
-    "text": "R\n\nResiliencia\nCapacidad de una comunidad expuesta a amenazas para resistir, adaptarse, transformarse y recuperarse de forma eficaz y oportuna, lo cual incluye la preservación y restauración de sus estructuras y funciones básicas mediante la gestión del riesgo.\nAparece en: Capítulo 1",
+    "text": "R\n\nReducción de riesgo: Capítulo 5\nResiliencia: Capítulo 1\nResiliencia comunitaria: Capítulo 4\nResiliencia multitemporal: Capítulo 4\nResilience: Capítulo 1\nRisk management: Capítulo 2\nRisk perception: Capítulo 4\nRiesgo tecnológico: Capítulo 4\nRRD en planificación del desarrollo: Capítulo 4\nRRD en planificación territorial: Capítulo 4",
     "crumbs": [
       "Referencias",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Glosario e Índice Temático</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
     ]
   },
   {
     "objectID": "glosario.html#s",
     "href": "glosario.html#s",
-    "title": "Glosario e Índice Temático",
+    "title": "Índice Temático",
     "section": "S",
-    "text": "S\n\nSIATA (Sistema de Alerta Temprana de Medellín y el Valle de Aburrá)\nProyecto estratégico de ciencia, tecnología e innovación del Área Metropolitana del Valle de Aburrá para la gestión del riesgo de desastres. Articula monitoreo continuo de variables ambientales, investigación aplicada y apropiación social del conocimiento.\nAparece en: Capítulo 1\n\n\n\nSistemas de Alerta Temprana Comunitarios (SATC)\nEstrategias territoriales que reconocen al ciudadano como protagonista de la gestión del riesgo de desastres y permiten la participación activa de la comunidad, integrando el conocimiento local con tecnología avanzada para ofrecer alertas precisas y oportunas.\nAparece en: Capítulo 1",
+    "text": "S\n\nSeguridad y gestión del agua: Capítulo 4\nServicios de educación en emergencias: Capítulo 4\nServicios de salud durante emergencias: Capítulo 4\nSIATA: Capítulo 1\nSistema de alerta temprana: Capítulo 4\nSocial Appropriation of Knowledge: Capítulo 1\nSubalternización: Capítulo 2\nSubalternization: Capítulo 2\nSuministro seguro de alimentos: Capítulo 4",
     "crumbs": [
       "Referencias",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Glosario e Índice Temático</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
+    ]
+  },
+  {
+    "objectID": "glosario.html#t",
+    "href": "glosario.html#t",
+    "title": "Índice Temático",
+    "section": "T",
+    "text": "T\n\nTechnological risk: Capítulo 4\nTecnologías abiertas: Capítulo 3\nToma comunitaria de decisiones: Capítulo 4",
+    "crumbs": [
+      "Referencias",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
     ]
   },
   {
     "objectID": "glosario.html#v",
     "href": "glosario.html#v",
-    "title": "Glosario e Índice Temático",
+    "title": "Índice Temático",
     "section": "V",
-    "text": "V\n\nValle de Aburrá\nSubregión de Antioquia ubicada en los Andes colombianos, caracterizada por terreno montañoso con el río Aburrá-Medellín. Concentra aproximadamente 4.2 millones de personas en 1,152 km², con condiciones que lo hacen vulnerable a riesgos hidrometeorológicos y geofísicos.\nAparece en: Capítulo 1",
+    "text": "V\n\nVivienda: Capítulo 4\nVolcanes: Capítulo 5\nVolcanoes: Capítulo 5\n\n\nNota: En la versión PDF del libro encontrará un índice temático completo con números de página al final del documento.",
     "crumbs": [
       "Referencias",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Glosario e Índice Temático</span>"
-    ]
-  },
-  {
-    "objectID": "glosario.html#términos-adicionales-por-capítulo",
-    "href": "glosario.html#términos-adicionales-por-capítulo",
-    "title": "Glosario e Índice Temático",
-    "section": "Términos adicionales por capítulo",
-    "text": "Términos adicionales por capítulo\n\nCapítulo 3: Monitoreo Participativo\n\nOpenStreetMap (OSM): Plataforma de mapeo colaborativo\nKoboToolbox: Herramienta de recolección de datos\nDrones: Vehículos aéreos no tripulados para monitoreo\n\n\n\nCapítulo 4: Resiliencia Comunitaria\n\nCapital social: Redes e interconexiones que incrementan capacidad de trabajo\nVulnerabilidad: Susceptibilidad de una comunidad ante amenazas\n\n\n\nCapítulo 5: Riesgo Volcánico en Ganadería\n\nCeniza volcánica: Mezcla de partículas de roca, minerales y vidrio expulsadas por volcán\nFluorosis: Intoxicación por flúor presente en ceniza volcánica\nLEGS: Normas para intervenciones ganaderas en emergencias\nMedios de subsistencia: Activos, actividades y acceso que determinan la subsistencia",
-    "crumbs": [
-      "Referencias",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Glosario e Índice Temático</span>"
-    ]
-  },
-  {
-    "objectID": "glosario.html#cómo-usar-este-glosario",
-    "href": "glosario.html#cómo-usar-este-glosario",
-    "title": "Glosario e Índice Temático",
-    "section": "Cómo usar este glosario",
-    "text": "Cómo usar este glosario\nEste glosario está diseñado para:\n\nBuscar definiciones rápidas de términos técnicos utilizados en el libro\nNavegar entre capítulos siguiendo los enlaces a donde aparece cada término\nComprender conceptos clave en gestión del riesgo de desastres y adaptación climática\n\nNota: En la versión PDF del libro, encontrará un índice temático completo al final del documento con todas las páginas donde aparece cada término.",
-    "crumbs": [
-      "Referencias",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Glosario e Índice Temático</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Índice Temático</span>"
     ]
   },
   {
