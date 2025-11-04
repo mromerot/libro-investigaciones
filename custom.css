@@ -64,6 +64,40 @@ h1.title {
   margin: 0.25rem 0;
 }
 
+/* Glossary styling */
+h2 {
+  color: #1f2937;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: #374151;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #e5e7eb;
+  margin: 1.5rem 0;
+}
+
+strong {
+  color: #1f2937;
+  font-weight: 600;
+}
+
+/* Glossary term definition */
+p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  color: #4b5563;
+}
+
 /* Clean section headers */
 h1, h2, h3, h4, h5, h6 {
   color: #1f2937;

@@ -17,6 +17,7 @@ book:
         - Capitulo5.qmd
     - part: "Referencias"
       chapters:
+        - glosario.qmd
         - capitulo-plantilla.qmd  # Plantilla de referencia
         - references.qmd
 
@@ -45,6 +46,16 @@ format:
     geometry: margin=1in
     keep-tex: true
     prefer-html: true
+    include-in-header:
+      - text: |
+          \usepackage{makeidx}
+          \makeindex
+    include-after-body:
+      - text: |
+          \clearpage
+          \phantomsection
+          \addcontentsline{toc}{chapter}{Índice Temático}
+          \printindex
 
 
 
