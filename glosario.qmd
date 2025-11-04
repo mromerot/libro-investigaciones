@@ -1,97 +1,65 @@
 ---
-title: "Glosario e Índice Temático"
+title: "Índice Temático"
 ---
 
-# Glosario e Índice Temático
+# Índice Temático
 
-Este glosario contiene los términos clave utilizados a lo largo del libro, con sus definiciones y referencias a los capítulos donde aparecen.
+Esta página contiene los términos clave utilizados a lo largo del libro con enlaces directos a donde aparecen.
 
 ---
 
 ## A
 
-### Adaptación al cambio climático (ACC)
-Proceso de ajuste al clima actual o esperado y sus efectos, buscando moderar daños o aprovechar oportunidades beneficiosas.
+- **Adaptación al cambio climático (ACC)** → [Capítulo 1](Capitulo1.qmd#introducción)
+- **Apropiación Social del Conocimiento (ASC)** → [Capítulo 1](Capitulo1.qmd#resumen)
 
-**Aparece en:** [Capítulo 1](Capitulo1.qmd#introducción)
+## C
 
----
+- **Capital social** → Capítulo 4
+- **Ceniza volcánica** → Capítulo 5
 
-### Apropiación Social del Conocimiento (ASC)
-Proceso social y cultural complejo que va más allá de la divulgación científica, refiriéndose a las diversas formas de participación de diferentes actores sociales en el diálogo, la cocreación y la coproducción de la ciencia, tecnología e innovación.
+## D
 
-**Aparece en:** [Capítulo 1](Capitulo1.qmd#resumen)
+- **Drones** → Capítulo 3
 
----
+## F
+
+- **Fluorosis** → Capítulo 5
 
 ## G
 
-### Gestión del Riesgo de Desastres (GRD)
-Proceso sistemático de utilizar decisiones administrativas, organización, destrezas operacionales y capacidades para implementar políticas, estrategias y acciones orientadas a reducir el impacto de amenazas naturales y desastres ambientales y tecnológicos.
+- **Gestión del Riesgo de Desastres (GRD)** → [Capítulo 1](Capitulo1.qmd#resumen)
 
-**Aparece en:** [Capítulo 1](Capitulo1.qmd#resumen)
+## K
 
----
+- **KoboToolbox** → Capítulo 3
+
+## L
+
+- **LEGS (Normas para intervenciones ganaderas en emergencias)** → Capítulo 5
+
+## M
+
+- **Medios de subsistencia** → Capítulo 5
+
+## O
+
+- **OpenStreetMap (OSM)** → Capítulo 3
 
 ## R
 
-### Resiliencia
-Capacidad de una comunidad expuesta a amenazas para resistir, adaptarse, transformarse y recuperarse de forma eficaz y oportuna, lo cual incluye la preservación y restauración de sus estructuras y funciones básicas mediante la gestión del riesgo.
-
-**Aparece en:** [Capítulo 1](Capitulo1.qmd#introducción)
-
----
+- **Resiliencia** → [Capítulo 1](Capitulo1.qmd#introducción)
 
 ## S
 
-### SIATA (Sistema de Alerta Temprana de Medellín y el Valle de Aburrá)
-Proyecto estratégico de ciencia, tecnología e innovación del Área Metropolitana del Valle de Aburrá para la gestión del riesgo de desastres. Articula monitoreo continuo de variables ambientales, investigación aplicada y apropiación social del conocimiento.
-
-**Aparece en:** [Capítulo 1](Capitulo1.qmd#resumen)
-
----
-
-### Sistemas de Alerta Temprana Comunitarios (SATC)
-Estrategias territoriales que reconocen al ciudadano como protagonista de la gestión del riesgo de desastres y permiten la participación activa de la comunidad, integrando el conocimiento local con tecnología avanzada para ofrecer alertas precisas y oportunas.
-
-**Aparece en:** [Capítulo 1](Capitulo1.qmd#estrategias-siata)
-
----
+- **SIATA (Sistema de Alerta Temprana de Medellín y el Valle de Aburrá)** → [Capítulo 1](Capitulo1.qmd#resumen)
+- **Sistemas de Alerta Temprana Comunitarios (SATC)** → [Capítulo 1](Capitulo1.qmd#estrategias-siata)
 
 ## V
 
-### Valle de Aburrá
-Subregión de Antioquia ubicada en los Andes colombianos, caracterizada por terreno montañoso con el río Aburrá-Medellín. Concentra aproximadamente 4.2 millones de personas en 1,152 km², con condiciones que lo hacen vulnerable a riesgos hidrometeorológicos y geofísicos.
-
-**Aparece en:** [Capítulo 1](Capitulo1.qmd#resumen)
+- **Valle de Aburrá** → [Capítulo 1](Capitulo1.qmd#resumen)
+- **Vulnerabilidad** → Capítulo 4
 
 ---
 
-## Términos adicionales por capítulo
-
-### Capítulo 3: Monitoreo Participativo
-- **OpenStreetMap (OSM)**: Plataforma de mapeo colaborativo
-- **KoboToolbox**: Herramienta de recolección de datos
-- **Drones**: Vehículos aéreos no tripulados para monitoreo
-
-### Capítulo 4: Resiliencia Comunitaria
-- **Capital social**: Redes e interconexiones que incrementan capacidad de trabajo
-- **Vulnerabilidad**: Susceptibilidad de una comunidad ante amenazas
-
-### Capítulo 5: Riesgo Volcánico en Ganadería
-- **Ceniza volcánica**: Mezcla de partículas de roca, minerales y vidrio expulsadas por volcán
-- **Fluorosis**: Intoxicación por flúor presente en ceniza volcánica
-- **LEGS**: Normas para intervenciones ganaderas en emergencias
-- **Medios de subsistencia**: Activos, actividades y acceso que determinan la subsistencia
-
----
-
-## Cómo usar este glosario
-
-Este glosario está diseñado para:
-
-1. **Buscar definiciones rápidas** de términos técnicos utilizados en el libro
-2. **Navegar entre capítulos** siguiendo los enlaces a donde aparece cada término
-3. **Comprender conceptos clave** en gestión del riesgo de desastres y adaptación climática
-
-**Nota**: En la versión PDF del libro, encontrará un índice temático completo al final del documento con todas las páginas donde aparece cada término.
+**Nota**: En la versión PDF del libro encontrará un índice temático completo con números de página al final del documento.
