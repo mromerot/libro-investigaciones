@@ -18,19 +18,18 @@ Esta página contiene los términos clave utilizados a lo largo del libro con en
 - **Alianzas para la RRD**: [Capítulo 4](Capitulo4.qmd)
 - **Animal welfare**: [Capítulo 5](Capitulo5.qmd)
 - **Animales**: [Capítulo 5](Capitulo5.qmd)
+- **Apropiación digital**: [Capítulo 1](Capitulo1.qmd)
 - **Apropiación Social del Conocimiento (ASC)**: [Capítulo 1](Capitulo1.qmd)
 
 ## C
 
 - **Capacidad de preparación, respuesta y recuperación**: [Capítulo 4](Capitulo4.qmd)
 - **Cartografía participativa**: [Capítulo 3](Capitulo3.qmd)
-- **Citizen empowerment**: [Capítulo 1](Capitulo1.qmd)
 - **Cohesión social y prevención de conflictos**: [Capítulo 4](Capitulo4.qmd)
+- **Comunicación pública de la ciencia**: [Capítulo 1](Capitulo1.qmd)
 - **Comunicación, preparación y respuesta**: [Capítulo 1](Capitulo1.qmd)
-- **Community mapping**: [Capítulo 3](Capitulo3.qmd)
-- **Community participation**: [Capítulo 3](Capitulo3.qmd)
-- **Community resilience**: [Capítulo 4](Capitulo4.qmd)
 - **Comunidades**: [Capítulo 3](Capitulo3.qmd)
+- **Conexiones territoriales**: [Capítulo 1](Capitulo1.qmd)
 - **Conocimiento de derechos e incidencia**: [Capítulo 4](Capitulo4.qmd)
 
 ## D
@@ -45,11 +44,16 @@ Esta página contiene los términos clave utilizados a lo largo del libro con en
 
 - **Educación de los niños en RRD**: [Capítulo 4](Capitulo4.qmd)
 - **Enfoque etnodiferencial**: [Capítulo 2](Capitulo2.qmd)
+- **Enfoques pedagógicos y didácticos**: [Capítulo 1](Capitulo1.qmd)
 - **Etnodiferencial**: [Capítulo 2](Capitulo2.qmd)
 - **Evaluación científica del riesgo**: [Capítulo 4](Capitulo4.qmd)
 - **Evaluación comunitaria participativa**: [Capítulo 4](Capitulo4.qmd)
+- **Evaluación y cierre**: [Capítulo 1](Capitulo1.qmd)
+- **Evento de precipitación extremo**: [Capítulo 1](Capitulo1.qmd)
+- **Evento meteorológico extremo**: [Capítulo 1](Capitulo1.qmd)
+- **Eventos extremos**: [Capítulo 1](Capitulo1.qmd)
+- **Eventos extremos de precipitación**: [Capítulo 1](Capitulo1.qmd)
 - **Eventos hidrometeorológicos extremos**: [Capítulo 1](Capitulo1.qmd)
-- **Extreme hydrometeorological events**: [Capítulo 1](Capitulo1.qmd)
 
 ## F
 
@@ -67,6 +71,7 @@ Esta página contiene los términos clave utilizados a lo largo del libro con en
 
 ## I
 
+- **Imaginarios de la quebrada y mapa**: [Capítulo 1](Capitulo1.qmd)
 - **Inclusión de grupos vulnerables**: [Capítulo 4](Capitulo4.qmd)
 - **Infraestructura crítica**: [Capítulo 4](Capitulo4.qmd)
 - **Infraestructura en emergencias**: [Capítulo 4](Capitulo4.qmd)
@@ -84,32 +89,35 @@ Esta página contiene los términos clave utilizados a lo largo del libro con en
 ## M
 
 - **Mapeo comunitario**: [Capítulo 3](Capitulo3.qmd)
-- **Multi-temporal resilience**: [Capítulo 4](Capitulo4.qmd)
+- **Monitoreo**: [Capítulo 1](Capitulo1.qmd)
 
 ## O
 
 - **Open technologies**: [Capítulo 3](Capitulo3.qmd)
 - **OpenStreetMap (OSM)**: [Capítulo 3](Capitulo3.qmd)
+- **Organismos de socorro**: [Capítulo 1](Capitulo1.qmd)
 
 ## P
 
+- **Participación ciudadana**: [Capítulo 1](Capitulo1.qmd)
 - **Participación comunitaria**: [Capítulo 3](Capitulo3.qmd)
 - **Participación de las mujeres**: [Capítulo 4](Capitulo4.qmd)
 - **Participatory mapping**: [Capítulo 3](Capitulo3.qmd)
 - **Percepción del riesgo**: [Capítulo 4](Capitulo4.qmd)
 - **Planificación de contingencia y recuperación**: [Capítulo 4](Capitulo4.qmd)
 - **Prácticas de medios de vida resistentes**: [Capítulo 4](Capitulo4.qmd)
+- **Procesos sociales**: [Capítulo 1](Capitulo1.qmd)
 - **Protección de ingresos y activos**: [Capítulo 4](Capitulo4.qmd)
+- **Protocolo de emergencia**: [Capítulo 1](Capitulo1.qmd)
 
 ## R
 
+- **Reconocimiento y socialización SIATA**: [Capítulo 1](Capitulo1.qmd)
+- **Red de Educadores Científicos**: [Capítulo 1](Capitulo1.qmd)
 - **Reducción de riesgo**: [Capítulo 5](Capitulo5.qmd)
 - **Resiliencia**: [Capítulo 1](Capitulo1.qmd)
 - **Resiliencia comunitaria**: [Capítulo 4](Capitulo4.qmd)
 - **Resiliencia multitemporal**: [Capítulo 4](Capitulo4.qmd)
-- **Resilience**: [Capítulo 1](Capitulo1.qmd)
-- **Risk management**: [Capítulo 2](Capitulo2.qmd)
-- **Risk perception**: [Capítulo 4](Capitulo4.qmd)
 - **Riesgo tecnológico**: [Capítulo 4](Capitulo4.qmd)
 - **RRD en planificación del desarrollo**: [Capítulo 4](Capitulo4.qmd)
 - **RRD en planificación territorial**: [Capítulo 4](Capitulo4.qmd)
@@ -117,10 +125,16 @@ Esta página contiene los términos clave utilizados a lo largo del libro con en
 ## S
 
 - **Seguridad y gestión del agua**: [Capítulo 4](Capitulo4.qmd)
+- **Semilleros de ciudadanos científicos**: [Capítulo 1](Capitulo1.qmd)
 - **Servicios de educación en emergencias**: [Capítulo 4](Capitulo4.qmd)
 - **Servicios de salud durante emergencias**: [Capítulo 4](Capitulo4.qmd)
 - **SIATA**: [Capítulo 1](Capitulo1.qmd)
+- **SIATA para la Escuela**: [Capítulo 1](Capitulo1.qmd)
+- **Simulación**: [Capítulo 1](Capitulo1.qmd)
+- **Simulacro**: [Capítulo 1](Capitulo1.qmd)
+- **Sistema de Alerta Temprana del Valle de Aburrá**: [Capítulo 1](Capitulo1.qmd)
 - **Sistema de alerta temprana**: [Capítulo 4](Capitulo4.qmd)
+- **Sistemas de Alerta Temprana C**: [Capítulo 1](Capitulo1.qmd)
 - **Social Appropriation of Knowledge**: [Capítulo 1](Capitulo1.qmd)
 - **Subalternización**: [Capítulo 2](Capitulo2.qmd)
 - **Subalternization**: [Capítulo 2](Capitulo2.qmd)
@@ -128,12 +142,17 @@ Esta página contiene los términos clave utilizados a lo largo del libro con en
 
 ## T
 
-- **Technological risk**: [Capítulo 4](Capitulo4.qmd)
 - **Tecnologías abiertas**: [Capítulo 3](Capitulo3.qmd)
 - **Toma comunitaria de decisiones**: [Capítulo 4](Capitulo4.qmd)
 
+## U
+
+- **Unidad Municipal de Gestión del Riesgo de Desastres (UMGRD)**: [Capítulo 1](Capitulo1.qmd)
+
 ## V
 
+- **Valle de Aburrá**: [Capítulo 1](Capitulo1.qmd)
+- **Variabilidad climática**: [Capítulo 1](Capitulo1.qmd)
 - **Vivienda**: [Capítulo 4](Capitulo4.qmd)
 - **Volcanes**: [Capítulo 5](Capitulo5.qmd)
 - **Volcanoes**: [Capítulo 5](Capitulo5.qmd)
