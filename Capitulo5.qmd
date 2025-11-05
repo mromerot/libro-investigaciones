@@ -147,9 +147,7 @@ El envenenamiento y la muerte por flúor pueden ocurrir en el ganado que pastea 
 
 La supervivencia de los cultivos agrícolas y los pastos suele verse gravemente limitada cuando el espesor de la ceniza es superior a 100-150 mm. Sin embargo, predecir las posibles pérdidas de cultivos por la caída de cenizas es difícil y suele ser exagerado debido a la gran variedad de condiciones ambientales y vegetales que existen en las zonas tropicales y templadas durante y después de las caídas de cenizas de distinto grosor. La abrasividad de la ceniza puede dañar la maquinaria y los equipos agrícolas, pero un mayor mantenimiento y unas pocas medidas de precaución pueden reducir significativamente el costo de mantener la maquinaria en condiciones de funcionamiento [@contrafatto2022].
 
-![Suministro de alimento seco (Henolaje - método de conservación de forraje) al ganado bovino después de la caída de ceniza volcánica.](images/capitulo5/ganado_henolaje_ceniza.jpg){#fig-henolaje width="450"}
-
-:   Ganado alimentándose con henolaje después de caída de ceniza en el volcán Chaitén, Chile 2008. Los granjeros suministraban alimento en las áreas con menor densidad de caída de ceniza ≤ 5 mm para que sus animales pastaran, mientras se recuperaban las praderas de 2 a 3 semanas después. Fuente: Diego Hernández Pulido.
+![Suministro de alimento seco (Henolaje - método de conservación de forraje) al ganado bovino después de la caída de ceniza volcánica. Ganado alimentándose con henolaje después de caída de ceniza en el volcán Chaitén, Chile 2008. Los granjeros suministraban alimento en las áreas con menor densidad de caída de ceniza ≤ 5 mm para que sus animales pastaran, mientras se recuperaban las praderas de 2 a 3 semanas después. Fuente: Diego Hernández Pulido.](images/capitulo5/ganado_henolaje_ceniza.jpg){#fig-henolaje width="450"}
 
 La ceniza volcánica es una mezcla de partículas de roca, minerales y vidrio expulsadas por un volcán durante una erupción volcánica. Se compone de pequeños trozos dentados de roca y vidrio. Es dura, abrasiva, ligeramente corrosiva, conduce la electricidad cuando se moja y no se disuelve en agua. Los gases volcánicos son emitidos por una chimenea volcánica antes, durante o después de una erupción volcánica. Los gases volcánicos más abundantes son el vapor de agua (H2O), el dióxido de carbono (CO2) y el azufre, ya sea en forma de dióxido de azufre (SO2) o de sulfuro de hidrógeno (H2S) [@williams2015]. El término "niebla tóxica" se refiere a una mezcla brumosa compuesta principalmente por gas SO2 y partículas ácidas muy pequeñas [@mehta2010]. La lluvia ácida procede principalmente de la lluvia que ha caído a través de una nube de gas volcánico [@contrafatto2022].
 
@@ -163,9 +161,7 @@ Como parte de las acciones que buscan mitigar estos problemas, está el lavado d
 
 ![Limpieza de mucosas oculares de material particulado generado por caída de ceniza volcánica.](images/capitulo5/limpieza-ojos-ganado-1.png){#fig-limpieza-1 width="450"}
 
-![Ejercicio de simulación de evacuación y respuesta a la ganadería vacuna.](images/capitulo5/simulacion-evacuacion-ganado-2.png){#fig-simulacion width="450"}
-
-:   Simulación de evacuación y respuesta a la ganadería vacuna realizado en el Parque Nacional Volcán de Turrialba en la provincia de Cartago, Costa Rica, 2009. Fuente: Diego Hernández Pulido.
+![Ejercicio de simulación de evacuación y respuesta a la ganadería vacuna. Simulación de evacuación y respuesta a la ganadería vacuna realizado en el Parque Nacional Volcán de Turrialba en la provincia de Cartago, Costa Rica, 2009. Fuente: Diego Hernández Pulido.](images/capitulo5/simulacion-evacuacion-ganado-2.png){#fig-simulacion width="450"}
 
 ## 2.5 Efectos de la ceniza sobre los animales
 
@@ -246,9 +242,7 @@ Las opciones de rehabilitación de pastos y cultivos herbáceos en función del 
 
 Cuando hay suficiente ceniza, puede resultar antieconómico que la tierra vuelva a utilizarse para cultivos. En la mayoría de los casos, el terreno puede reutilizarse para otros fines, como la silvicultura [@uach2015]. A continuación, una guía rápida de orientación para proteger el ganado frente a la caída de ceniza.
 
-![Espesor de ceniza, nivel considerado de afectación y recomendaciones a seguir.](images/capitulo5/espesor-ceniza-afectacion.png){#fig-espesor width="450"}
-
-:   De izquierda a derecha se describen el espesor en milímetros (mm) de la ceniza volcánica sobre el suelo, la recuperación, la afectación y los principales problemas que esto implica para los animales. Cada uno de los niveles de afectación, desde el leve, moderado y severo, contempla unas recomendaciones a seguir. Modificado de World Animal Protection (WAP) 2020. Afectación sobre el ganado de acuerdo con la cantidad de caída de ceniza.
+![Espesor de ceniza, nivel considerado de afectación y recomendaciones a seguir. De izquierda a derecha se describen el espesor en milímetros (mm) de la ceniza volcánica sobre el suelo, la recuperación, la afectación y los principales problemas que esto implica para los animales. Cada uno de los niveles de afectación, desde el leve, moderado y severo, contempla unas recomendaciones a seguir. Modificado de World Animal Protection (WAP) 2020. Afectación sobre el ganado de acuerdo con la cantidad de caída de ceniza.](images/capitulo5/espesor-ceniza-afectacion.png){#fig-espesor width="450"}
 
 ## 3.2 Efecto sobre las pasturas
 
@@ -264,9 +258,7 @@ Los impactos físicos tienden a tener un mayor impacto que la influencia químic
 
 ![Durante la evaluación y afectación por daños, se evidenció esta pradera afectada por la caída de ceniza.](images/capitulo5/pradera-ceniza-25mm-1.jpg){#fig-pradera-1 width="400"}
 
-![Otra vista de la pradera con ceniza.](images/capitulo5/pradera-ceniza-25mm-2.jpg){#fig-pradera-2 width="400"}
-
-:   Pradera afectada por la caída de ceniza con un grosor de aproximadamente 25 mm. Proceso de recuperación de más de tres meses y no apta para la ganadería. Imágenes tomadas a 10 km al noreste de la ciudad de Chaitén, capital de la Provincia de Palena, en la Región de Los Lagos, Chile. 2008. Fuente: Diego Hernández Pulido.
+![Otra vista de la pradera con ceniza. Pradera afectada por la caída de ceniza con un grosor de aproximadamente 25 mm. Proceso de recuperación de más de tres meses y no apta para la ganadería. Imágenes tomadas a 10 km al noreste de la ciudad de Chaitén, capital de la Provincia de Palena, en la Región de Los Lagos, Chile. 2008. Fuente: Diego Hernández Pulido.](images/capitulo5/pradera-ceniza-25mm-2.jpg){#fig-pradera-2 width="400"}
 
 ## 3.3 Efectos en la silvicultura
 
@@ -294,9 +286,7 @@ En la práctica, este nuevo concepto en los animales bien puede incluir nuevos e
 
 Pero aparte del imperativo humanitario, es importante pensar en la necesidad individual del animal, algo que está en el centro de la disciplina del bienestar animal. No es aceptable que los animales languidezcan en el agua durante semanas con las extremidades estropeándose lentamente, o que el ganado consuma hierba cubierta de ceniza volcánica que les tritura los dientes y se asienta como hormigón en su estómago, ojos y fosas nasales. Los animales son seres sensibles, sufren de la misma manera que las personas y, como poblaciones civilizadas, debería formar parte de nuestra responsabilidad garantizar el bienestar de las especies de las que tanto dependemos [@garden2013].
 
-![Evacuación y movilización de ganado vacuno durante la erupción del volcán Chaitén.](images/capitulo5/evacuacion-ganado-chaitén.jpg){#fig-evacuacion width="450"}
-
-:   Evacuación y movilización de ganado vacuno durante la erupción del volcán Chaitén, Chile 2008. Fuente: Diego Hernández Pulido.
+![Evacuación y movilización de ganado vacuno durante la erupción del volcán Chaitén. Evacuación y movilización de ganado vacuno durante la erupción del volcán Chaitén, Chile 2008. Fuente: Diego Hernández Pulido.](images/capitulo5/evacuacion-ganado-chaitén.jpg){#fig-evacuacion width="450"}
 
 # 5. MANEJO DE DESASTRES EN ANIMALES DE PRODUCCIÓN
 

@@ -1,7 +1,17 @@
 ---
 title: "3. Gestión del Riesgo de Desastres Comunitario a través de Cartografía Participativa y Tecnologías Abiertas en San José del Prado, Colombia"
-author: "Yessica De los ríos Olarte, Ana Milena Prada Uribe, Céline Jacquin"
-date: "2025"
+author: 
+  - name: Yessica De los ríos Olarte
+    orcid: https://orcid.org/0009-0009-1797-3451
+    affiliation: "Bióloga, Universidad de Antioquia, Medellín, Colombia" 
+    corresponding: true
+    email: "mariana.marin@hotosm.org"
+  - name: Ana Milena Prada Uribe
+    affiliation: Arquitecta, Maestra en Políticas Públicas y Urbanas, The New School, Nueva York, Estados Unidos
+  - name: Céline Jacquin
+    affiliation: "Geógrafa, Maestra en Urbanismo y Ordenamiento Territorial, Université Paris-Est/Sorbonne, París, Francia"
+    google-scholar: 7QSDAcQAAAAJ
+date: "12-01-2025"
 title-block-banner: bannerc1.png
 title-block-banner-color: "white"
 css:
@@ -25,7 +35,6 @@ format:
     title-block-banner: bannerc1.png
     colorlinks: true
     keep-tex: true
-keywords: [participatory mapping, community mapping, open technologies, drones, community participation, OpenStreetMap, disaster risk management]
 bibliography: capitulo3-references.bib
 csl: vancouver-brackets.csl
 crossref:
@@ -39,7 +48,7 @@ crossref:
 
 Desde los años 90, América Latina ha experimentado un auge en cartografía participativa y comunitaria, liderada por colectivos de investigadores, activistas y pueblos étnicos. Proyectos como la "cartografía social" y el "mapeo participativo" han sido fundamentales en las luchas y gestión del riesgo territorial de comunidades indígenas y campesinas. En años recientes, el uso de tecnologías abiertas y drones ligeros ha fomentado una mayor participación comunitaria en la gestión y prevención del riesgo de desastres. Herramientas innovadoras como OpenStreetMap (OSM) demuestran el potencial transformador de estas tecnologías, ya que permiten a las comunidades gestionar recursos, coordinar respuestas a crisis y fortalecer su resiliencia. Este estudio plantea el potencial de aplicaciones y tecnologías abiertas a través de la exposición de un caso de estudio en Medellín, San Antonio de Prado, apoyado por el Hub de Mapeo Abierto para Latinoamérica y el Caribe del Equipo de Mapeo Humanitario de OpenStreetMap (HOT) y liderado por el Semillero GeoLab (Capítulo de YouthMappers - Red Internacional de Estudiantes Universitarios - de la Universidad de Antioquia). Estas aplicaciones ofrecen a las comunidades la capacidad de adquirir competencias de gestión de datos a largo plazo, crear mapas detallados de sus vecindarios, mejorando la infraestructura local y la planificación urbana, además de proporcionar datos valiosos para la toma de decisiones, el monitoreo de cambios y el seguimiento y gestión del riesgo.
 
-**Palabras clave:** cartografía participativa, mapeo comunitario, tecnologías abiertas, drones, participación comunitaria, OpenStreetMap (OSM), pueblos indígenas y comunidades locales.
+**Palabras clave:** cartografía participativa\index{Cartografía participativa}, Mapeo comunitario\index{Mapeo comunitario}, Tecnologías abiertas\index{Tecnologías abiertas}, Drones\index{drones}, participación comunitaria\index{Participación comunitaria}, OpenStreetMap (OSM)\index{OpenStreetMap (OSM)}, pueblos indígenas\index{Pueblos indígenas} y comunidades locales\index{Comunidades locales}.
 :::
 
 ::: {#abstract}
@@ -52,26 +61,30 @@ Desde los años 90, América Latina ha experimentado un auge en cartografía par
 
 # 1. INTRODUCCIÓN
 
-Desde la década de los noventa en América Latina, ha surgido una variedad de experiencias de cartografía participativa impulsadas por colectivos compuestos por investigadores, activistas, militantes y pueblos étnicos [@basualdo2023]. Se han realizado numerosos proyectos de mapeo bajo distintas modalidades y nombres, como "cartografía social", "mapeo colectivo" o "mapeo participativo". Estas iniciativas cartográficas han sido parte integral de las luchas territoriales e identitarias de comunidades indígenas y campesinas principalmente, y han sido promovidas tanto por organizaciones comunitarias como por otros actores sociales y humanitarios.
+Desde la década de los noventa en América Latina, ha surgido una variedad de experiencias de cartografía participativa\index{Cartografía participativa} impulsadas por colectivos compuestos por investigadores, activistas, militantes y pueblos étnicos [@basualdo2023]. Se han realizado numerosos proyectos de mapeo bajo distintas modalidades y nombres, como "cartografía social", "mapeo colectivo" o "mapeo participativo". Estas iniciativas cartográficas han sido parte integral de las luchas territoriales e identitarias de comunidades indígenas y campesinas principalmente, y han sido promovidas tanto por organizaciones comunitarias como por otros actores sociales y humanitarios.
 
 Estas experiencias se desarrollan dentro de los marcos internacionales, las leyes nacionales y regulaciones emergentes, así como en línea con las mejores prácticas en materia de derechos humanos, que exigen una evaluación proactiva de los impactos potenciales de los proyectos en los derechos colectivos y territoriales. Esto implica implementar medidas para prevenir, mitigar y remediar posibles daños y pérdidas. Por ejemplo, en Europa, instrumentos como el Convenio de Aarhus y la Directiva sobre inundaciones 2007/60/CE destacan la relevancia de la participación pública y el monitoreo comunitario en la toma de decisiones y la gestión de riesgos ambientales.
 
 Asimismo, en América Latina, el Acuerdo de Escazú está siendo adoptado por varios países para garantizar desde sus marcos legales el acceso a la información, la participación ciudadana y la justicia en asuntos ambientales. En noviembre del año pasado, el Congreso de la República de Colombia aprobó la Ley 2273 de 2022, ratificando así el acuerdo.
 
-Bajo este escenario, el mapeo participativo comunitario cobra una importancia significativa, ya que se trata de un proceso en el que las personas pertenecientes a comunidades, movimientos sociales u organizaciones de la sociedad civil crean datos, mapas y sistematizan conocimientos que reflejan sus propias comprensiones territoriales, en contraste con los mapas que suelen ser producidos por el Estado, por empresas privadas o expertos de cualquier sector.
+Bajo este escenario, el mapeo participativo comunitario\index{Mapeo participativo comunitario} cobra una importancia significativa, ya que se trata de un proceso en el que las personas pertenecientes a comunidades, movimientos sociales u organizaciones de la sociedad civil crean datos, mapas y sistematizan conocimientos que reflejan sus propias comprensiones territoriales, en contraste con los mapas que suelen ser producidos por el Estado, por empresas privadas o expertos de cualquier sector.
 
 ::: {#box1 .callout-important style="background-color: #e3f0fbff; border-left: 4px solid #d4e8f9ff;" appearance="minimal" icon="false"}
-<h2 style="font-size: 1rem; margin-top: 0; margin-bottom: 0;">Caja 1: Glosario</h2>
+<h2 style="font-size: 1rem; margin-top: 0; margin-bottom: 0;">
+
+Caja 1: Glosario
+
+</h2>
 
 **Cartografía participativa:** Proceso colectivo mediante el cual miembros de una comunidad, movimientos sociales u organizaciones civiles con conocimiento profundo de un territorio dado, crean datos, mapas y conocimientos que reflejan su percepción, conocimiento y experiencia del territorio. Se contrapone a los mapas producidos exclusivamente por personas expertas o entidades oficiales, y busca redistribuir el poder cartográfico mediante metodologías inclusivas.
 
-**Comunidad**: Grupo de personas que ocupan, viven, y actúan con intencionalidad en un territorio, y comparten desde la pluralidad una identidad social, cultural o política. En el contexto de este estudio, la comunidad participa activamente en la producción de conocimiento territorial, es tanto sujeto como agente del proceso de gestión del riesgo y mapeo colaborativo.
+**Comunidad**\index{Comunidad}: Grupo de personas que ocupan, viven, y actúan con intencionalidad en un territorio, y comparten desde la pluralidad una identidad social, cultural o política. En el contexto de este estudio, la comunidad participa activamente en la producción de conocimiento territorial, es tanto sujeto como agente del proceso de gestión del riesgo y mapeo colaborativo.
 
-**Plan Municipal de Gestión del Riesgo de Desastres**: Instrumento de planificación adoptado por las autoridades locales para identificar, reducir y gestionar riesgos en el territorio. En el caso de Medellín, este plan guía las acciones institucionales y promueve la corresponsabilidad con la ciudadanía frente a amenazas naturales como los deslizamientos.
+**Plan Municipal de Gestión del Riesgo de Desastres**\index{Plan Municipal de Gestión del Riesgo de Desastres}: Instrumento de planificación adoptado por las autoridades locales para identificar, reducir y gestionar riesgos en el territorio. En el caso de Medellín, este plan guía las acciones institucionales y promueve la corresponsabilidad con la ciudadanía frente a amenazas naturales como los deslizamientos.
 
-**Percepción de la amenaza:** Comprensión subjetiva que tiene una comunidad sobre los riesgos presentes en su entorno, basada en experiencias previas, lo que incluye la mirada histórica de la comunidad, observaciones cotidianas y conocimientos locales y culturales. Esta percepción es clave para complementar las evaluaciones técnicas del riesgo, especialmente en zonas con baja cobertura institucional.
+**Percepción de la amenaza**\index{Percepción de la amenaza}: Comprensión subjetiva que tiene una comunidad sobre los riesgos presentes en su entorno, basada en experiencias previas, lo que incluye la mirada histórica de la comunidad, observaciones cotidianas y conocimientos locales y culturales. Esta percepción es clave para complementar las evaluaciones técnicas del riesgo, especialmente en zonas con baja cobertura institucional.
 
-**Principios FAIR**: Conjunto de principios que guían el manejo responsable de los datos: que sean Findable (localizables), Accessible (accesibles), Interoperable (interoperables) y Reusable (reutilizables). Su aplicación en proyectos de mapeo participativo facilita la integración de información comunitaria en sistemas técnicos y de gobernanza abierta.
+**Principios FAIR**\index{Principios FAIR}: Conjunto de principios que guían el manejo responsable de los datos: que sean Findable (localizables), Accessible (accesibles), Interoperable (interoperables) y Reusable (reutilizables). Su aplicación en proyectos de mapeo participativo facilita la integración de información comunitaria en sistemas técnicos y de gobernanza abierta.
 :::
 
 En los últimos años, este enfoque ha innovado mediante el uso de tecnologías abiertas de mapeo, que permiten contrastar y complementar los mapas "oficiales", muchas veces carentes, con el objetivo de reequilibrar el uso tradicional de la cartografía, la cual históricamente ha reforzado las relaciones establecidas de poder y el monopolio asociado a su producción. Además, esta práctica distribuye el esfuerzo cartográfico al articularse entre múltiples fuentes, que en conjunto pueden lograr un mapa más completo y con actualizaciones más frecuentes del territorio, con una mejor representatividad.
@@ -108,7 +121,7 @@ Este estudio destaca el potencial transformador de estas tecnologías cuando son
 
 Numerosas organizaciones desarrollan experiencias que combinan enfoques participativos y tecnológicos para fortalecer la autonomía territorial de las comunidades. Desde la experiencia de HOT, el mapeo y el monitoreo comunitario se entienden como procesos autónomos y periódicos, en los cuales individuos o grupos comunitarios reciben capacitaciones para el uso de aplicaciones abiertas de mapeo, y recolectan datos, información o conocimientos basados en sus propias necesidades y visiones del territorio.
 
-## 2.1 Objetivo del mapeo y monitoreo comunitario
+## 2.1 Objetivo del mapeo y monitoreo comunitario\index{Mapeo y monitoreo comunitario}
 
 El objetivo de HOT es contribuir al seguimiento y la comprensión sistematizada de las problemáticas territoriales que enfrentan las comunidades, así como de las transformaciones que ocurren en sus entornos, con el fin de favorecer una toma de decisiones más comprensiva e incluyente, ya sea a nivel individual, comunitario o institucional.
 
@@ -142,11 +155,11 @@ Una segunda categoría en el origen de los proyectos incluye aquellos que surgen
 
 En el caso del mapeo comunitario promovido desde las instituciones y las políticas públicas, HOT impulsa las siguientes dimensiones:
 
-- El compromiso público en una serie de acciones que permita un cambio de paradigma de largo plazo hacia lo colaborativo;
+-   El compromiso público en una serie de acciones que permita un cambio de paradigma de largo plazo hacia lo colaborativo;
 
-- La creación de una base de apoyo en las comunidades para la creación de datos, hacia las instituciones, camino que permite sostener una actualización de datos de calidad, reflejo del conocimiento local, incluyente, de bajo costo, y dando la perspectiva histórica que requiere una gestión más integral de riesgos y desastres;
+-   La creación de una base de apoyo en las comunidades para la creación de datos, hacia las instituciones, camino que permite sostener una actualización de datos de calidad, reflejo del conocimiento local, incluyente, de bajo costo, y dando la perspectiva histórica que requiere una gestión más integral de riesgos y desastres;
 
-- El impulso del sentimiento de apropiación por parte de la ciudadanía en el proceso de dichas políticas públicas.
+-   El impulso del sentimiento de apropiación por parte de la ciudadanía en el proceso de dichas políticas públicas.
 
 En los proyectos de mapeo comunitario impulsados por intereses colectivos, los criterios de éxito son la creación de espacios para que las personas interactúen entre los distintos sectores en presencia, intercambien, se formen, colaboren y encuentren las herramientas adecuadas para desarrollarse como colectividad. Los enfoques y competencias también quieren permitir que cada actor, junto o separado, pueda desarrollar mejor potenciales temáticas conexas.
 
@@ -162,9 +175,9 @@ Un criterio final de éxito es la capacidad de las comunidades para replicar y a
 
 Estos enfoques (impulsados desde la política pública; la ciencia; una preocupación local; o bien un interés específico) se describen y sintetizan en la @fig-tipos-monitoreo, la cual muestra el grado de colaboración y el potencial de transformación que implica cada modelo de monitoreo comunitario según cómo se concibe y desarrolla.
 
-![Tipos de monitoreo y mapeo comunitario identificados, según el tipo de actor que lo origina, su grado de co-diseño, y el potencial transformativo que puede alcanzar. Fuente: realización propia.](images/capitulo3/tipos-monitoreo-comunitario.png){#fig-tipos-monitoreo width="383"}
+![Tipos de monitoreo y mapeo comunitario identificados, según el tipo de actor que lo origina, su grado de co-diseño, y el potencial transformativo que puede alcanzar. Fuente: realización propia.](images/capitulo3/tipos-monitoreo-comunitario.png){#fig-tipos-monitoreo width="700"}
 
-## 2.2 Gobernanza abierta e inclusiva
+## 2.2 Gobernanza abierta e inclusiva \index{Gobernanza abierta e inclusiva}
 
 Antes de adentrarnos en el estudio del caso de San Antonio de Prado, es importante señalar cómo la investigación reciente ha analizado la influencia de los avances tecnológicos, como los sistemas de información geográfica, en la participación comunitaria [@wehn2014]. Por ejemplo, el trabajo de Wehn, titulado *Citizen Observatories of Water: Social Innovation via eParticipation?*, establece que, aunque el mapeo comunitario tiene un potencial significativo, no garantiza por sí solo una mayor participación activa de la ciudadanía en la gestión del riesgo de inundaciones, ni mejora automáticamente la comunicación entre las partes interesadas. Esto ocurre especialmente cuando no existe un trabajo en red ni una gobernanza sólida que promueva la participación temprana a lo largo de todo el proceso de construcción de la gestión local.
 
@@ -178,17 +191,17 @@ En algunos casos, los proyectos de cartografía colaborativa han surgido como re
 
 En otros casos, donde la dinámica no responde a una demanda urgente y consensuada de una comunidad, sino a un reto territorial de más largo plazo y alejado de la cotidianidad inmediata, los desafíos incluyen:
 
-- Mantener la participación y la capacitación constante de los mapeadores locales;
+-   Mantener la participación y la capacitación constante de los mapeadores locales;
 
-- Sostener los esfuerzos comunitarios mediante su formalización, lo que puede implicar dificultades financieras;
+-   Sostener los esfuerzos comunitarios mediante su formalización, lo que puede implicar dificultades financieras;
 
-- Enfocar los proyectos en lograr un impacto concreto a través de una colaboración integral con las autoridades territoriales, desarrollando la capacidad comunitaria para gestionar proyectos y dialogar con las instituciones.
+-   Enfocar los proyectos en lograr un impacto concreto a través de una colaboración integral con las autoridades territoriales, desarrollando la capacidad comunitaria para gestionar proyectos y dialogar con las instituciones.
 
 Estas cuestiones son fundamentales para garantizar la continuidad y la efectividad de la gobernanza abierta.
 
 Aunque OSM cuenta con una comunidad sólida de usuarios regionales y finales, con miles de voluntarios regulares, persiste la necesidad de motivar constantemente el esfuerzo de mapeo remoto en OSM. Cuando se trata de trabajar en países en vías de desarrollo, este problema se agudiza aún más por la brecha técnica y de conectividad en estas regiones, además de la limitada capacidad de voluntariado en contexto de relativa pobreza.
 
-# 3. CASO DE ESTUDIO: SAN ANTONIO, TECNOLOGÍAS ABIERTAS Y DRONES
+# 3. CASO DE ESTUDIO: SAN ANTONIO, TECNOLOGÍAS ABIERTAS Y DRONES\index{Drones}
 
 San Antonio de Prado es un corregimiento municipal (división rural de un municipio) ubicado al suroccidente de la ciudad de Medellín, caracterizado por frecuentes reportes de amenazas naturales [@alcaldiamedellin2024planeacion; @espectador2022mayo; @espectador2022julio; @telemedellin2022mayo; @telemedellin2022septiembre]. Recientemente, el Departamento Administrativo de Gestión del Riesgo (DAGRD) lo ha reconocido como uno de los sectores de la ciudad con alta vulnerabilidad a deslizamientos [@dagrd2022].
 
@@ -208,7 +221,7 @@ Con base en lo anterior, el objetivo fue contribuir, a través del mapeo abierto
 
 Esta contribución fue clave para apoyar las estrategias del Plan Municipal de Gestión del Riesgo de Desastres de Medellín, en términos de apropiación y corresponsabilidad frente a la amenaza y la vulnerabilidad [@planmunicipalriesgo2024], buscando articular a la comunidad con las autoridades locales en el manejo de riesgos de desastres.
 
-![Amenazas por movimiento en masa en Medellín, localizando el corregimiento de San Antonio de Prado. Creación propia. Datos tomados del catálogo geográfico de Medellín.](images/capitulo3/amenazas-san-antonio.png){#fig-amenazas-medellin width="383"}
+![Amenazas por movimiento en masa en Medellín, localizando el corregimiento de San Antonio de Prado. Creación propia. Datos tomados del catálogo geográfico de Medellín.](images/capitulo3/amenazas-san-antonio.png){#fig-amenazas-medellin width="500"}
 
 ## 3.1 Metodología
 
@@ -240,19 +253,19 @@ Es importante considerar este tipo de situaciones como parte de las estrategias 
 
 En cuanto a las sesiones de capacitación, se buscó familiarizar y entrenar a la comunidad en trabajo colaborativo y herramientas para el mapeo participativo. Se realizaron alrededor de 10 reuniones entre el 10 de octubre de 2023 y el 15 de diciembre de 2023, enfocadas en familiarizar a las personas con herramientas geoespaciales y colaborativas abiertas (OSM, Mapillary y KoboToolbox) para actualizar cartografía.
 
-![Capacitación en OSM con miembros del casco urbano de San Antonio de Prado y representante de equipo social del DAGRD en el Centro de Desarrollo Social (CDS) (octubre 2023).](images/capitulo3/capacitacion-osm.jpg){#fig-capacitacion-osm width="383"}
+![Capacitación en OSM con miembros del casco urbano de San Antonio de Prado y representante de equipo social del DAGRD en el Centro de Desarrollo Social (CDS) (octubre 2023).](images/capitulo3/capacitacion-osm.jpg){#fig-capacitacion-osm width="500"}
 
 La capacitación se organizó con el apoyo de un tallerista y de miembros del capítulo GeoLab, quienes colaboraron en la estructuración de los talleres realizados en la sala múltiple del Centro de Desarrollo Social de San Antonio de Prado.
 
 Las sesiones se desarrollaron en ciclos de dos talleres, abordando los siguientes temas:
 
-1. Introducción al mapeo colaborativo y a la cartografía.
+1.  Introducción al mapeo colaborativo y a la cartografía.
 
-2. Herramientas geoespaciales abiertas para la actualización de información geográfica, incluyendo Kobo, Mapillary y la plataforma OpenStreetMap.
+2.  Herramientas geoespaciales abiertas para la actualización de información geográfica, incluyendo Kobo, Mapillary y la plataforma OpenStreetMap.
 
-3. Características y potencialidades de OpenStreetMap, su comunidad, base de datos y principios para el ingreso de información.
+3.  Características y potencialidades de OpenStreetMap, su comunidad, base de datos y principios para el ingreso de información.
 
-4. Edición cartográfica en el mapa abierto mediante el editor OSM iD [@osm2024].
+4.  Edición cartográfica en el mapa abierto mediante el editor OSM iD [@osm2024].
 
 Posteriormente, se guió al grupo de participantes a una salida de campo para mapear la zona donde se obtuvieron los registros con Kobo, acompañados por miembros de GeoLab. También se organizó una sesión complementaria de cartografía a distancia, realizada por el mismo grupo.
 
@@ -278,21 +291,21 @@ Uno de los aspectos clave en el uso de esta aplicación para generar informació
 
 Si bien la información registrada y percibida únicamente por la comunidad es valiosa y ha generado hallazgos relevantes (ver análisis y resultados), la experiencia demuestra que es recomendable que los datos recolectados respondan no solo a las necesidades y preocupaciones comunitarias orientadas a la autogestión, sino que también sean útiles para satisfacer criterios técnicos. Esto permite una mejor articulación con las autoridades y facilita la vigilancia periódica por parte de un cuerpo técnico especializado en la amenaza presente en la zona.
 
-### 3.1.4 Generación de Ortofoto
+### 3.1.4 Generación de Ortofoto\index{Ortofoto}
 
 La actualización cartográfica de cuatro veredas en OpenStreetMap (OSM) se llevó a cabo utilizando una imagen digital de Medellín de 2021 [@ortofotomedellin2021] y una ortofoto complementaria generada con dron como parte de este proyecto, en noviembre de 2023 [@ortofotoproyecto2023]. Esta última fue producida para una de las zonas afectadas por deslizamientos, con el objetivo de mejorar la resolución de referencia y establecer una base de observación para monitorear la evolución del área.
 
 El proceso se desarrolló en varias etapas:
 
-1. Delimitación del área potencial: Se trazó una circunferencia (color negro, @fig-area-mapeo-dron) en una de las reuniones con la comunidad, considerando registros de deslizamientos conocidos, la percepción local del riesgo (datos almacenados en KoboToolbox), y las sugerencias comunitarias sobre áreas afectadas.
+1.  Delimitación del área potencial: Se trazó una circunferencia (color negro, @fig-area-mapeo-dron) en una de las reuniones con la comunidad, considerando registros de deslizamientos conocidos, la percepción local del riesgo (datos almacenados en KoboToolbox), y las sugerencias comunitarias sobre áreas afectadas.
 
-2. Reconocimiento de la zona: Se identificaron condiciones de accesibilidad, necesidades logísticas y la extensión adecuada de la ortofoto. A través de las aplicaciones Mapillary y OSMTracker, se capturaron secuencias de imágenes a nivel de calle y se registraron puntos potenciales para el vuelo del dron (lugares accesibles, con buena visibilidad panorámica, poco cableado, etc.).
+2.  Reconocimiento de la zona: Se identificaron condiciones de accesibilidad, necesidades logísticas y la extensión adecuada de la ortofoto. A través de las aplicaciones Mapillary y OSMTracker, se capturaron secuencias de imágenes a nivel de calle y se registraron puntos potenciales para el vuelo del dron (lugares accesibles, con buena visibilidad panorámica, poco cableado, etc.).
 
-3. Exploración y análisis de la información: Se realizó un cruce de datos entre los puntos de interés, las imágenes de Mapillary y la información comunitaria para definir un polígono óptimo para la generación de la ortofoto, considerando principalmente la accesibilidad y la logística del vuelo.
+3.  Exploración y análisis de la información: Se realizó un cruce de datos entre los puntos de interés, las imágenes de Mapillary y la información comunitaria para definir un polígono óptimo para la generación de la ortofoto, considerando principalmente la accesibilidad y la logística del vuelo.
 
 Este proceso derivó en la delimitación de un área de 150 hectáreas (polígono amarillo, @fig-area-mapeo-dron).
 
-![Área delimitada para mapeo con dron basado en registros comunitarios de amenazas de deslizamiento.](images/capitulo3/area-delimitada-dron.png){#fig-area-mapeo-dron width="383"}
+![Área delimitada para mapeo con dron basado en registros comunitarios de amenazas de deslizamiento.](images/capitulo3/area-delimitada-dron.png){#fig-area-mapeo-dron width="500"}
 
 Finalmente, para la ejecución de los vuelos con dron fue necesario dividir el área de mapeo en tres zonas, utilizando tres rangos de altitud diferenciados (cada uno de 100 m). Esta estrategia permitió evitar colisiones, dado que se trata de una zona montañosa (@fig-clasificacion-alturas).
 
@@ -300,7 +313,7 @@ La información topográfica fue obtenida a partir de un modelo de elevación di
 
 Los vuelos se realizaron utilizando la aplicación Pix4D Capture. Antes de las misiones principales, se realizaron pruebas para evaluar el comportamiento del dron e identificar posibles riesgos durante los vuelos. Las imágenes obtenidas se procesaron posteriormente en el software Agisoft para generar la ortofoto final.
 
-![Clasificación de alturas de las áreas de interés: izquierda; polígono de mapeo con zonas alta, media y baja (2185-2085 m, 2085-1985 m, 1965-1865 m, respectivamente). Derecha: Ortofoto de referencia.](images/capitulo3/clasificacion-alturas.png){#fig-clasificacion-alturas width="383"}
+![Clasificación de alturas de las áreas de interés: izquierda; polígono de mapeo con zonas alta, media y baja (2185-2085 m, 2085-1985 m, 1965-1865 m, respectivamente). Derecha: Ortofoto de referencia.](images/capitulo3/clasificacion-alturas.png){#fig-clasificacion-alturas width="500"}
 
 Aunque el conocimiento local es fundamental para la delimitación del área potencial de mapeo, se recomienda incluir también la participación de un cuerpo técnico de la institución encargada de la gestión del riesgo, que pueda aportar información sobre registros de amenazas, así como la ubicación de zonas críticas y vulnerables en el territorio. Esta articulación permitiría, en condiciones ideales, definir el área de vuelo a partir del solapamiento entre la información comunitaria y los criterios técnicos, facilitando una mejor priorización del área de intervención.
 
@@ -316,7 +329,7 @@ La tercera fase consistió en un mapeo remoto final, desarrollado a lo largo de 
 
 Si bien Kobo Collect también fue utilizado para registrar fotografías, características y coordenadas de edificaciones, su fortaleza se centró en el almacenamiento y análisis desde su interfaz, aunque no resultó adecuada para enlazar directamente la información al mapa abierto de OSM.
 
-![Edición de OpenStreetMap en Id Editor utilizando la Ortofoto generada y las fotografías de Mapillary vinculadas a la misma plataforma (puntos verdes).](images/capitulo3/edicion-osm.png){#fig-edicion-osm width="383"}
+![Edición de OpenStreetMap en Id Editor utilizando la Ortofoto generada y las fotografías de Mapillary vinculadas a la misma plataforma (puntos verdes).](images/capitulo3/edicion-osm.png){#fig-edicion-osm width="500"}
 
 ### 3.1.6 Limitaciones de esta metodología
 
@@ -346,7 +359,7 @@ Esta información puede ser útil para identificar zonas con tendencia a la rept
 
 Aunque el efecto destructivo de este tipo de fenómeno suele ser bajo, los costos asociados a la reparación de vías o caminos pueden ser elevados, debido a que afecta tramos considerables, a veces de varios kilómetros, a lo largo de carreteras [@sgc2017]. El alto número de registros ubicados a lo largo de las vías recorridas sugiere la conveniencia de establecer un monitoreo frecuente, utilizando aplicaciones como Mapillary, para evaluar si se requiere una intervención preventiva o correctiva.
 
-![Registros (en naranja) de percepción de amenaza de deslizamiento tomados por la comunidad usando KoboToolbox.](images/capitulo3/registros-amenaza.png){#fig-registros-amenaza width="383"}
+![Registros (en naranja) de percepción de amenaza de deslizamiento tomados por la comunidad usando KoboToolbox.](images/capitulo3/registros-amenaza.png){#fig-registros-amenaza width="500"}
 
 Los registros recopilados en esta etapa no contaron con un filtro técnico por parte de la institución responsable de la gestión del riesgo. Sin embargo, es fundamental no subestimar su relevancia, tanto para el sector comunitario, que observa, se preocupa y registra, como para la institución, que verifica e interviene.
 
@@ -360,7 +373,7 @@ En este análisis, todos los registros, tanto deslizamientos ocurridos como punt
 
 Comparar estos registros con variables físicas y topográficas puede contribuir a la identificación de patrones útiles para predecir deslizamientos, y, eventualmente, derivar en recomendaciones o normativas para un uso del suelo más adecuado.
 
-![Mapas de aspecto, pendiente e Índice topográfico de humedad generados a partir de las ortofotos creadas en el proyecto.](images/capitulo3/mapas-variables.png){#fig-mapas-variables width="383"}
+![Mapas de aspecto, pendiente e Índice topográfico de humedad generados a partir de las ortofotos creadas en el proyecto.](images/capitulo3/mapas-variables.png){#fig-mapas-variables width="500"}
 
 A partir de las imágenes de la ortofoto y el análisis de las variables consideradas, se obtuvieron varios hallazgos relevantes. El índice topográfico de humedad fue mayor en zonas donde se observaron cordones lineales de árboles, ubicados principalmente en las partes más bajas de las laderas. Esta variable ha mostrado un incremento asociado al aumento de deslizamientos, y es reconocida como un indicador de alta saturación de agua en el suelo [@tempa2021].
 
@@ -370,7 +383,7 @@ Esto se evidenció en algunas revisiones realizadas mediante buffers de 200 m al
 
 Lo anterior resalta la necesidad de implementar medidas que fortalezcan los servicios de regulación del suelo, mediante infraestructura verde y estrategias de conservación de bosques, modelos que ya han demostrado que contribuyen significativamente a la reducción del riesgo de deslizamientos en zonas montañosas [@marin2020].
 
-![Caracterización de la localidad en relación con su topografía. Del lado izquierdo: Edificaciones mapeadas en café sobre la capa de índice topográfico de humedad (ITH). Las flechas negras señalan los valores altos del ITH en cordones de árboles, señalados también en la imagen de la derecha. Abajo, de ver el perfil topográfico de la zona en un corte vertical.](images/capitulo3/caracterizacion-topografia.png){#fig-caracterizacion-localidad width="383"}
+![Caracterización de la localidad en relación con su topografía. Del lado izquierdo: Edificaciones mapeadas en café sobre la capa de índice topográfico de humedad (ITH). Las flechas negras señalan los valores altos del ITH en cordones de árboles, señalados también en la imagen de la derecha. Abajo, de ver el perfil topográfico de la zona en un corte vertical.](images/capitulo3/caracterizacion-topografia.png){#fig-caracterizacion-localidad width="500"}
 
 Estos resultados reflejan la importancia de incorporar una mirada comunitaria en la comprensión de la amenaza por deslizamiento, con el objetivo de facilitar una planificación del riesgo más integral en colaboración con las autoridades.
 
@@ -405,55 +418,41 @@ Como hemos demostrado en esta contribución, las herramientas pertinentes de map
 Las más importantes lecciones aprendidas en el proceso expuesto se sintetizan a continuación.
 
 ::: {#puntos-clave .callout-important style="background-color: #f8f0ddff; border-left: 4px solid #f7eed3ff;" appearance="minimal" icon="false"}
-<h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0;">Puntos Clave</h2>
-
-1. La definición conjunta, intersectorial e integral de la situación a tratar, así como los problemas a priorizar y sus diferentes dimensiones, requiere la construcción inicial de un proceso integral de co-formulación del problema, centrado en la comunidad. Este proceso no debe estar limitado a los mecanismos tradicionales de consulta, sino que debe permitir a los sectores expresar y desarrollar sus perspectivas en un mismo plano. El problema y los ángulos a tratar provienen de esta co-construcción.
-
-2. La gobernanza efectiva de los datos, junto con una colaboración activa entre todos los actores involucrados, resulta esencial para optimizar recursos y garantizar la sostenibilidad a largo plazo en la reducción y gestión del riesgo de desastres. Esto requiere el diagnóstico e identificación clara de las necesidades técnicas y de datos, así como de los enfoques de cada sector participante, y la definición del camino más óptimo para la gestión de información con una visión a largo plazo.
-
-3. La capacitación continua con enfoque comunitario emerge como un pilar fundamental para definir con la mayor pertinencia cultural y práctica las herramientas a utilizar y maximizar su utilidad. Esto posibilita una formación permanente en técnicas de recolección y análisis de datos, fortaleciendo así las capacidades de respuesta de las comunidades y, junto con ellas, las instituciones, ante situaciones de emergencia.
-
-4. La interoperabilidad de los modelos de datos, respaldada por sistemas diseñados para facilitar el intercambio e integración de información entre diferentes plataformas, se erige como un elemento fundamental en el monitoreo continuo y la evaluación de los riesgos asociados a desastres. El alojamiento de la información y los productos relacionados debe ser planteado estratégicamente para trascender cambios políticos y de liderazgo, además de posibles daños y pérdidas materiales.
-
-5. Los incentivos y claros espacios de crecimiento profesional destinados al voluntariado desempeñan un papel indispensable en la participación en las distintas actividades de recolección y análisis de datos, al tiempo que fomentan un sentido de comunidad y responsabilidad compartida en la gestión del riesgo de desastres. Invertir esfuerzo en que las personas participantes crezcan es un elemento clave para la instalación y arraigo del conocimiento en las comunidades, y una palanca para posibles réplicas en más comunidades.
-
-6. La apropiación social del conocimiento no solo permite una gestión más eficaz del mismo, sino que también facilita la mitigación del riesgo de desastres al promover una mayor conciencia y participación comunitaria en la prevención y respuesta ante emergencias.
-
-7. La adopción de aplicaciones y datos abiertos no solo reduce significativamente los costos vinculados al seguimiento y monitoreo del riesgo, sino que también democratiza el acceso a tecnologías y conocimientos, promoviendo así la participación inclusiva de las comunidades en la gestión y mitigación de riesgos. Además, hace público el resultado, limitando el riesgo de cierre de la información en silos.
-
-8. La restitución de resultados ante los actores participantes del proceso, y la socialización de insumos y productos son esenciales. Idealmente, se provee un acompañamiento a los diferentes actores para la inserción de estos en el proceso de toma de decisiones, lo cual es una oportunidad para fortalecer la instalación de competencias y el desarrollo de competencias técnicas adicionales y complementarias.
+<h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0;">
+Puntos Clave
+</h2>
+1.  La definición conjunta, intersectorial e integral de la situación a tratar, así como los problemas a priorizar y sus diferentes dimensiones, requiere la construcción inicial de un proceso integral de co-formulación del problema, centrado en la comunidad. Este proceso no debe estar limitado a los mecanismos tradicionales de consulta, sino que debe permitir a los sectores expresar y desarrollar sus perspectivas en un mismo plano. El problema y los ángulos a tratar provienen de esta co-construcción.
+2.  La gobernanza efectiva de los datos, junto con una colaboración activa entre todos los actores involucrados, resulta esencial para optimizar recursos y garantizar la sostenibilidad a largo plazo en la reducción y gestión del riesgo de desastres. Esto requiere el diagnóstico e identificación clara de las necesidades técnicas y de datos, así como de los enfoques de cada sector participante, y la definición del camino más óptimo para la gestión de información con una visión a largo plazo.
+3.  La capacitación continua con enfoque comunitario emerge como un pilar fundamental para definir con la mayor pertinencia cultural y práctica las herramientas a utilizar y maximizar su utilidad. Esto posibilita una formación permanente en técnicas de recolección y análisis de datos, fortaleciendo así las capacidades de respuesta de las comunidades y, junto con ellas, las instituciones, ante situaciones de emergencia.
+4.  La interoperabilidad de los modelos de datos, respaldada por sistemas diseñados para facilitar el intercambio e integración de información entre diferentes plataformas, se erige como un elemento fundamental en el monitoreo continuo y la evaluación de los riesgos asociados a desastres. El alojamiento de la información y los productos relacionados debe ser planteado estratégicamente para trascender cambios políticos y de liderazgo, además de posibles daños y pérdidas materiales.
+5.  Los incentivos y claros espacios de crecimiento profesional destinados al voluntariado desempeñan un papel indispensable en la participación en las distintas actividades de recolección y análisis de datos, al tiempo que fomentan un sentido de comunidad y responsabilidad compartida en la gestión del riesgo de desastres. Invertir esfuerzo en que las personas participantes crezcan es un elemento clave para la instalación y arraigo del conocimiento en las comunidades, y una palanca para posibles réplicas en más comunidades.
+6.  La apropiación social del conocimiento no solo permite una gestión más eficaz del mismo, sino que también facilita la mitigación del riesgo de desastres al promover una mayor conciencia y participación comunitaria en la prevención y respuesta ante emergencias.
+7.  La adopción de aplicaciones y datos abiertos no solo reduce significativamente los costos vinculados al seguimiento y monitoreo del riesgo, sino que también democratiza el acceso a tecnologías y conocimientos, promoviendo así la participación inclusiva de las comunidades en la gestión y mitigación de riesgos. Además, hace público el resultado, limitando el riesgo de cierre de la información en silos.
+8.  La restitución de resultados ante los actores participantes del proceso, y la socialización de insumos y productos son esenciales. Idealmente, se provee un acompañamiento a los diferentes actores para la inserción de estos en el proceso de toma de decisiones, lo cual es una oportunidad para fortalecer la instalación de competencias y el desarrollo de competencias técnicas adicionales y complementarias.
 :::
 
 ::: {#preguntas .callout-important style="background-color: #f3eaf8ff; border-left: 4px solid #efe3f7ff;" appearance="minimal" icon="false"}
-<h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0;">Preguntas por resolver</h2>
-
-1. ¿Qué actores son los actores pertinentes en la gobernanza del problema de interés?
-
-2. ¿Cómo se puede garantizar la participación inclusiva y representativa de un conjunto amplio y diverso de los miembros de la comunidad en el proceso de mapeo y monitoreo?
-
-3. ¿Qué recursos técnicos y humanos son necesarios para llevar a cabo un proceso efectivo de mapeo y monitoreo comunitario?
-
-4. ¿Qué herramientas tecnológicas o metodologías son más adecuadas, desde las características sociales y culturales, para recopilar y analizar datos durante el proceso de mapeo y monitoreo comunitario y para poder ser usadas en futuros otros problemas?
-
-5. ¿Cuál es el papel de las autoridades locales y otras partes interesadas en apoyar y utilizar los resultados del mapeo y monitoreo comunitario?
-
-6. ¿Cómo se puede asegurar la sostenibilidad a largo plazo del proceso de mapeo y monitoreo comunitario, incluyendo la capacitación continua y el mantenimiento de la base de datos?
+<h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0;">
+Preguntas por resolver
+</h2>
+1.  ¿Qué actores son los actores pertinentes en la gobernanza del problema de interés?
+2.  ¿Cómo se puede garantizar la participación inclusiva y representativa de un conjunto amplio y diverso de los miembros de la comunidad en el proceso de mapeo y monitoreo?
+3.  ¿Qué recursos técnicos y humanos son necesarios para llevar a cabo un proceso efectivo de mapeo y monitoreo comunitario?
+4.  ¿Qué herramientas tecnológicas o metodologías son más adecuadas, desde las características sociales y culturales, para recopilar y analizar datos durante el proceso de mapeo y monitoreo comunitario y para poder ser usadas en futuros otros problemas?
+5.  ¿Cuál es el papel de las autoridades locales y otras partes interesadas en apoyar y utilizar los resultados del mapeo y monitoreo comunitario?
+6.  ¿Cómo se puede asegurar la sostenibilidad a largo plazo del proceso de mapeo y monitoreo comunitario, incluyendo la capacitación continua y el mantenimiento de la base de datos?
 :::
 
 ::: {#recomendaciones .callout-important style="background-color: #f8dedcff; border-left: 4px solid #fad4d1ff;" appearance="minimal" icon="false"}
-<h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0;">Recomendaciones para tomar decisiones</h2>
-
-1. Establecer desde el inicio de proyectos de mapeo comunitario una gobernanza compartida que incluya a representantes de la comunidad, autoridades técnicas locales (DAGRD u otras entidades de gestión del riesgo) y organizaciones facilitadoras, para garantizar que los datos generados respondan tanto a necesidades comunitarias como a criterios técnicos institucionales.
-
-2. Diseñar protocolos de recolección de datos que cumplan con estándares técnicos de las instituciones responsables de la gestión del riesgo, pero que sean accesibles y comprensibles para las comunidades, asegurando su aplicabilidad tanto para la autogestión comunitaria como para procesos oficiales de monitoreo y respuesta.
-
-3. Implementar estrategias de diversificación del liderazgo comunitario y ampliar la base de participantes, considerando factores como edad, género, ocupación, alfabetización digital y acceso a tecnología, para garantizar la sostenibilidad y representatividad de los proyectos de mapeo a largo plazo.
-
-4. Establecer mecanismos de capacitación continua y acompañamiento técnico que permitan a las comunidades mantener y actualizar las bases de datos geográficas de manera autónoma, promoviendo la apropiación del conocimiento y la replicabilidad de metodologías en otros territorios o problemáticas.
-
-5. Garantizar que la información generada en proyectos de mapeo comunitario se aloje en plataformas abiertas e interoperables (como OpenStreetMap), siguiendo los principios FAIR, para facilitar su acceso, reutilización y actualización por parte de múltiples actores, trascendiendo cambios políticos y administrativos.
-
-6. Desarrollar productos de comunicación y visualización de datos que sean culturalmente pertinentes y accesibles para diferentes audiencias, con el fin de facilitar la socialización de resultados y la toma de decisiones informadas tanto a nivel comunitario como institucional.
+<h2 style="font-size: 1.5rem; margin-top: 0; margin-bottom: 0;">
+Recomendaciones para tomar decisiones
+</h2>
+1.  Establecer desde el inicio de proyectos de mapeo comunitario una gobernanza compartida que incluya a representantes de la comunidad, autoridades técnicas locales (DAGRD u otras entidades de gestión del riesgo) y organizaciones facilitadoras, para garantizar que los datos generados respondan tanto a necesidades comunitarias como a criterios técnicos institucionales.
+2.  Diseñar protocolos de recolección de datos que cumplan con estándares técnicos de las instituciones responsables de la gestión del riesgo, pero que sean accesibles y comprensibles para las comunidades, asegurando su aplicabilidad tanto para la autogestión comunitaria como para procesos oficiales de monitoreo y respuesta.
+3.  Implementar estrategias de diversificación del liderazgo comunitario y ampliar la base de participantes, considerando factores como edad, género, ocupación, alfabetización digital y acceso a tecnología, para garantizar la sostenibilidad y representatividad de los proyectos de mapeo a largo plazo.
+4.  Establecer mecanismos de capacitación continua y acompañamiento técnico que permitan a las comunidades mantener y actualizar las bases de datos geográficas de manera autónoma, promoviendo la apropiación del conocimiento y la replicabilidad de metodologías en otros territorios o problemáticas.
+5.  Garantizar que la información generada en proyectos de mapeo comunitario se aloje en plataformas abiertas e interoperables (como OpenStreetMap), siguiendo los principios FAIR, para facilitar su acceso, reutilización y actualización por parte de múltiples actores, trascendiendo cambios políticos y administrativos.
+6.  Desarrollar productos de comunicación y visualización de datos que sean culturalmente pertinentes y accesibles para diferentes audiencias, con el fin de facilitar la socialización de resultados y la toma de decisiones informadas tanto a nivel comunitario como institucional.
 :::
 
 # AGRADECIMIENTOS
@@ -472,9 +471,9 @@ Los autores utilizaron herramientas de inteligencia artificial (IA) en el proces
 
 # IDENTIFICACIÓN DE AUTORES
 
-- Yessica De los ríos Olarte: <https://orcid.org/0009-0009-1797-3451>
-- Ana Milena Prada Uribe: N/A
-- Céline Jacquin: <https://scholar.google.com/citations?user=célinejacquin&user=7QSDAcQAAAAJ>
+-   Yessica De los ríos Olarte: <https://orcid.org/0009-0009-1797-3451>
+-   Ana Milena Prada Uribe: N/A
+-   Céline Jacquin: <https://scholar.google.com/citations?user=célinejacquin&user=7QSDAcQAAAAJ>
 
 # DECLARACIÓN DE AUTORÍA CRediT
 
