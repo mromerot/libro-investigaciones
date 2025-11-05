@@ -1,7 +1,15 @@
 ---
 title: "2. Enfoque etnodiferencial y riesgo de desastre en Colombia: líneas de fuga para una digna vida"
-author: "William Oswaldo Gaviria-Gutiérrez, Lina Andrea Zambrano-Hernández"
-date: "2025"
+author:
+  - name: William Oswaldo Gaviria-Gutiérrez ^1^
+    orcid: 0000-0003-4228-4665
+    affiliation: "^1^Observatorio Psicosocial para la Gestión del Riesgo de Desastres, Facultad de Ciencias Sociales y Humanas, Programa de Psicología, Universidad de Manizales. Cra 9a 19-03, Manizales, Colombia" 
+    corresponding: true
+    email: "wgaviria@umanizales.edu.co"
+  - name: Lina Andrea Zambrano-Hernández ^1^
+    orcid: 0000-0002-6151-9148
+
+date: "12-01-2025"
 title-block-banner: bannerc1.png
 title-block-banner-color: "white"
 css:
@@ -25,7 +33,7 @@ format:
     title-block-banner: bannerc1.png
     colorlinks: true
     keep-tex: true
-keywords: [subalternization, risk management, ethno-differential, diversity, justice]
+
 bibliography: capitulo2-references.bib
 csl: vancouver-brackets.csl
 crossref:
@@ -39,7 +47,7 @@ crossref:
 
 En Colombia, la gestión del riesgo de desastres ha reflejado la subalternización histórica de las voces comunitarias al percibir la diferencia cultural como un obstáculo en lugar de una potencialidad. Este reflejo es posible en tanto se ha sostenido un orden social que privilegia la homogenización por encima de las realidades situadas. Para reconfigurar esta práctica relacional, es prioritario reconocer la riqueza inherente a las comunidades. Dada la constante exposición del país a fenómenos naturales, un enfoque que trascienda la recopilación de datos es fundamental. Este estudio abordó las posibilidades de articulación del enfoque etnodiferencial en la Gestión del Riesgo de Desastres (GRD) en Colombia. Para ello, se desarrolló una investigación de corte cualitativo que incluyó la realización de seis grupos focales y catorce entrevistas a profundidad con representantes comunitarios e institucionales. Estos instrumentos permitieron explorar la diversidad de perspectivas sobre el desastre y facilitaron el surgimiento de conocimientos arraigados en el diálogo y la interacción, visibilizando las voces históricamente silenciadas. El principal hallazgo implica reconocer que desmantelar la noción de subalternidad y adoptar una visión diversa no solo conduce a una reducción del sufrimiento, sino que también promueve la justicia, la dignidad y el reconocimiento de todas las voces. En conclusión, la investigación demostró que el enfoque etnodiferencial puede redefinir la GRD al centrarse en el diálogo y el respeto por la diversidad como elementos esenciales para transformar la relación entre las comunidades y las instituciones. Esta perspectiva tensiona los límites tradicionales de la gestión del riesgo, abriendo el camino hacia un proceso auténticamente humano. Se confirma que cada cultura y experiencia comunitaria aporta un valor único al panorama general, lo que permite una comprensión integral y una respuesta eficaz a los desastres.
 
-**Palabras clave:** subalternización\index{subalternización}, gestión del riesgo de desastres\index{gestión del riesgo de desastres}, etnodiferencial\index{etnodiferencial}, diversidad\index{diversidad}, justicia\index{justicia}.
+**Palabras clave:** subalternización\index{Subalternización}, gestión del riesgo de desastres\index{Gestión del riesgo de desastres}, etnodiferencial\index{Etnodiferencial}, diversidad\index{Diversidad}, justicia\index{Justicia}.
 :::
 
 ::: {#abstract}

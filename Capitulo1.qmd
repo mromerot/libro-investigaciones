@@ -38,7 +38,7 @@ format:
     title-block-banner: bannerc1.png
     colorlinks: true
     keep-tex: true
-keywords: [Resiliencia, Apropiación Social del Conocimiento, SIATA, fortalecimiento ciudadano, eventos hidrometeorológicos extremos]
+
 bibliography: capitulo1-references.bib
 csl: vancouver-brackets.csl
 crossref:
