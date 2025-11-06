@@ -1,6 +1,9 @@
 ---
 title: "4. Evaluación multitemporal de la resiliencia comunitaria ante eventos tecnológicos en la Comuna 10 del municipio de Dosquebradas"
-author: "Evelin Langebeck Cuéllar & Nicolás Giraldo Hernández"
+author:
+  - name: Evelin Langebeck Cuéllar
+    orcid: 0000-0003-2243-0899
+  - name: Nicolás Giraldo Hernández
 date: "2025"
 title-block-banner: bannerc1.png
 title-block-banner-color: "white"
@@ -764,7 +767,7 @@ Queremos agradecer a los líderes de la Comuna 10 del municipio de Dosquebradas,
 
 **Evelin Langebeck Cuéllar**
 
-<https://scholar.google.es/citations?user=FzyY5g8AAAAJ&hl=es>
+<https://orcid.org/0000-0003-2243-0899>
 
 **Nicolás Giraldo Hernández**
 
