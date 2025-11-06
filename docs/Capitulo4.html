@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -128,6 +163,8 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="custom.css">
@@ -358,7 +395,7 @@ Caja 1. Desastre tecnológico en la Comuna 10 de Dosquebradas en el año 2011
 <div id="fig-desastre2011" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-desastre2011-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/capitulo4/desastre-2011-villa-carola.png" class="img-fluid figure-img" width="500">
+<img src="images/capitulo4/Figura Caja 1. Sitio del evento en Villa Carola 2011.png" class="img-fluid figure-img" width="500">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-desastre2011-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;1: Escena del desastre tecnológico de 2011 en Villa Carola, Dosquebradas.
@@ -380,7 +417,7 @@ Figura&nbsp;1: Escena del desastre tecnológico de 2011 en Villa Carola, Dosqueb
 <div id="fig-mapa-dosquebradas" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-mapa-dosquebradas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/capitulo4/mapa-dosquebradas-comuna10.jpg" class="img-fluid figure-img" width="600">
+<img src="images/capitulo4/Figura 1. Mapa de localización del municipio de Dosquebradas.png" class="img-fluid figure-img" width="600">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-mapa-dosquebradas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;2: Mapa de localización del municipio de Dosquebradas y la Comuna 10.
@@ -390,7 +427,7 @@ Figura&nbsp;2: Mapa de localización del municipio de Dosquebradas y la Comuna 1
 </section>
 <section id="herramienta-arc-d-para-evaluación-de-resiliencia-comunitaria" class="level2">
 <h2 class="anchored" data-anchor-id="herramienta-arc-d-para-evaluación-de-resiliencia-comunitaria">2.2. Herramienta ARC-D para evaluación de resiliencia comunitaria</h2>
-<p>Se utilizó la herramienta ARC-D para medir la resiliencia comunitaria ante desastres desarrollada por la organización GOAL (https://www.goalglobal.org/). Esta herramienta tiene un enfoque mixto, con elementos cualitativos y cuantitativos. El enfoque cualitativo hace referencia a la interacción con la comunidad de los territorios, con los cuales se recoge la información desde una perspectiva social y comunitaria, a través de un instrumento tipo encuesta de 30 preguntas (<a href="#fig-arcd-componentes" class="quarto-xref">Figura&nbsp;<span>3</span></a>), las cuales cuentan con instrumentos de verificación. El enfoque cuantitativo se refiere al procesamiento de los datos y permite obtener gráficos de red para la sistematización y presentación de la información de tipo numérico y jerárquico. La herramienta cuenta con dos etapas. Una etapa A que realiza un diagnóstico general de la comunidad y una etapa B, que se enfoca en las preguntas de evaluación en el grupo focal (<a href="#fig-arcd-componentes" class="quarto-xref">Figura&nbsp;<span>3</span></a>).</p>
+<p>Se utilizó la herramienta ARC-D para medir la resiliencia comunitaria ante desastres desarrollada por la organización GOAL (https://www.goalglobal.org/). Esta herramienta tiene un enfoque mixto, con elementos cualitativos y cuantitativos. El enfoque cualitativo hace referencia a la interacción con la comunidad de los territorios, con los cuales se recoge la información desde una perspectiva social y comunitaria, a través de un instrumento tipo encuesta de 30 preguntas (<a href="#fig-arcd-componentes" class="quarto-xref">Figura&nbsp;<span>3</span></a>), las cuales cuentan con instrumentos de verificación. El enfoque cuantitativo se refiere al procesamiento de los datos y permite obtener gráficos de red para la sistematización y presentación de la información de tipo numérico y jerárquico. La herramienta cuenta con dos etapas. Una etapa A que realiza un diagnóstico general de la comunidad y una etapa B, que se enfoca en las preguntas de evaluación en el grupo focal (<a href="#fig-arcd-componentes" class="quarto-xref">Figura&nbsp;<span>3</span></a>). De acuerdo con GOAL [5], esta herramienta se construye de acuerdo al trabajo en resiliencia ante desastres [5] comprende dos etapas (<strong>Caja 2 y</strong> <a href="#fig-arcd-componentes" class="quarto-xref">Figura&nbsp;<span>3</span></a><strong>).</strong></p>
 <div id="caja2" class="callout callout-style-simple callout-important no-icon" style="background-color: #e3f0fbff; border-left: 4px solid #d4e8f9ff;">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -403,7 +440,7 @@ Caja 2. Etapas de la herramienta ARC-D de GOAL y glosario de términos
 <div id="fig-arcd-componentes" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-arcd-componentes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/capitulo4/componentes-arcd.png" class="img-fluid figure-img" width="500">
+<img src="images/capitulo4/Figura 2. Componentes herramienta ARC-D..png" class="img-fluid figure-img" width="500">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-arcd-componentes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;3: Componentes herramienta ARC-D. La herramienta de evaluación de resiliencia comunitaria establecida por GOAL evalúa cuatro áreas temáticas que conforman 30 componentes.
@@ -419,17 +456,17 @@ Tabla&nbsp;1: Categorías de evaluación de la herramienta ARC-D.
 <div aria-describedby="tbl-categorias-arcd-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 7%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 60%">
+<col style="width: 26%">
+<col style="width: 18%">
+<col style="width: 13%">
+<col style="width: 41%">
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: center;"><strong>%</strong></th>
 <th style="text-align: center;"><strong>Nivel</strong></th>
 <th style="text-align: center;"><strong>Categoría</strong></th>
-<th style="text-align: left;"><strong>Descripción</strong></th>
+<th style="text-align: center;"><strong>Descripción</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -437,31 +474,31 @@ Tabla&nbsp;1: Categorías de evaluación de la herramienta ARC-D.
 <td style="text-align: center;">0-20</td>
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">Mínima Resiliencia</td>
-<td style="text-align: left;">Poca conciencia del problema o poca motivación. Acciones limitadas.</td>
+<td style="text-align: center;">Poca conciencia del problema o poca motivación. Acciones limitadas.</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">21-40</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">Baja Resiliencia</td>
-<td style="text-align: left;">Conciencia del problema con capacidad limitada de actuar.</td>
+<td style="text-align: center;">Conciencia del problema con capacidad limitada de actuar.</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">41-60</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">Mediana Resiliencia</td>
-<td style="text-align: left;">Desarrollo de soluciones con capacidad mejorada de actuar.</td>
+<td style="text-align: center;">Desarrollo de soluciones con capacidad mejorada de actuar.</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">61-80</td>
 <td style="text-align: center;">4</td>
 <td style="text-align: center;">Resiliencia</td>
-<td style="text-align: left;">Coherencia e integración con intervenciones amplias y estratégicas.</td>
+<td style="text-align: center;">Coherencia e integración con intervenciones amplias y estratégicas.</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">81-100</td>
 <td style="text-align: center;">5</td>
 <td style="text-align: center;">Alta Resiliencia</td>
-<td style="text-align: left;">Cultura de seguridad integrada en políticas y comportamientos.</td>
+<td style="text-align: center;">Cultura de seguridad integrada en políticas y comportamientos.</td>
 </tr>
 </tbody>
 </table>
@@ -470,9 +507,9 @@ Tabla&nbsp;1: Categorías de evaluación de la herramienta ARC-D.
 </div>
 <p><strong>Glosario de términos relacionados con la herramienta ARC-D:</strong></p>
 <ul>
-<li><p><strong>Capacidad:</strong> Es la habilidad de las personas, instituciones y sociedades para llevar a cabo funciones, resolver problemas y fijarse y obtener objetivos. La capacidad puede incluir infraestructura y medios físicos, instituciones, habilidades de adaptación de las sociedades, así como conocimiento humano, habilidades y atributos colectivos.</p></li>
-<li><p><strong>Estresores:</strong> Los estresores son tendencias a largo plazo que socavan el potencial de un sistema o proceso y que aumentan la vulnerabilidad de los actores dentro de ella. Estos pueden ser degradación de los recursos naturales, pérdida en la producción agrícola, urbanización, cambios demográficos, cambio climático, inestabilidad política y reducción en los ingresos.</p></li>
-<li><p><strong>Gobernanza:</strong> La gobernanza es el proceso de toma de decisiones y la subsecuente implementación de esas decisiones. Es el ejercicio de la autoridad política, económica y administrativa en el manejo de los asuntos de un país en todos los niveles.</p></li>
+<li><strong>Capacidad:</strong> Es la habilidad de las personas, instituciones y sociedades para llevar a cabo funciones, resolver problemas y fijarse y obtener objetivos. La capacidad puede incluir infraestructura y medios físicos, instituciones, habilidades de adaptación de las sociedades, así como conocimiento humano, habilidades y atributos colectivos.</li>
+<li><strong>Estresores:</strong> Los estresores son tendencias a largo plazo que socavan el potencial de un sistema o proceso y que aumentan la vulnerabilidad de los actores dentro de ella. Estos pueden ser degradación de los recursos naturales, pérdida en la producción agrícola, urbanización, cambios demográficos, cambio climático, inestabilidad política y reducción en los ingresos.</li>
+<li><strong>Gobernanza:</strong> La gobernanza es el proceso de toma de decisiones y la subsecuente implementación de esas decisiones. Es el ejercicio de la autoridad política, económica y administrativa en el manejo de los asuntos de un país en todos los niveles.</li>
 </ul>
 </div>
 </div>
@@ -491,7 +528,7 @@ Tabla&nbsp;1: Categorías de evaluación de la herramienta ARC-D.
 </div>
 <div class="callout-body-container">
 <h2 style="font-size: 1rem; margin-top: 0; margin-bottom: 0;" class="anchored" data-anchor-id="componentes-evaluativos-del-arc-d">
-Caja 3. Glosario de términos relacionados con el riesgo tecnológico
+<p>Caja 3. Glosario de términos relacionados con el riesgo tecnológico</p>
 </h2>
 <ul>
 <li><p><strong>Accidente tecnológico:</strong> Eventos generados por el uso y acceso a la tecnología, originados por eventos antrópicos, naturales, socio-naturales y propios de la operación. Comprende fugas, derrames, incendios y explosiones asociados a la liberación súbita de sustancias y/o energías con características de peligrosidad.</p></li>
@@ -514,14 +551,34 @@ Caja 3. Glosario de términos relacionados con el riesgo tecnológico
 <section id="aplicación-de-la-herramienta-arc-d-en-el-grupo-focal" class="level3">
 <h3 class="anchored" data-anchor-id="aplicación-de-la-herramienta-arc-d-en-el-grupo-focal">2.4.2 Aplicación de la herramienta ARC-D en el grupo focal</h3>
 <p>Durante octubre de 2021, se llevó a cabo en el barrio Villa Carola del municipio de Dosquebradas la sesión de grupo focal con 14 líderes comunitarios de diferentes barrios de la Comuna 10, en donde se evaluaron los 30 componentes de la herramienta ARC-D.</p>
+<div id="fig-grupo-focal-intro" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-grupo-focal-intro-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/capitulo4/Figura 4. Introducción al grupo focal..png" class="img-fluid figure-img" width="600">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-grupo-focal-intro-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;4: Introducción al grupo focal con líderes comunitarios de la Comuna 10 de Dosquebradas.
+</figcaption>
+</figure>
+</div>
 <p>El desarrollo de la actividad consistió en la evaluación por la comunidad de la percepción de riesgo frente a escenarios de riesgo de tipo tecnológico, entendiendo los antecedentes de emergencias y desastres ocurridos en la Comuna por este tipo de eventos, específicamente el evento del año 2011. Con base en lo anterior, y dado que la comunidad había presenciado el evento de 2011, así como la etapa de rehabilitación y reconstrucción del barrio Villa Carola, se propuso a los asistentes que la evaluación de la aplicación de la herramienta ARC-D se dividiera en dos momentos. El primer momento era la evaluación en retrospectiva de cómo se percibían los componentes evaluados del 2011 hacia atrás, y un segundo momento, en el que se evaluara la percepción actual de riesgo (año 2021) considerando los mismos 30 componentes del ARC-D frente a eventos tecnológicos.</p>
 <div id="fig-grupo-focal-1" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-grupo-focal-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/capitulo4/grupo-focal-arcd.jpg" class="img-fluid figure-img" width="600">
+<img src="images/capitulo4/Figura 3. Aplicación de la herramienta ARC-D.png" class="img-fluid figure-img" width="600">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-grupo-focal-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;4: Aplicación de la herramienta ARC-D con grupo focal, líderes de la Comuna 10 el 09 de octubre de 2021.
+Figura&nbsp;5: Aplicación de la herramienta ARC-D con grupo focal, líderes de la Comuna 10 el 09 de octubre de 2021.
+</figcaption>
+</figure>
+</div>
+<div id="fig-grupo-focal-cierre" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-grupo-focal-cierre-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/capitulo4/Figura 5. Cierre del grupo focal Comuna 10.png" class="img-fluid figure-img" width="600">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-grupo-focal-cierre-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;6: Cierre del grupo focal con líderes de la Comuna 10 de Dosquebradas.
 </figcaption>
 </figure>
 </div>
@@ -545,36 +602,36 @@ Tabla&nbsp;2: Riesgos tecnológicos asociados por comuna para el municipio de Do
 <table class="caption-top table">
 <colgroup>
 <col style="width: 27%">
-<col style="width: 73%">
+<col style="width: 72%">
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: center;"><strong>Comuna o Corregimiento</strong></th>
-<th style="text-align: left;"><strong>Riesgo tecnológico asociado</strong></th>
+<th style="text-align: center;"><strong>Riesgo tecnológico asociado</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">Comuna 10 (Villa Carola)</td>
-<td style="text-align: left;">Estaciones de servicio, sector industrial, circulación de hidrocarburos</td>
+<td style="text-align: center;">Estaciones de servicio, sector industrial, circulación de hidrocarburos</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">Alto del Nudo</td>
-<td style="text-align: left;">Tuberías de conducción, sector industrial, comercial y particulares</td>
+<td style="text-align: center;">Tuberías de conducción, sector industrial, comercial y particulares</td>
 </tr>
 </tbody>
 </table>
 </div>
 </figure>
 </div>
-<p>Las condiciones comunitarias de la Comuna 10 de Dosquebradas incluyen barrios, organizaciones comunitarias y características económicas (<a href="#fig-caracteristicas-comuna" class="quarto-xref">Figura&nbsp;<span>5</span></a>). La comuna se conforma de 19 barrios incluyendo Villa Carola, La Romelia, La Divisa, Galaxia, Las Acacias, Los Pinos, Los Guamos, y otros sectores de importancia socioeconómica.</p>
+<p>Las condiciones comunitarias de la Comuna 10 de Dosquebradas incluyen barrios, organizaciones comunitarias y características económicas (<a href="#fig-caracteristicas-comuna" class="quarto-xref">Figura&nbsp;<span>7</span></a>). La comuna se conforma de 19 barrios incluyendo Villa Carola, La Romelia, La Divisa, Galaxia, Las Acacias, Los Pinos, Los Guamos, y otros sectores de importancia socioeconómica.</p>
 <div id="fig-caracteristicas-comuna" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-caracteristicas-comuna-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/capitulo4/caracteristicas-comuna10.png" class="img-fluid figure-img" width="500">
+<img src="images/capitulo4/Figura 6. Características comunitarias de la comuna 10.png" class="img-fluid figure-img" width="500">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-caracteristicas-comuna-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;5: Características comunitarias de la Comuna 10 de Dosquebradas.
+Figura&nbsp;7: Características comunitarias de la Comuna 10 de Dosquebradas.
 </figcaption>
 </figure>
 </div>
@@ -593,10 +650,10 @@ Tabla&nbsp;3: Calificaciones de los componentes de resiliencia comunitaria ante 
 <div aria-describedby="tbl-resultados-arcd-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 18%">
-<col style="width: 40%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 21%">
+<col style="width: 35%">
+<col style="width: 21%">
+<col style="width: 21%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -807,18 +864,155 @@ Tabla&nbsp;3: Calificaciones de los componentes de resiliencia comunitaria ante 
 <section id="evaluación-de-resiliencia-comunitaria---año-2011" class="level3">
 <h3 class="anchored" data-anchor-id="evaluación-de-resiliencia-comunitaria---año-2011">3.1.1 Evaluación de resiliencia comunitaria - Año 2011</h3>
 <p>En los resultados de medición de resiliencia comunitaria se observa que para el año 2011, se obtuvo una calificación del 30.08% categorizada como baja resiliencia según los criterios de la <a href="#tbl-categorias-arcd" class="quarto-xref">Tabla&nbsp;<span>1</span></a>. La comunidad calificó 14 componentes con un nivel de 1, valoración que corresponde a la mínima resiliencia, que se describe como poca conciencia del problema o poca motivación para abordarlo, lo que limita la respuesta durante la crisis.</p>
-<p>Lo anterior concuerda con lo expresado en el grupo focal, por parte de los líderes, quienes aseguran que, en ese año, no se contaba con un escenario fortalecido de gobernanza para gestionar el riesgo de desastres. Asimismo, el área temática de la reducción de la vulnerabilidad evidenció la falta de preparación del municipio y su comunidad para abordar el evento de riesgo tecnológico que cobró 33 vidas en la Comuna 10. Frente a la preparación del desastre para una respuesta efectiva, se considera una mínima planificación de contingencia y recuperación durante el año 2011 en la comuna, lo que conllevó a agudizar el evento (<a href="#fig-resultados-2011" class="quarto-xref">Figura&nbsp;<span>6</span></a>).</p>
+<p>Lo anterior concuerda con lo expresado en el grupo focal, por parte de los líderes, quienes aseguran que, en ese año, no se contaba con un escenario fortalecido de gobernanza para gestionar el riesgo de desastres. Asimismo, el área temática de la reducción de la vulnerabilidad evidenció la falta de preparación del municipio y su comunidad para abordar el evento de riesgo tecnológico que cobró 33 vidas en la Comuna 10. Frente a la preparación del desastre para una respuesta efectiva, se considera una mínima planificación de contingencia y recuperación durante el año 2011 en la comuna, lo que conllevó a agudizar el evento (<a href="#fig-resultados-2011" class="quarto-xref">Figura&nbsp;<span>8</span></a>).</p>
 <p>Por su parte, la medición arrojó 15 componentes con un nivel 2, los cuales se describen como de baja resiliencia, en donde se tiene conciencia del problema, se cuenta con capacidad para actuar, pero de manera limitada, con intervenciones fragmentadas y a corto plazo. El tema del liderazgo y voluntariado, arrojó una puntuación con un valor de 3, que corresponde a mediana resiliencia, en dónde se caracteriza por el desarrollo e implementación de soluciones.</p>
 <p>Finalmente se obtuvo una calificación con un nivel de 4, en donde la comunidad le otorgó la categoría de resiliencia al componente dirigido a la cohesión social y prevención de conflictos, dado a que en la Comuna 10 siempre ha existido una organización social y comunitaria, fortalecida y participativa lo que en el 2011 les permitió hacerle frente al desastre.</p>
-<div id="fig-resultados-2011" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="247" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 246;"><span id="cb1-247"><a href="#cb1-247" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> [</span>
+<span id="cb1-248"><a href="#cb1-248" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"1. Evaluación comunitaria"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb1-249"><a href="#cb1-249" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"2. Evaluación científica del riesgo"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="fl">2.0</span>}<span class="op">,</span></span>
+<span id="cb1-250"><a href="#cb1-250" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"3. Diseminación de información en RRD"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb1-251"><a href="#cb1-251" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"4. Educación de los niños en RRD"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb1-252"><a href="#cb1-252" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"5. RRD en la planificación del desarrollo"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb1-253"><a href="#cb1-253" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"6. RRD en la planificación territorial"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb1-254"><a href="#cb1-254" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"7. Toma comunitaria de decisiones"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb1-255"><a href="#cb1-255" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"8. Inclusión de grupos vulnerables"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb1-256"><a href="#cb1-256" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"9. Participación de las mujeres"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb1-257"><a href="#cb1-257" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"10. Conocimiento de derechos"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb1-258"><a href="#cb1-258" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"11. Alianzas para la RRD"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb1-259"><a href="#cb1-259" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"12. Gestión ambiental sostenible"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb1-260"><a href="#cb1-260" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"13. Seguridad y gestión del agua"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb1-261"><a href="#cb1-261" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"14. Acceso y conciencia de la salud"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb1-262"><a href="#cb1-262" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"15. Suministro seguro de alimentos"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb1-263"><a href="#cb1-263" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"16. Prácticas de medios de vida"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb1-264"><a href="#cb1-264" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"17. Acceso a mercado"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb1-265"><a href="#cb1-265" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"18. Acceso a servicios financieros"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="fl">1.2</span>}<span class="op">,</span></span>
+<span id="cb1-266"><a href="#cb1-266" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"19. Protección de ingresos y activos"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb1-267"><a href="#cb1-267" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"20. Acceso a protección social"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb1-268"><a href="#cb1-268" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"21. Cohesión social"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb1-269"><a href="#cb1-269" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"22. Infraestructura crítica"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb1-270"><a href="#cb1-270" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"23. Vivienda"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb1-271"><a href="#cb1-271" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"24. Planificación de contingencia"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb1-272"><a href="#cb1-272" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"25. Sistema de alerta temprana"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb1-273"><a href="#cb1-273" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"26. Capacidad de preparación"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb1-274"><a href="#cb1-274" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"27. Servicios de salud"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb1-275"><a href="#cb1-275" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"28. Servicios de educación"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb1-276"><a href="#cb1-276" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"29. Infraestructura en emergencias"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb1-277"><a href="#cb1-277" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">axis</span><span class="op">:</span> <span class="st">"30. Liderazgo y voluntariado"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}</span>
+<span id="cb1-278"><a href="#cb1-278" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb1-279"><a href="#cb1-279" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-280"><a href="#cb1-280" aria-hidden="true" tabindex="-1"></a><span class="co">// Radar chart con D3</span></span>
+<span id="cb1-281"><a href="#cb1-281" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb1-282"><a href="#cb1-282" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> width <span class="op">=</span> <span class="dv">550</span><span class="op">,</span> height <span class="op">=</span> <span class="dv">550</span><span class="op">;</span></span>
+<span id="cb1-283"><a href="#cb1-283" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> radius <span class="op">=</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">min</span>(width<span class="op">,</span> height) <span class="op">/</span> <span class="dv">2</span> <span class="op">-</span> <span class="dv">60</span><span class="op">;</span></span>
+<span id="cb1-284"><a href="#cb1-284" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> levels <span class="op">=</span> <span class="dv">4</span><span class="op">;</span> <span class="co">// número de círculos concéntricos</span></span>
+<span id="cb1-285"><a href="#cb1-285" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> maxValue <span class="op">=</span> <span class="dv">4</span><span class="op">;</span> <span class="co">// escala máxima</span></span>
+<span id="cb1-286"><a href="#cb1-286" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-287"><a href="#cb1-287" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> angleSlice <span class="op">=</span> (<span class="bu">Math</span><span class="op">.</span><span class="cn">PI</span> <span class="op">*</span> <span class="dv">2</span>) <span class="op">/</span> data<span class="op">.</span><span class="at">length</span><span class="op">;</span></span>
+<span id="cb1-288"><a href="#cb1-288" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-289"><a href="#cb1-289" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> rScale <span class="op">=</span> d3<span class="op">.</span><span class="fu">scaleLinear</span>()</span>
+<span id="cb1-290"><a href="#cb1-290" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">domain</span>([<span class="dv">0</span><span class="op">,</span> maxValue])</span>
+<span id="cb1-291"><a href="#cb1-291" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> radius])<span class="op">;</span></span>
+<span id="cb1-292"><a href="#cb1-292" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-293"><a href="#cb1-293" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> svg <span class="op">=</span> d3<span class="op">.</span><span class="fu">create</span>(<span class="st">"svg"</span>)</span>
+<span id="cb1-294"><a href="#cb1-294" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"width"</span><span class="op">,</span> width)</span>
+<span id="cb1-295"><a href="#cb1-295" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"height"</span><span class="op">,</span> height)<span class="op">;</span></span>
+<span id="cb1-296"><a href="#cb1-296" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-297"><a href="#cb1-297" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> g <span class="op">=</span> svg<span class="op">.</span><span class="fu">append</span>(<span class="st">"g"</span>)</span>
+<span id="cb1-298"><a href="#cb1-298" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"transform"</span><span class="op">,</span> <span class="vs">`translate(</span><span class="sc">${</span>width<span class="op">/</span><span class="dv">2</span><span class="sc">}</span><span class="vs">,</span><span class="sc">${</span>height<span class="op">/</span><span class="dv">2</span><span class="sc">}</span><span class="vs">)`</span>)<span class="op">;</span></span>
+<span id="cb1-299"><a href="#cb1-299" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-300"><a href="#cb1-300" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Dibujar círculos concéntricos</span></span>
+<span id="cb1-301"><a href="#cb1-301" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;=</span> levels<span class="op">;</span> i<span class="op">++</span>) {</span>
+<span id="cb1-302"><a href="#cb1-302" aria-hidden="true" tabindex="-1"></a>    g<span class="op">.</span><span class="fu">append</span>(<span class="st">"circle"</span>)</span>
+<span id="cb1-303"><a href="#cb1-303" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"r"</span><span class="op">,</span> radius<span class="op">/</span>levels <span class="op">*</span> i)</span>
+<span id="cb1-304"><a href="#cb1-304" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"fill"</span><span class="op">,</span> <span class="st">"none"</span>)</span>
+<span id="cb1-305"><a href="#cb1-305" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke"</span><span class="op">,</span> <span class="st">"#ccc"</span>)<span class="op">;</span></span>
+<span id="cb1-306"><a href="#cb1-306" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-307"><a href="#cb1-307" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-308"><a href="#cb1-308" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Agregar etiquetas de escala en el eje vertical superior</span></span>
+<span id="cb1-309"><a href="#cb1-309" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (<span class="kw">let</span> i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;=</span> levels<span class="op">;</span> i<span class="op">++</span>) {</span>
+<span id="cb1-310"><a href="#cb1-310" aria-hidden="true" tabindex="-1"></a>    g<span class="op">.</span><span class="fu">append</span>(<span class="st">"text"</span>)</span>
+<span id="cb1-311"><a href="#cb1-311" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"x"</span><span class="op">,</span> <span class="dv">5</span>)</span>
+<span id="cb1-312"><a href="#cb1-312" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"y"</span><span class="op">,</span> <span class="op">-</span>radius<span class="op">/</span>levels <span class="op">*</span> i)</span>
+<span id="cb1-313"><a href="#cb1-313" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"dy"</span><span class="op">,</span> <span class="st">"0.35em"</span>)</span>
+<span id="cb1-314"><a href="#cb1-314" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">style</span>(<span class="st">"font-size"</span><span class="op">,</span> <span class="st">"11px"</span>)</span>
+<span id="cb1-315"><a href="#cb1-315" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">style</span>(<span class="st">"font-weight"</span><span class="op">,</span> <span class="st">"bold"</span>)</span>
+<span id="cb1-316"><a href="#cb1-316" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">style</span>(<span class="st">"fill"</span><span class="op">,</span> <span class="st">"#666"</span>)</span>
+<span id="cb1-317"><a href="#cb1-317" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">text</span>(i)<span class="op">;</span></span>
+<span id="cb1-318"><a href="#cb1-318" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-319"><a href="#cb1-319" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-320"><a href="#cb1-320" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Ejes radiales</span></span>
+<span id="cb1-321"><a href="#cb1-321" aria-hidden="true" tabindex="-1"></a>  data<span class="op">.</span><span class="fu">forEach</span>((d<span class="op">,</span> i) <span class="kw">=&gt;</span> {</span>
+<span id="cb1-322"><a href="#cb1-322" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> angle <span class="op">=</span> angleSlice <span class="op">*</span> i <span class="op">-</span> <span class="bu">Math</span><span class="op">.</span><span class="cn">PI</span><span class="op">/</span><span class="dv">2</span><span class="op">;</span></span>
+<span id="cb1-323"><a href="#cb1-323" aria-hidden="true" tabindex="-1"></a>    g<span class="op">.</span><span class="fu">append</span>(<span class="st">"line"</span>)</span>
+<span id="cb1-324"><a href="#cb1-324" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"x1"</span><span class="op">,</span> <span class="dv">0</span>)</span>
+<span id="cb1-325"><a href="#cb1-325" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"y1"</span><span class="op">,</span> <span class="dv">0</span>)</span>
+<span id="cb1-326"><a href="#cb1-326" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"x2"</span><span class="op">,</span> <span class="fu">rScale</span>(maxValue) <span class="op">*</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">cos</span>(angle))</span>
+<span id="cb1-327"><a href="#cb1-327" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"y2"</span><span class="op">,</span> <span class="fu">rScale</span>(maxValue) <span class="op">*</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">sin</span>(angle))</span>
+<span id="cb1-328"><a href="#cb1-328" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke"</span><span class="op">,</span> <span class="st">"#999"</span>)<span class="op">;</span></span>
+<span id="cb1-329"><a href="#cb1-329" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-330"><a href="#cb1-330" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Etiquetas</span></span>
+<span id="cb1-331"><a href="#cb1-331" aria-hidden="true" tabindex="-1"></a>    g<span class="op">.</span><span class="fu">append</span>(<span class="st">"text"</span>)</span>
+<span id="cb1-332"><a href="#cb1-332" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"x"</span><span class="op">,</span> (<span class="fu">rScale</span>(maxValue <span class="op">+</span> <span class="fl">0.2</span>)) <span class="op">*</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">cos</span>(angle))</span>
+<span id="cb1-333"><a href="#cb1-333" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"y"</span><span class="op">,</span> (<span class="fu">rScale</span>(maxValue <span class="op">+</span> <span class="fl">0.2</span>)) <span class="op">*</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">sin</span>(angle))</span>
+<span id="cb1-334"><a href="#cb1-334" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"dy"</span><span class="op">,</span> <span class="st">"0.35em"</span>)</span>
+<span id="cb1-335"><a href="#cb1-335" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">style</span>(<span class="st">"font-size"</span><span class="op">,</span> <span class="st">"10px"</span>)</span>
+<span id="cb1-336"><a href="#cb1-336" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">style</span>(<span class="st">"text-anchor"</span><span class="op">,</span> angle <span class="op">&gt;</span> <span class="bu">Math</span><span class="op">.</span><span class="cn">PI</span><span class="op">/</span><span class="dv">2</span> <span class="op">&amp;&amp;</span> angle <span class="op">&lt;</span> <span class="dv">3</span><span class="op">*</span><span class="bu">Math</span><span class="op">.</span><span class="cn">PI</span><span class="op">/</span><span class="dv">2</span> <span class="op">?</span> <span class="st">"end"</span> <span class="op">:</span> <span class="st">"start"</span>)</span>
+<span id="cb1-337"><a href="#cb1-337" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">text</span>(d<span class="op">.</span><span class="at">axis</span>)<span class="op">;</span></span>
+<span id="cb1-338"><a href="#cb1-338" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
+<span id="cb1-339"><a href="#cb1-339" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-340"><a href="#cb1-340" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Línea de valores</span></span>
+<span id="cb1-341"><a href="#cb1-341" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> line <span class="op">=</span> d3<span class="op">.</span><span class="fu">lineRadial</span>()</span>
+<span id="cb1-342"><a href="#cb1-342" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">radius</span>(d <span class="kw">=&gt;</span> <span class="fu">rScale</span>(d<span class="op">.</span><span class="at">value</span>))</span>
+<span id="cb1-343"><a href="#cb1-343" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">angle</span>((d<span class="op">,</span>i) <span class="kw">=&gt;</span> i <span class="op">*</span> angleSlice)</span>
+<span id="cb1-344"><a href="#cb1-344" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">curve</span>(d3<span class="op">.</span><span class="at">curveLinearClosed</span>)<span class="op">;</span></span>
+<span id="cb1-345"><a href="#cb1-345" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-346"><a href="#cb1-346" aria-hidden="true" tabindex="-1"></a>  g<span class="op">.</span><span class="fu">append</span>(<span class="st">"path"</span>)</span>
+<span id="cb1-347"><a href="#cb1-347" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">datum</span>(data)</span>
+<span id="cb1-348"><a href="#cb1-348" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"d"</span><span class="op">,</span> line)</span>
+<span id="cb1-349"><a href="#cb1-349" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"fill"</span><span class="op">,</span> <span class="st">"rgba(255,235,100,0.5)"</span>)</span>
+<span id="cb1-350"><a href="#cb1-350" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke"</span><span class="op">,</span> <span class="st">"goldenrod"</span>)</span>
+<span id="cb1-351"><a href="#cb1-351" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke-width"</span><span class="op">,</span> <span class="dv">2</span>)<span class="op">;</span></span>
+<span id="cb1-352"><a href="#cb1-352" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-353"><a href="#cb1-353" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> svg<span class="op">.</span><span class="fu">node</span>()<span class="op">;</span></span>
+<span id="cb1-354"><a href="#cb1-354" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="fig-resultados-2011" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-resultados-2011-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/capitulo4/radar-resiliencia-2011.png" class="img-fluid figure-img" width="600">
+<div class="cell-output cell-output-display">
+<div id="fig-resultados-2011-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-resultados-2011-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-resultados-2011-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;6: Resultado de la evaluación de resiliencia comunitaria ante desastres del año 2011 (Gráfico radar de 30 componentes).
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-resultados-2011-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a)
 </figcaption>
 </figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div id="fig-resultados-2011-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-resultados-2011-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div id="ojs-cell-1-2" data-nodetype="expression">
+
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-resultados-2011-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-resultados-2011-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;8: Resultado de la evaluación de resiliencia comunitaria ante desastres del año 2011 (Gráfico radar de 30 componentes). Calificación de resiliencia 30.8% (mediana)
+</figcaption>
+</figure>
+</div>
 </div>
 </section>
 <section id="evaluación-de-resiliencia-comunitaria---año-2021" class="level3">
@@ -828,35 +1022,342 @@ Figura&nbsp;6: Resultado de la evaluación de resiliencia comunitaria ante desas
 <p>La comunidad otorgó a nueve componentes de la evaluación, un nivel de 3, que corresponde a la categoría de mediana resiliencia. Lo anterior permite contrastar mejoras en temas como la educación en gestión del riesgo y evaluación científica del riesgo, participación de grupos vulnerables, gestión ambiental, infraestructura crítica y vivienda.</p>
 <p>La comunidad le otorgó a trece componentes de la evaluación, un nivel de 4, considerándolos en la categoría de resilientes. Esta calificación fue dirigida a componentes como evaluación comunitaria participativa del riesgo, diseminación de información, toma de decisiones comunitaria, conocimiento de derechos e incidencia, alianzas para la reducción del riesgo, acceso a servicios básicos, planificación de contingencia, sistema de alerta temprana, y capacidad de preparación respuesta y recuperación.</p>
 <p>Finalmente, la comunidad otorgó un valor de 5, de alta resiliencia, a la participación de la mujer en la gestión del riesgo de desastres, ya que en el año 2021 el porcentaje de mujeres que participan en la toma de decisiones aumentó significativamente.</p>
-<div id="fig-resultados-2021" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="372" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 371;"><span id="cb2-372"><a href="#cb2-372" aria-hidden="true" tabindex="-1"></a><span class="co">// Radar chart con D3</span></span>
+<span id="cb2-373"><a href="#cb2-373" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb2-374"><a href="#cb2-374" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Datos de evaluación 2021</span></span>
+<span id="cb2-375"><a href="#cb2-375" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> data <span class="op">=</span> [</span>
+<span id="cb2-376"><a href="#cb2-376" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"1. Evaluación comunitaria"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb2-377"><a href="#cb2-377" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"2. Evaluación científica del riesgo"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb2-378"><a href="#cb2-378" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"3. Diseminación de información en RRD"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb2-379"><a href="#cb2-379" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"4. Educación de los niños en RRD"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb2-380"><a href="#cb2-380" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"5. RRD en la planificación del desarrollo"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb2-381"><a href="#cb2-381" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"6. RRD en la planificación territorial"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb2-382"><a href="#cb2-382" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"7. Toma comunitaria de decisiones"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb2-383"><a href="#cb2-383" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"8. Inclusión de grupos vulnerables"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb2-384"><a href="#cb2-384" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"9. Participación de las mujeres"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb2-385"><a href="#cb2-385" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"10. Conocimiento de derechos"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">5</span>}<span class="op">,</span></span>
+<span id="cb2-386"><a href="#cb2-386" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"11. Alianzas para la RRD"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb2-387"><a href="#cb2-387" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"12. Gestión ambiental sostenible"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb2-388"><a href="#cb2-388" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"13. Seguridad y gestión del agua"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb2-389"><a href="#cb2-389" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"14. Acceso y conciencia de la salud"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb2-390"><a href="#cb2-390" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"15. Suministro seguro de alimentos"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb2-391"><a href="#cb2-391" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"16. Prácticas de medios de vida"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb2-392"><a href="#cb2-392" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"17. Acceso a mercado"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb2-393"><a href="#cb2-393" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"18. Acceso a servicios financieros"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb2-394"><a href="#cb2-394" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"19. Protección de ingresos y activos"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb2-395"><a href="#cb2-395" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"20. Acceso a protección social"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb2-396"><a href="#cb2-396" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"21. Cohesión social"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb2-397"><a href="#cb2-397" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"22. Infraestructura crítica"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb2-398"><a href="#cb2-398" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"23. Vivienda"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb2-399"><a href="#cb2-399" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"24. Planificación de contingencia"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb2-400"><a href="#cb2-400" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"25. Sistema de alerta temprana"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb2-401"><a href="#cb2-401" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"26. Capacidad de preparación"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb2-402"><a href="#cb2-402" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"27. Servicios de salud"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb2-403"><a href="#cb2-403" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"28. Servicios de educación"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb2-404"><a href="#cb2-404" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"29. Infraestructura en emergencias"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb2-405"><a href="#cb2-405" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"30. Liderazgo y voluntariado"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}</span>
+<span id="cb2-406"><a href="#cb2-406" aria-hidden="true" tabindex="-1"></a>  ]<span class="op">;</span></span>
+<span id="cb2-407"><a href="#cb2-407" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-408"><a href="#cb2-408" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> width <span class="op">=</span> <span class="dv">550</span><span class="op">,</span> height <span class="op">=</span> <span class="dv">550</span><span class="op">;</span></span>
+<span id="cb2-409"><a href="#cb2-409" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> radius <span class="op">=</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">min</span>(width<span class="op">,</span> height) <span class="op">/</span> <span class="dv">2</span> <span class="op">-</span> <span class="dv">60</span><span class="op">;</span></span>
+<span id="cb2-410"><a href="#cb2-410" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> levels <span class="op">=</span> <span class="dv">5</span><span class="op">;</span> <span class="co">// número de círculos concéntricos (ahora 5 para escala 1-5)</span></span>
+<span id="cb2-411"><a href="#cb2-411" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> maxValue <span class="op">=</span> <span class="dv">5</span><span class="op">;</span> <span class="co">// escala máxima (ahora 5 porque hay valores de 5)</span></span>
+<span id="cb2-412"><a href="#cb2-412" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-413"><a href="#cb2-413" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> angleSlice <span class="op">=</span> (<span class="bu">Math</span><span class="op">.</span><span class="cn">PI</span> <span class="op">*</span> <span class="dv">2</span>) <span class="op">/</span> data<span class="op">.</span><span class="at">length</span><span class="op">;</span></span>
+<span id="cb2-414"><a href="#cb2-414" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-415"><a href="#cb2-415" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> rScale <span class="op">=</span> d3<span class="op">.</span><span class="fu">scaleLinear</span>()</span>
+<span id="cb2-416"><a href="#cb2-416" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">domain</span>([<span class="dv">0</span><span class="op">,</span> maxValue])</span>
+<span id="cb2-417"><a href="#cb2-417" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> radius])<span class="op">;</span></span>
+<span id="cb2-418"><a href="#cb2-418" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-419"><a href="#cb2-419" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> svg <span class="op">=</span> d3<span class="op">.</span><span class="fu">create</span>(<span class="st">"svg"</span>)</span>
+<span id="cb2-420"><a href="#cb2-420" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"width"</span><span class="op">,</span> width)</span>
+<span id="cb2-421"><a href="#cb2-421" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"height"</span><span class="op">,</span> height)<span class="op">;</span></span>
+<span id="cb2-422"><a href="#cb2-422" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-423"><a href="#cb2-423" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> g <span class="op">=</span> svg<span class="op">.</span><span class="fu">append</span>(<span class="st">"g"</span>)</span>
+<span id="cb2-424"><a href="#cb2-424" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"transform"</span><span class="op">,</span> <span class="vs">`translate(</span><span class="sc">${</span>width<span class="op">/</span><span class="dv">2</span><span class="sc">}</span><span class="vs">,</span><span class="sc">${</span>height<span class="op">/</span><span class="dv">2</span><span class="sc">}</span><span class="vs">)`</span>)<span class="op">;</span></span>
+<span id="cb2-425"><a href="#cb2-425" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-426"><a href="#cb2-426" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Dibujar círculos concéntricos</span></span>
+<span id="cb2-427"><a href="#cb2-427" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;=</span> levels<span class="op">;</span> i<span class="op">++</span>) {</span>
+<span id="cb2-428"><a href="#cb2-428" aria-hidden="true" tabindex="-1"></a>    g<span class="op">.</span><span class="fu">append</span>(<span class="st">"circle"</span>)</span>
+<span id="cb2-429"><a href="#cb2-429" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"r"</span><span class="op">,</span> radius<span class="op">/</span>levels <span class="op">*</span> i)</span>
+<span id="cb2-430"><a href="#cb2-430" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"fill"</span><span class="op">,</span> <span class="st">"none"</span>)</span>
+<span id="cb2-431"><a href="#cb2-431" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke"</span><span class="op">,</span> <span class="st">"#ccc"</span>)<span class="op">;</span></span>
+<span id="cb2-432"><a href="#cb2-432" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-433"><a href="#cb2-433" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-434"><a href="#cb2-434" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Agregar etiquetas de escala en el eje vertical superior</span></span>
+<span id="cb2-435"><a href="#cb2-435" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (<span class="kw">let</span> i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;=</span> levels<span class="op">;</span> i<span class="op">++</span>) {</span>
+<span id="cb2-436"><a href="#cb2-436" aria-hidden="true" tabindex="-1"></a>    g<span class="op">.</span><span class="fu">append</span>(<span class="st">"text"</span>)</span>
+<span id="cb2-437"><a href="#cb2-437" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"x"</span><span class="op">,</span> <span class="dv">5</span>)</span>
+<span id="cb2-438"><a href="#cb2-438" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"y"</span><span class="op">,</span> <span class="op">-</span>radius<span class="op">/</span>levels <span class="op">*</span> i)</span>
+<span id="cb2-439"><a href="#cb2-439" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"dy"</span><span class="op">,</span> <span class="st">"0.35em"</span>)</span>
+<span id="cb2-440"><a href="#cb2-440" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">style</span>(<span class="st">"font-size"</span><span class="op">,</span> <span class="st">"11px"</span>)</span>
+<span id="cb2-441"><a href="#cb2-441" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">style</span>(<span class="st">"font-weight"</span><span class="op">,</span> <span class="st">"bold"</span>)</span>
+<span id="cb2-442"><a href="#cb2-442" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">style</span>(<span class="st">"fill"</span><span class="op">,</span> <span class="st">"#666"</span>)</span>
+<span id="cb2-443"><a href="#cb2-443" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">text</span>(i)<span class="op">;</span></span>
+<span id="cb2-444"><a href="#cb2-444" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-445"><a href="#cb2-445" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-446"><a href="#cb2-446" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Ejes radiales</span></span>
+<span id="cb2-447"><a href="#cb2-447" aria-hidden="true" tabindex="-1"></a>  data<span class="op">.</span><span class="fu">forEach</span>((d<span class="op">,</span> i) <span class="kw">=&gt;</span> {</span>
+<span id="cb2-448"><a href="#cb2-448" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> angle <span class="op">=</span> angleSlice <span class="op">*</span> i <span class="op">-</span> <span class="bu">Math</span><span class="op">.</span><span class="cn">PI</span><span class="op">/</span><span class="dv">2</span><span class="op">;</span></span>
+<span id="cb2-449"><a href="#cb2-449" aria-hidden="true" tabindex="-1"></a>    g<span class="op">.</span><span class="fu">append</span>(<span class="st">"line"</span>)</span>
+<span id="cb2-450"><a href="#cb2-450" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"x1"</span><span class="op">,</span> <span class="dv">0</span>)</span>
+<span id="cb2-451"><a href="#cb2-451" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"y1"</span><span class="op">,</span> <span class="dv">0</span>)</span>
+<span id="cb2-452"><a href="#cb2-452" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"x2"</span><span class="op">,</span> <span class="fu">rScale</span>(maxValue) <span class="op">*</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">cos</span>(angle))</span>
+<span id="cb2-453"><a href="#cb2-453" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"y2"</span><span class="op">,</span> <span class="fu">rScale</span>(maxValue) <span class="op">*</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">sin</span>(angle))</span>
+<span id="cb2-454"><a href="#cb2-454" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke"</span><span class="op">,</span> <span class="st">"#999"</span>)<span class="op">;</span></span>
+<span id="cb2-455"><a href="#cb2-455" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-456"><a href="#cb2-456" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Etiquetas</span></span>
+<span id="cb2-457"><a href="#cb2-457" aria-hidden="true" tabindex="-1"></a>    g<span class="op">.</span><span class="fu">append</span>(<span class="st">"text"</span>)</span>
+<span id="cb2-458"><a href="#cb2-458" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"x"</span><span class="op">,</span> (<span class="fu">rScale</span>(maxValue <span class="op">+</span> <span class="fl">0.2</span>)) <span class="op">*</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">cos</span>(angle))</span>
+<span id="cb2-459"><a href="#cb2-459" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"y"</span><span class="op">,</span> (<span class="fu">rScale</span>(maxValue <span class="op">+</span> <span class="fl">0.2</span>)) <span class="op">*</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">sin</span>(angle))</span>
+<span id="cb2-460"><a href="#cb2-460" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"dy"</span><span class="op">,</span> <span class="st">"0.35em"</span>)</span>
+<span id="cb2-461"><a href="#cb2-461" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">style</span>(<span class="st">"font-size"</span><span class="op">,</span> <span class="st">"10px"</span>)</span>
+<span id="cb2-462"><a href="#cb2-462" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">style</span>(<span class="st">"text-anchor"</span><span class="op">,</span> angle <span class="op">&gt;</span> <span class="bu">Math</span><span class="op">.</span><span class="cn">PI</span><span class="op">/</span><span class="dv">2</span> <span class="op">&amp;&amp;</span> angle <span class="op">&lt;</span> <span class="dv">3</span><span class="op">*</span><span class="bu">Math</span><span class="op">.</span><span class="cn">PI</span><span class="op">/</span><span class="dv">2</span> <span class="op">?</span> <span class="st">"end"</span> <span class="op">:</span> <span class="st">"start"</span>)</span>
+<span id="cb2-463"><a href="#cb2-463" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">text</span>(d<span class="op">.</span><span class="at">axis</span>)<span class="op">;</span></span>
+<span id="cb2-464"><a href="#cb2-464" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
+<span id="cb2-465"><a href="#cb2-465" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-466"><a href="#cb2-466" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Línea de valores</span></span>
+<span id="cb2-467"><a href="#cb2-467" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> line <span class="op">=</span> d3<span class="op">.</span><span class="fu">lineRadial</span>()</span>
+<span id="cb2-468"><a href="#cb2-468" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">radius</span>(d <span class="kw">=&gt;</span> <span class="fu">rScale</span>(d<span class="op">.</span><span class="at">value</span>))</span>
+<span id="cb2-469"><a href="#cb2-469" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">angle</span>((d<span class="op">,</span>i) <span class="kw">=&gt;</span> i <span class="op">*</span> angleSlice)</span>
+<span id="cb2-470"><a href="#cb2-470" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">curve</span>(d3<span class="op">.</span><span class="at">curveLinearClosed</span>)<span class="op">;</span></span>
+<span id="cb2-471"><a href="#cb2-471" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-472"><a href="#cb2-472" aria-hidden="true" tabindex="-1"></a>  g<span class="op">.</span><span class="fu">append</span>(<span class="st">"path"</span>)</span>
+<span id="cb2-473"><a href="#cb2-473" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">datum</span>(data)</span>
+<span id="cb2-474"><a href="#cb2-474" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"d"</span><span class="op">,</span> line)</span>
+<span id="cb2-475"><a href="#cb2-475" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"fill"</span><span class="op">,</span> <span class="st">"rgba(50,150,250,0.5)"</span>)</span>
+<span id="cb2-476"><a href="#cb2-476" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke"</span><span class="op">,</span> <span class="st">"steelblue"</span>)</span>
+<span id="cb2-477"><a href="#cb2-477" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke-width"</span><span class="op">,</span> <span class="dv">2</span>)<span class="op">;</span></span>
+<span id="cb2-478"><a href="#cb2-478" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-479"><a href="#cb2-479" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> svg<span class="op">.</span><span class="fu">node</span>()<span class="op">;</span></span>
+<span id="cb2-480"><a href="#cb2-480" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="fig-resultados-2021" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-resultados-2021-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/capitulo4/radar-resiliencia-2021.png" class="img-fluid figure-img" width="600">
+<div id="ojs-cell-2" data-nodetype="expression">
+
+</div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-resultados-2021-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;7: Resultado de la evaluación de resiliencia comunitaria ante desastres del año 2021 (Gráfico radar de 30 componentes).
+Figura&nbsp;9: Resultado de la evaluación de resiliencia comunitaria ante desastres del año 2021 (Gráfico radar de 30 componentes). Calificación de resiliencia 60.2% (mediana)
 </figcaption>
 </figure>
+</div>
 </div>
 </section>
 </section>
 <section id="análisis-comparativo-multitemporal" class="level2">
 <h2 class="anchored" data-anchor-id="análisis-comparativo-multitemporal">3.2 Análisis comparativo multitemporal</h2>
-<p>En la <a href="#fig-analisis-comparativo" class="quarto-xref">Figura&nbsp;<span>8</span></a> se evidencian los contrastes entre las dos evaluaciones, hallando contrastes significativos en ciertos componentes. La diseminación de la información de reducción del riesgo de desastres pasó de un nivel 1 a 4, debido al proceso que ha surgido con la comunidad, sobre capacitación, formación y sensibilización en materia de reducción del riesgo de desastres.</p>
+<p>En la <a href="#fig-analisis-comparativo" class="quarto-xref">Figura&nbsp;<span>10</span></a> se evidencian los contrastes entre las dos evaluaciones, hallando contrastes significativos en ciertos componentes. La diseminación de la información de reducción del riesgo de desastres pasó de un nivel 1 a 4, debido al proceso que ha surgido con la comunidad, sobre capacitación, formación y sensibilización en materia de reducción del riesgo de desastres.</p>
 <p>Lo anterior está muy relacionado con la toma de decisiones comunitaria, esto se evidencia, del paso de 1 a 4, en dónde la comunidad ha tenido un nivel de empoderamiento en las decisiones que se tomen en su territorio.</p>
 <p>El caso atípico, fue el valor dado a la reducción del riesgo de desastres en la planificación territorial, debido a que los líderes consideran que, en estos diez años, no se ha tenido un avance significativo en este componente.</p>
 <p>La calificación más alta otorgada, fue la participación de las mujeres, pasando de un nivel de 2 a 5, siendo significativo su avance, ya que son las mujeres las que en la actualidad más participan en los temas de gestión de riesgo de desastres en la comuna 10 y están liderando diferentes procesos.</p>
 <p>En el caso de las alianzas para la reducción del riesgo de desastres y recuperación, se tuvo un paso de 0 a 4 en la calificación, lo que muestra la mejora de las condiciones y capacidades de recuperación en la comuna.</p>
 <p>Frente a la cohesión social y prevención de conflictos, se consideró que en el 2011 las condiciones de seguridad eran mejores que en la actualidad, pasando de un nivel de 4 a 2.</p>
-<div id="fig-analisis-comparativo" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="503" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 502;"><span id="cb3-503"><a href="#cb3-503" aria-hidden="true" tabindex="-1"></a><span class="co">// Radar chart comparativo con D3</span></span>
+<span id="cb3-504"><a href="#cb3-504" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb3-505"><a href="#cb3-505" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Datos de evaluación 2011 (amarillo)</span></span>
+<span id="cb3-506"><a href="#cb3-506" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> data2011 <span class="op">=</span> [</span>
+<span id="cb3-507"><a href="#cb3-507" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"1. Evaluación comunitaria"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb3-508"><a href="#cb3-508" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"2. Evaluación científica del riesgo"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="fl">2.0</span>}<span class="op">,</span></span>
+<span id="cb3-509"><a href="#cb3-509" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"3. Diseminación de información en RRD"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-510"><a href="#cb3-510" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"4. Educación de los niños en RRD"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-511"><a href="#cb3-511" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"5. RRD en la planificación del desarrollo"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb3-512"><a href="#cb3-512" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"6. RRD en la planificación territorial"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb3-513"><a href="#cb3-513" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"7. Toma comunitaria de decisiones"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb3-514"><a href="#cb3-514" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"8. Inclusión de grupos vulnerables"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-515"><a href="#cb3-515" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"9. Participación de las mujeres"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-516"><a href="#cb3-516" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"10. Conocimiento de derechos"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-517"><a href="#cb3-517" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"11. Alianzas para la RRD"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb3-518"><a href="#cb3-518" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"12. Gestión ambiental sostenible"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-519"><a href="#cb3-519" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"13. Seguridad y gestión del agua"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-520"><a href="#cb3-520" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"14. Acceso y conciencia de la salud"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-521"><a href="#cb3-521" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"15. Suministro seguro de alimentos"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-522"><a href="#cb3-522" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"16. Prácticas de medios de vida"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb3-523"><a href="#cb3-523" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"17. Acceso a mercado"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb3-524"><a href="#cb3-524" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"18. Acceso a servicios financieros"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="fl">1.2</span>}<span class="op">,</span></span>
+<span id="cb3-525"><a href="#cb3-525" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"19. Protección de ingresos y activos"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-526"><a href="#cb3-526" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"20. Acceso a protección social"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-527"><a href="#cb3-527" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"21. Cohesión social"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb3-528"><a href="#cb3-528" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"22. Infraestructura crítica"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb3-529"><a href="#cb3-529" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"23. Vivienda"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb3-530"><a href="#cb3-530" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"24. Planificación de contingencia"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb3-531"><a href="#cb3-531" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"25. Sistema de alerta temprana"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb3-532"><a href="#cb3-532" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"26. Capacidad de preparación"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-533"><a href="#cb3-533" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"27. Servicios de salud"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-534"><a href="#cb3-534" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"28. Servicios de educación"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-535"><a href="#cb3-535" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"29. Infraestructura en emergencias"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb3-536"><a href="#cb3-536" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"30. Liderazgo y voluntariado"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}</span>
+<span id="cb3-537"><a href="#cb3-537" aria-hidden="true" tabindex="-1"></a>  ]<span class="op">;</span></span>
+<span id="cb3-538"><a href="#cb3-538" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-539"><a href="#cb3-539" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Datos de evaluación 2021 (azul)</span></span>
+<span id="cb3-540"><a href="#cb3-540" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> data2021 <span class="op">=</span> [</span>
+<span id="cb3-541"><a href="#cb3-541" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"1. Evaluación comunitaria"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb3-542"><a href="#cb3-542" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"2. Evaluación científica del riesgo"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb3-543"><a href="#cb3-543" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"3. Diseminación de información en RRD"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb3-544"><a href="#cb3-544" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"4. Educación de los niños en RRD"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb3-545"><a href="#cb3-545" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"5. RRD en la planificación del desarrollo"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb3-546"><a href="#cb3-546" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"6. RRD en la planificación territorial"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-547"><a href="#cb3-547" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"7. Toma comunitaria de decisiones"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">,</span></span>
+<span id="cb3-548"><a href="#cb3-548" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"8. Inclusión de grupos vulnerables"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb3-549"><a href="#cb3-549" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"9. Participación de las mujeres"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb3-550"><a href="#cb3-550" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"10. Conocimiento de derechos"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">5</span>}<span class="op">,</span></span>
+<span id="cb3-551"><a href="#cb3-551" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"11. Alianzas para la RRD"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb3-552"><a href="#cb3-552" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"12. Gestión ambiental sostenible"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb3-553"><a href="#cb3-553" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"13. Seguridad y gestión del agua"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb3-554"><a href="#cb3-554" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"14. Acceso y conciencia de la salud"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb3-555"><a href="#cb3-555" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"15. Suministro seguro de alimentos"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb3-556"><a href="#cb3-556" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"16. Prácticas de medios de vida"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb3-557"><a href="#cb3-557" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"17. Acceso a mercado"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-558"><a href="#cb3-558" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"18. Acceso a servicios financieros"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb3-559"><a href="#cb3-559" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"19. Protección de ingresos y activos"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-560"><a href="#cb3-560" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"20. Acceso a protección social"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-561"><a href="#cb3-561" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"21. Cohesión social"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb3-562"><a href="#cb3-562" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"22. Infraestructura crítica"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">,</span></span>
+<span id="cb3-563"><a href="#cb3-563" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"23. Vivienda"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb3-564"><a href="#cb3-564" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"24. Planificación de contingencia"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb3-565"><a href="#cb3-565" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"25. Sistema de alerta temprana"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">,</span></span>
+<span id="cb3-566"><a href="#cb3-566" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"26. Capacidad de preparación"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb3-567"><a href="#cb3-567" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"27. Servicios de salud"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb3-568"><a href="#cb3-568" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"28. Servicios de educación"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb3-569"><a href="#cb3-569" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"29. Infraestructura en emergencias"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">4</span>}<span class="op">,</span></span>
+<span id="cb3-570"><a href="#cb3-570" aria-hidden="true" tabindex="-1"></a>    {<span class="dt">axis</span><span class="op">:</span> <span class="st">"30. Liderazgo y voluntariado"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span>}</span>
+<span id="cb3-571"><a href="#cb3-571" aria-hidden="true" tabindex="-1"></a>  ]<span class="op">;</span></span>
+<span id="cb3-572"><a href="#cb3-572" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-573"><a href="#cb3-573" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> width <span class="op">=</span> <span class="dv">600</span><span class="op">,</span> height <span class="op">=</span> <span class="dv">600</span><span class="op">;</span></span>
+<span id="cb3-574"><a href="#cb3-574" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> radius <span class="op">=</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">min</span>(width<span class="op">,</span> height) <span class="op">/</span> <span class="dv">2</span> <span class="op">-</span> <span class="dv">80</span><span class="op">;</span></span>
+<span id="cb3-575"><a href="#cb3-575" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> levels <span class="op">=</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb3-576"><a href="#cb3-576" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> maxValue <span class="op">=</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb3-577"><a href="#cb3-577" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-578"><a href="#cb3-578" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> angleSlice <span class="op">=</span> (<span class="bu">Math</span><span class="op">.</span><span class="cn">PI</span> <span class="op">*</span> <span class="dv">2</span>) <span class="op">/</span> data2011<span class="op">.</span><span class="at">length</span><span class="op">;</span></span>
+<span id="cb3-579"><a href="#cb3-579" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-580"><a href="#cb3-580" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> rScale <span class="op">=</span> d3<span class="op">.</span><span class="fu">scaleLinear</span>()</span>
+<span id="cb3-581"><a href="#cb3-581" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">domain</span>([<span class="dv">0</span><span class="op">,</span> maxValue])</span>
+<span id="cb3-582"><a href="#cb3-582" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> radius])<span class="op">;</span></span>
+<span id="cb3-583"><a href="#cb3-583" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-584"><a href="#cb3-584" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> svg <span class="op">=</span> d3<span class="op">.</span><span class="fu">create</span>(<span class="st">"svg"</span>)</span>
+<span id="cb3-585"><a href="#cb3-585" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"width"</span><span class="op">,</span> width)</span>
+<span id="cb3-586"><a href="#cb3-586" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"height"</span><span class="op">,</span> height)<span class="op">;</span></span>
+<span id="cb3-587"><a href="#cb3-587" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-588"><a href="#cb3-588" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> g <span class="op">=</span> svg<span class="op">.</span><span class="fu">append</span>(<span class="st">"g"</span>)</span>
+<span id="cb3-589"><a href="#cb3-589" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"transform"</span><span class="op">,</span> <span class="vs">`translate(</span><span class="sc">${</span>width<span class="op">/</span><span class="dv">2</span><span class="sc">}</span><span class="vs">,</span><span class="sc">${</span>height<span class="op">/</span><span class="dv">2</span><span class="sc">}</span><span class="vs">)`</span>)<span class="op">;</span></span>
+<span id="cb3-590"><a href="#cb3-590" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-591"><a href="#cb3-591" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Dibujar círculos concéntricos</span></span>
+<span id="cb3-592"><a href="#cb3-592" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;=</span> levels<span class="op">;</span> i<span class="op">++</span>) {</span>
+<span id="cb3-593"><a href="#cb3-593" aria-hidden="true" tabindex="-1"></a>    g<span class="op">.</span><span class="fu">append</span>(<span class="st">"circle"</span>)</span>
+<span id="cb3-594"><a href="#cb3-594" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"r"</span><span class="op">,</span> radius<span class="op">/</span>levels <span class="op">*</span> i)</span>
+<span id="cb3-595"><a href="#cb3-595" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"fill"</span><span class="op">,</span> <span class="st">"none"</span>)</span>
+<span id="cb3-596"><a href="#cb3-596" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke"</span><span class="op">,</span> <span class="st">"#ddd"</span>)</span>
+<span id="cb3-597"><a href="#cb3-597" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke-width"</span><span class="op">,</span> i <span class="op">===</span> <span class="dv">0</span> <span class="op">?</span> <span class="dv">0</span> <span class="op">:</span> <span class="dv">1</span>)<span class="op">;</span></span>
+<span id="cb3-598"><a href="#cb3-598" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb3-599"><a href="#cb3-599" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-600"><a href="#cb3-600" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Agregar etiquetas de escala</span></span>
+<span id="cb3-601"><a href="#cb3-601" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (<span class="kw">let</span> i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;=</span> levels<span class="op">;</span> i<span class="op">++</span>) {</span>
+<span id="cb3-602"><a href="#cb3-602" aria-hidden="true" tabindex="-1"></a>    g<span class="op">.</span><span class="fu">append</span>(<span class="st">"text"</span>)</span>
+<span id="cb3-603"><a href="#cb3-603" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"x"</span><span class="op">,</span> <span class="dv">5</span>)</span>
+<span id="cb3-604"><a href="#cb3-604" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"y"</span><span class="op">,</span> <span class="op">-</span>radius<span class="op">/</span>levels <span class="op">*</span> i)</span>
+<span id="cb3-605"><a href="#cb3-605" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"dy"</span><span class="op">,</span> <span class="st">"0.35em"</span>)</span>
+<span id="cb3-606"><a href="#cb3-606" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">style</span>(<span class="st">"font-size"</span><span class="op">,</span> <span class="st">"11px"</span>)</span>
+<span id="cb3-607"><a href="#cb3-607" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">style</span>(<span class="st">"font-weight"</span><span class="op">,</span> <span class="st">"bold"</span>)</span>
+<span id="cb3-608"><a href="#cb3-608" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">style</span>(<span class="st">"fill"</span><span class="op">,</span> <span class="st">"#666"</span>)</span>
+<span id="cb3-609"><a href="#cb3-609" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">text</span>(i)<span class="op">;</span></span>
+<span id="cb3-610"><a href="#cb3-610" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb3-611"><a href="#cb3-611" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-612"><a href="#cb3-612" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Ejes radiales</span></span>
+<span id="cb3-613"><a href="#cb3-613" aria-hidden="true" tabindex="-1"></a>  data2011<span class="op">.</span><span class="fu">forEach</span>((d<span class="op">,</span> i) <span class="kw">=&gt;</span> {</span>
+<span id="cb3-614"><a href="#cb3-614" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> angle <span class="op">=</span> angleSlice <span class="op">*</span> i <span class="op">-</span> <span class="bu">Math</span><span class="op">.</span><span class="cn">PI</span><span class="op">/</span><span class="dv">2</span><span class="op">;</span></span>
+<span id="cb3-615"><a href="#cb3-615" aria-hidden="true" tabindex="-1"></a>    g<span class="op">.</span><span class="fu">append</span>(<span class="st">"line"</span>)</span>
+<span id="cb3-616"><a href="#cb3-616" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"x1"</span><span class="op">,</span> <span class="dv">0</span>)</span>
+<span id="cb3-617"><a href="#cb3-617" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"y1"</span><span class="op">,</span> <span class="dv">0</span>)</span>
+<span id="cb3-618"><a href="#cb3-618" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"x2"</span><span class="op">,</span> <span class="fu">rScale</span>(maxValue) <span class="op">*</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">cos</span>(angle))</span>
+<span id="cb3-619"><a href="#cb3-619" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"y2"</span><span class="op">,</span> <span class="fu">rScale</span>(maxValue) <span class="op">*</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">sin</span>(angle))</span>
+<span id="cb3-620"><a href="#cb3-620" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke"</span><span class="op">,</span> <span class="st">"#999"</span>)</span>
+<span id="cb3-621"><a href="#cb3-621" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke-width"</span><span class="op">,</span> <span class="fl">0.5</span>)<span class="op">;</span></span>
+<span id="cb3-622"><a href="#cb3-622" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-623"><a href="#cb3-623" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Etiquetas</span></span>
+<span id="cb3-624"><a href="#cb3-624" aria-hidden="true" tabindex="-1"></a>    g<span class="op">.</span><span class="fu">append</span>(<span class="st">"text"</span>)</span>
+<span id="cb3-625"><a href="#cb3-625" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"x"</span><span class="op">,</span> (<span class="fu">rScale</span>(maxValue <span class="op">+</span> <span class="fl">0.5</span>)) <span class="op">*</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">cos</span>(angle))</span>
+<span id="cb3-626"><a href="#cb3-626" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"y"</span><span class="op">,</span> (<span class="fu">rScale</span>(maxValue <span class="op">+</span> <span class="fl">0.5</span>)) <span class="op">*</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">sin</span>(angle))</span>
+<span id="cb3-627"><a href="#cb3-627" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">"dy"</span><span class="op">,</span> <span class="st">"0.35em"</span>)</span>
+<span id="cb3-628"><a href="#cb3-628" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">style</span>(<span class="st">"font-size"</span><span class="op">,</span> <span class="st">"9px"</span>)</span>
+<span id="cb3-629"><a href="#cb3-629" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">style</span>(<span class="st">"text-anchor"</span><span class="op">,</span> angle <span class="op">&gt;</span> <span class="bu">Math</span><span class="op">.</span><span class="cn">PI</span><span class="op">/</span><span class="dv">2</span> <span class="op">&amp;&amp;</span> angle <span class="op">&lt;</span> <span class="dv">3</span><span class="op">*</span><span class="bu">Math</span><span class="op">.</span><span class="cn">PI</span><span class="op">/</span><span class="dv">2</span> <span class="op">?</span> <span class="st">"end"</span> <span class="op">:</span> <span class="st">"start"</span>)</span>
+<span id="cb3-630"><a href="#cb3-630" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">text</span>(d<span class="op">.</span><span class="at">axis</span>)<span class="op">;</span></span>
+<span id="cb3-631"><a href="#cb3-631" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
+<span id="cb3-632"><a href="#cb3-632" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-633"><a href="#cb3-633" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Línea de valores 2011 (amarillo)</span></span>
+<span id="cb3-634"><a href="#cb3-634" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> line2011 <span class="op">=</span> d3<span class="op">.</span><span class="fu">lineRadial</span>()</span>
+<span id="cb3-635"><a href="#cb3-635" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">radius</span>(d <span class="kw">=&gt;</span> <span class="fu">rScale</span>(d<span class="op">.</span><span class="at">value</span>))</span>
+<span id="cb3-636"><a href="#cb3-636" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">angle</span>((d<span class="op">,</span>i) <span class="kw">=&gt;</span> i <span class="op">*</span> angleSlice)</span>
+<span id="cb3-637"><a href="#cb3-637" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">curve</span>(d3<span class="op">.</span><span class="at">curveLinearClosed</span>)<span class="op">;</span></span>
+<span id="cb3-638"><a href="#cb3-638" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-639"><a href="#cb3-639" aria-hidden="true" tabindex="-1"></a>  g<span class="op">.</span><span class="fu">append</span>(<span class="st">"path"</span>)</span>
+<span id="cb3-640"><a href="#cb3-640" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">datum</span>(data2011)</span>
+<span id="cb3-641"><a href="#cb3-641" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"d"</span><span class="op">,</span> line2011)</span>
+<span id="cb3-642"><a href="#cb3-642" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"fill"</span><span class="op">,</span> <span class="st">"rgba(255,235,100,0.4)"</span>)</span>
+<span id="cb3-643"><a href="#cb3-643" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke"</span><span class="op">,</span> <span class="st">"goldenrod"</span>)</span>
+<span id="cb3-644"><a href="#cb3-644" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke-width"</span><span class="op">,</span> <span class="dv">2</span>)<span class="op">;</span></span>
+<span id="cb3-645"><a href="#cb3-645" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-646"><a href="#cb3-646" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Línea de valores 2021 (azul)</span></span>
+<span id="cb3-647"><a href="#cb3-647" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> line2021 <span class="op">=</span> d3<span class="op">.</span><span class="fu">lineRadial</span>()</span>
+<span id="cb3-648"><a href="#cb3-648" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">radius</span>(d <span class="kw">=&gt;</span> <span class="fu">rScale</span>(d<span class="op">.</span><span class="at">value</span>))</span>
+<span id="cb3-649"><a href="#cb3-649" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">angle</span>((d<span class="op">,</span>i) <span class="kw">=&gt;</span> i <span class="op">*</span> angleSlice)</span>
+<span id="cb3-650"><a href="#cb3-650" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">curve</span>(d3<span class="op">.</span><span class="at">curveLinearClosed</span>)<span class="op">;</span></span>
+<span id="cb3-651"><a href="#cb3-651" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-652"><a href="#cb3-652" aria-hidden="true" tabindex="-1"></a>  g<span class="op">.</span><span class="fu">append</span>(<span class="st">"path"</span>)</span>
+<span id="cb3-653"><a href="#cb3-653" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">datum</span>(data2021)</span>
+<span id="cb3-654"><a href="#cb3-654" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"d"</span><span class="op">,</span> line2021)</span>
+<span id="cb3-655"><a href="#cb3-655" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"fill"</span><span class="op">,</span> <span class="st">"rgba(50,150,250,0.4)"</span>)</span>
+<span id="cb3-656"><a href="#cb3-656" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke"</span><span class="op">,</span> <span class="st">"steelblue"</span>)</span>
+<span id="cb3-657"><a href="#cb3-657" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke-width"</span><span class="op">,</span> <span class="dv">2</span>)<span class="op">;</span></span>
+<span id="cb3-658"><a href="#cb3-658" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-659"><a href="#cb3-659" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Leyenda centrada debajo del gráfico</span></span>
+<span id="cb3-660"><a href="#cb3-660" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> legend <span class="op">=</span> svg<span class="op">.</span><span class="fu">append</span>(<span class="st">"g"</span>)</span>
+<span id="cb3-661"><a href="#cb3-661" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"transform"</span><span class="op">,</span> <span class="vs">`translate(</span><span class="sc">${</span>width<span class="op">/</span><span class="dv">2</span> <span class="op">-</span> <span class="dv">100</span><span class="sc">}</span><span class="vs">, </span><span class="sc">${</span>height <span class="op">-</span> <span class="dv">20</span><span class="sc">}</span><span class="vs">)`</span>)<span class="op">;</span></span>
+<span id="cb3-662"><a href="#cb3-662" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-663"><a href="#cb3-663" aria-hidden="true" tabindex="-1"></a>  legend<span class="op">.</span><span class="fu">append</span>(<span class="st">"rect"</span>)</span>
+<span id="cb3-664"><a href="#cb3-664" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"x"</span><span class="op">,</span> <span class="dv">0</span>)</span>
+<span id="cb3-665"><a href="#cb3-665" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"y"</span><span class="op">,</span> <span class="dv">0</span>)</span>
+<span id="cb3-666"><a href="#cb3-666" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"width"</span><span class="op">,</span> <span class="dv">15</span>)</span>
+<span id="cb3-667"><a href="#cb3-667" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"height"</span><span class="op">,</span> <span class="dv">15</span>)</span>
+<span id="cb3-668"><a href="#cb3-668" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"fill"</span><span class="op">,</span> <span class="st">"rgba(255,235,100,0.6)"</span>)</span>
+<span id="cb3-669"><a href="#cb3-669" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke"</span><span class="op">,</span> <span class="st">"goldenrod"</span>)<span class="op">;</span></span>
+<span id="cb3-670"><a href="#cb3-670" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-671"><a href="#cb3-671" aria-hidden="true" tabindex="-1"></a>  legend<span class="op">.</span><span class="fu">append</span>(<span class="st">"text"</span>)</span>
+<span id="cb3-672"><a href="#cb3-672" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"x"</span><span class="op">,</span> <span class="dv">20</span>)</span>
+<span id="cb3-673"><a href="#cb3-673" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"y"</span><span class="op">,</span> <span class="dv">12</span>)</span>
+<span id="cb3-674"><a href="#cb3-674" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">style</span>(<span class="st">"font-size"</span><span class="op">,</span> <span class="st">"12px"</span>)</span>
+<span id="cb3-675"><a href="#cb3-675" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">text</span>(<span class="st">"2011 (30.8%)"</span>)<span class="op">;</span></span>
+<span id="cb3-676"><a href="#cb3-676" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-677"><a href="#cb3-677" aria-hidden="true" tabindex="-1"></a>  legend<span class="op">.</span><span class="fu">append</span>(<span class="st">"rect"</span>)</span>
+<span id="cb3-678"><a href="#cb3-678" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"x"</span><span class="op">,</span> <span class="dv">110</span>)</span>
+<span id="cb3-679"><a href="#cb3-679" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"y"</span><span class="op">,</span> <span class="dv">0</span>)</span>
+<span id="cb3-680"><a href="#cb3-680" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"width"</span><span class="op">,</span> <span class="dv">15</span>)</span>
+<span id="cb3-681"><a href="#cb3-681" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"height"</span><span class="op">,</span> <span class="dv">15</span>)</span>
+<span id="cb3-682"><a href="#cb3-682" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"fill"</span><span class="op">,</span> <span class="st">"rgba(50,150,250,0.6)"</span>)</span>
+<span id="cb3-683"><a href="#cb3-683" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"stroke"</span><span class="op">,</span> <span class="st">"steelblue"</span>)<span class="op">;</span></span>
+<span id="cb3-684"><a href="#cb3-684" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-685"><a href="#cb3-685" aria-hidden="true" tabindex="-1"></a>  legend<span class="op">.</span><span class="fu">append</span>(<span class="st">"text"</span>)</span>
+<span id="cb3-686"><a href="#cb3-686" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"x"</span><span class="op">,</span> <span class="dv">130</span>)</span>
+<span id="cb3-687"><a href="#cb3-687" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"y"</span><span class="op">,</span> <span class="dv">12</span>)</span>
+<span id="cb3-688"><a href="#cb3-688" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">style</span>(<span class="st">"font-size"</span><span class="op">,</span> <span class="st">"12px"</span>)</span>
+<span id="cb3-689"><a href="#cb3-689" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">text</span>(<span class="st">"2021 (60.2%)"</span>)<span class="op">;</span></span>
+<span id="cb3-690"><a href="#cb3-690" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-691"><a href="#cb3-691" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> svg<span class="op">.</span><span class="fu">node</span>()<span class="op">;</span></span>
+<span id="cb3-692"><a href="#cb3-692" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="fig-analisis-comparativo" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-analisis-comparativo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/capitulo4/analisis-comparativo-resiliencia.png" class="img-fluid figure-img" width="600">
+<div id="ojs-cell-3" data-nodetype="expression">
+
+</div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-analisis-comparativo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;8: Análisis comparativo de la evaluación de resiliencia comunitaria años 2011 y 2021.
+Figura&nbsp;10: Análisis comparativo de la evaluación de resiliencia comunitaria años 2011 y 2021.
 </figcaption>
 </figure>
+</div>
 </div>
 </section>
 </section>
@@ -944,9 +1445,9 @@ Recomendaciones para tomar decisiones
 <section id="identificación-de-autores" class="level1">
 <h1>IDENTIFICACIÓN DE AUTORES</h1>
 <p><strong>Evelin Langebeck Cuéllar</strong></p>
-<p>https://scholar.google.es/citations?user=FzyY5g8AAAAJ&amp;hl=es</p>
+<p><a href="https://scholar.google.es/citations?user=FzyY5g8AAAAJ&amp;hl=es" class="uri">https://scholar.google.es/citations?user=FzyY5g8AAAAJ&amp;hl=es</a></p>
 <p><strong>Nicolás Giraldo Hernández</strong></p>
-<p>https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001984270</p>
+<p><a href="https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001984270" class="uri">https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001984270</a></p>
 </section>
 <section id="declaración-de-autoría-credit" class="level1">
 <h1>DECLARACIÓN DE AUTORÍA CRediT</h1>
@@ -979,6 +1480,17 @@ Recomendaciones para tomar decisiones
 </section>
 
 </main> <!-- /main -->
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuZGF0YSA9IFtcbiAge2F4aXM6IFwiMS4gRXZhbHVhY2nDs24gY29tdW5pdGFyaWFcIiwgdmFsdWU6IDN9LFxuICB7YXhpczogXCIyLiBFdmFsdWFjacOzbiBjaWVudMOtZmljYSBkZWwgcmllc2dvXCIsIHZhbHVlOiAyLjB9LFxuICB7YXhpczogXCIzLiBEaXNlbWluYWNpw7NuIGRlIGluZm9ybWFjacOzbiBlbiBSUkRcIiwgdmFsdWU6IDJ9LFxuICB7YXhpczogXCI0LiBFZHVjYWNpw7NuIGRlIGxvcyBuacOxb3MgZW4gUlJEXCIsIHZhbHVlOiAyfSxcbiAge2F4aXM6IFwiNS4gUlJEIGVuIGxhIHBsYW5pZmljYWNpw7NuIGRlbCBkZXNhcnJvbGxvXCIsIHZhbHVlOiAxfSxcbiAge2F4aXM6IFwiNi4gUlJEIGVuIGxhIHBsYW5pZmljYWNpw7NuIHRlcnJpdG9yaWFsXCIsIHZhbHVlOiAxfSxcbiAge2F4aXM6IFwiNy4gVG9tYSBjb211bml0YXJpYSBkZSBkZWNpc2lvbmVzXCIsIHZhbHVlOiAxfSxcbiAge2F4aXM6IFwiOC4gSW5jbHVzacOzbiBkZSBncnVwb3MgdnVsbmVyYWJsZXNcIiwgdmFsdWU6IDJ9LFxuICB7YXhpczogXCI5LiBQYXJ0aWNpcGFjacOzbiBkZSBsYXMgbXVqZXJlc1wiLCB2YWx1ZTogMn0sXG4gIHtheGlzOiBcIjEwLiBDb25vY2ltaWVudG8gZGUgZGVyZWNob3NcIiwgdmFsdWU6IDJ9LFxuICB7YXhpczogXCIxMS4gQWxpYW56YXMgcGFyYSBsYSBSUkRcIiwgdmFsdWU6IDF9LFxuICB7YXhpczogXCIxMi4gR2VzdGnDs24gYW1iaWVudGFsIHNvc3RlbmlibGVcIiwgdmFsdWU6IDJ9LFxuICB7YXhpczogXCIxMy4gU2VndXJpZGFkIHkgZ2VzdGnDs24gZGVsIGFndWFcIiwgdmFsdWU6IDJ9LFxuICB7YXhpczogXCIxNC4gQWNjZXNvIHkgY29uY2llbmNpYSBkZSBsYSBzYWx1ZFwiLCB2YWx1ZTogMn0sXG4gIHtheGlzOiBcIjE1LiBTdW1pbmlzdHJvIHNlZ3VybyBkZSBhbGltZW50b3NcIiwgdmFsdWU6IDJ9LFxuICB7YXhpczogXCIxNi4gUHLDoWN0aWNhcyBkZSBtZWRpb3MgZGUgdmlkYVwiLCB2YWx1ZTogMX0sXG4gIHtheGlzOiBcIjE3LiBBY2Nlc28gYSBtZXJjYWRvXCIsIHZhbHVlOiAxfSxcbiAge2F4aXM6IFwiMTguIEFjY2VzbyBhIHNlcnZpY2lvcyBmaW5hbmNpZXJvc1wiLCB2YWx1ZTogMS4yfSxcbiAge2F4aXM6IFwiMTkuIFByb3RlY2Npw7NuIGRlIGluZ3Jlc29zIHkgYWN0aXZvc1wiLCB2YWx1ZTogMn0sXG4gIHtheGlzOiBcIjIwLiBBY2Nlc28gYSBwcm90ZWNjacOzbiBzb2NpYWxcIiwgdmFsdWU6IDJ9LFxuICB7YXhpczogXCIyMS4gQ29oZXNpw7NuIHNvY2lhbFwiLCB2YWx1ZTogNH0sXG4gIHtheGlzOiBcIjIyLiBJbmZyYWVzdHJ1Y3R1cmEgY3LDrXRpY2FcIiwgdmFsdWU6IDF9LFxuICB7YXhpczogXCIyMy4gVml2aWVuZGFcIiwgdmFsdWU6IDF9LFxuICB7YXhpczogXCIyNC4gUGxhbmlmaWNhY2nDs24gZGUgY29udGluZ2VuY2lhXCIsIHZhbHVlOiAxfSxcbiAge2F4aXM6IFwiMjUuIFNpc3RlbWEgZGUgYWxlcnRhIHRlbXByYW5hXCIsIHZhbHVlOiAxfSxcbiAge2F4aXM6IFwiMjYuIENhcGFjaWRhZCBkZSBwcmVwYXJhY2nDs25cIiwgdmFsdWU6IDJ9LFxuICB7YXhpczogXCIyNy4gU2VydmljaW9zIGRlIHNhbHVkXCIsIHZhbHVlOiAyfSxcbiAge2F4aXM6IFwiMjguIFNlcnZpY2lvcyBkZSBlZHVjYWNpw7NuXCIsIHZhbHVlOiAyfSxcbiAge2F4aXM6IFwiMjkuIEluZnJhZXN0cnVjdHVyYSBlbiBlbWVyZ2VuY2lhc1wiLCB2YWx1ZTogMX0sXG4gIHtheGlzOiBcIjMwLiBMaWRlcmF6Z28geSB2b2x1bnRhcmlhZG9cIiwgdmFsdWU6IDF9XG5dXG5cbi8vIFJhZGFyIGNoYXJ0IGNvbiBEM1xue1xuICBjb25zdCB3aWR0aCA9IDU1MCwgaGVpZ2h0ID0gNTUwO1xuICBjb25zdCByYWRpdXMgPSBNYXRoLm1pbih3aWR0aCwgaGVpZ2h0KSAvIDIgLSA2MDtcbiAgY29uc3QgbGV2ZWxzID0gNDsgLy8gbsO6bWVybyBkZSBjw61yY3Vsb3MgY29uY8OpbnRyaWNvc1xuICBjb25zdCBtYXhWYWx1ZSA9IDQ7IC8vIGVzY2FsYSBtw6F4aW1hXG5cbiAgY29uc3QgYW5nbGVTbGljZSA9IChNYXRoLlBJICogMikgLyBkYXRhLmxlbmd0aDtcblxuICBjb25zdCByU2NhbGUgPSBkMy5zY2FsZUxpbmVhcigpXG4gICAgLmRvbWFpbihbMCwgbWF4VmFsdWVdKVxuICAgIC5yYW5nZShbMCwgcmFkaXVzXSk7XG5cbiAgY29uc3Qgc3ZnID0gZDMuY3JlYXRlKFwic3ZnXCIpXG4gICAgLmF0dHIoXCJ3aWR0aFwiLCB3aWR0aClcbiAgICAuYXR0cihcImhlaWdodFwiLCBoZWlnaHQpO1xuXG4gIGNvbnN0IGcgPSBzdmcuYXBwZW5kKFwiZ1wiKVxuICAgIC5hdHRyKFwidHJhbnNmb3JtXCIsIGB0cmFuc2xhdGUoJHt3aWR0aC8yfSwke2hlaWdodC8yfSlgKTtcblxuICAvLyBEaWJ1amFyIGPDrXJjdWxvcyBjb25jw6ludHJpY29zXG4gIGZvciAobGV0IGkgPSAwOyBpIDw9IGxldmVsczsgaSsrKSB7XG4gICAgZy5hcHBlbmQoXCJjaXJjbGVcIilcbiAgICAgIC5hdHRyKFwiclwiLCByYWRpdXMvbGV2ZWxzICogaSlcbiAgICAgIC5hdHRyKFwiZmlsbFwiLCBcIm5vbmVcIilcbiAgICAgIC5hdHRyKFwic3Ryb2tlXCIsIFwiI2NjY1wiKTtcbiAgfVxuXG4gIC8vIEFncmVnYXIgZXRpcXVldGFzIGRlIGVzY2FsYSBlbiBlbCBlamUgdmVydGljYWwgc3VwZXJpb3JcbiAgZm9yIChsZXQgaSA9IDE7IGkgPD0gbGV2ZWxzOyBpKyspIHtcbiAgICBnLmFwcGVuZChcInRleHRcIilcbiAgICAgIC5hdHRyKFwieFwiLCA1KVxuICAgICAgLmF0dHIoXCJ5XCIsIC1yYWRpdXMvbGV2ZWxzICogaSlcbiAgICAgIC5hdHRyKFwiZHlcIiwgXCIwLjM1ZW1cIilcbiAgICAgIC5zdHlsZShcImZvbnQtc2l6ZVwiLCBcIjExcHhcIilcbiAgICAgIC5zdHlsZShcImZvbnQtd2VpZ2h0XCIsIFwiYm9sZFwiKVxuICAgICAgLnN0eWxlKFwiZmlsbFwiLCBcIiM2NjZcIilcbiAgICAgIC50ZXh0KGkpO1xuICB9XG5cbiAgLy8gRWplcyByYWRpYWxlc1xuICBkYXRhLmZvckVhY2goKGQsIGkpID0+IHtcbiAgICBjb25zdCBhbmdsZSA9IGFuZ2xlU2xpY2UgKiBpIC0gTWF0aC5QSS8yO1xuICAgIGcuYXBwZW5kKFwibGluZVwiKVxuICAgICAgLmF0dHIoXCJ4MVwiLCAwKVxuICAgICAgLmF0dHIoXCJ5MVwiLCAwKVxuICAgICAgLmF0dHIoXCJ4MlwiLCByU2NhbGUobWF4VmFsdWUpICogTWF0aC5jb3MoYW5nbGUpKVxuICAgICAgLmF0dHIoXCJ5MlwiLCByU2NhbGUobWF4VmFsdWUpICogTWF0aC5zaW4oYW5nbGUpKVxuICAgICAgLmF0dHIoXCJzdHJva2VcIiwgXCIjOTk5XCIpO1xuXG4gICAgLy8gRXRpcXVldGFzXG4gICAgZy5hcHBlbmQoXCJ0ZXh0XCIpXG4gICAgICAuYXR0cihcInhcIiwgKHJTY2FsZShtYXhWYWx1ZSArIDAuMikpICogTWF0aC5jb3MoYW5nbGUpKVxuICAgICAgLmF0dHIoXCJ5XCIsIChyU2NhbGUobWF4VmFsdWUgKyAwLjIpKSAqIE1hdGguc2luKGFuZ2xlKSlcbiAgICAgIC5hdHRyKFwiZHlcIiwgXCIwLjM1ZW1cIilcbiAgICAgIC5zdHlsZShcImZvbnQtc2l6ZVwiLCBcIjEwcHhcIilcbiAgICAgIC5zdHlsZShcInRleHQtYW5jaG9yXCIsIGFuZ2xlID4gTWF0aC5QSS8yICYmIGFuZ2xlIDwgMypNYXRoLlBJLzIgPyBcImVuZFwiIDogXCJzdGFydFwiKVxuICAgICAgLnRleHQoZC5heGlzKTtcbiAgfSk7XG5cbiAgLy8gTMOtbmVhIGRlIHZhbG9yZXNcbiAgY29uc3QgbGluZSA9IGQzLmxpbmVSYWRpYWwoKVxuICAgIC5yYWRpdXMoZCA9PiByU2NhbGUoZC52YWx1ZSkpXG4gICAgLmFuZ2xlKChkLGkpID0+IGkgKiBhbmdsZVNsaWNlKVxuICAgIC5jdXJ2ZShkMy5jdXJ2ZUxpbmVhckNsb3NlZCk7XG5cbiAgZy5hcHBlbmQoXCJwYXRoXCIpXG4gICAgLmRhdHVtKGRhdGEpXG4gICAgLmF0dHIoXCJkXCIsIGxpbmUpXG4gICAgLmF0dHIoXCJmaWxsXCIsIFwicmdiYSgyNTUsMjM1LDEwMCwwLjUpXCIpXG4gICAgLmF0dHIoXCJzdHJva2VcIiwgXCJnb2xkZW5yb2RcIilcbiAgICAuYXR0cihcInN0cm9rZS13aWR0aFwiLCAyKTtcblxuICByZXR1cm4gc3ZnLm5vZGUoKTtcbn1cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuLy8gUmFkYXIgY2hhcnQgY29uIEQzXG57XG4gIC8vIERhdG9zIGRlIGV2YWx1YWNpw7NuIDIwMjFcbiAgY29uc3QgZGF0YSA9IFtcbiAgICB7YXhpczogXCIxLiBFdmFsdWFjacOzbiBjb211bml0YXJpYVwiLCB2YWx1ZTogNH0sXG4gICAge2F4aXM6IFwiMi4gRXZhbHVhY2nDs24gY2llbnTDrWZpY2EgZGVsIHJpZXNnb1wiLCB2YWx1ZTogNH0sXG4gICAge2F4aXM6IFwiMy4gRGlzZW1pbmFjacOzbiBkZSBpbmZvcm1hY2nDs24gZW4gUlJEXCIsIHZhbHVlOiAzfSxcbiAgICB7YXhpczogXCI0LiBFZHVjYWNpw7NuIGRlIGxvcyBuacOxb3MgZW4gUlJEXCIsIHZhbHVlOiA0fSxcbiAgICB7YXhpczogXCI1LiBSUkQgZW4gbGEgcGxhbmlmaWNhY2nDs24gZGVsIGRlc2Fycm9sbG9cIiwgdmFsdWU6IDN9LFxuICAgIHtheGlzOiBcIjYuIFJSRCBlbiBsYSBwbGFuaWZpY2FjacOzbiB0ZXJyaXRvcmlhbFwiLCB2YWx1ZTogMn0sXG4gICAge2F4aXM6IFwiNy4gVG9tYSBjb211bml0YXJpYSBkZSBkZWNpc2lvbmVzXCIsIHZhbHVlOiAxfSxcbiAgICB7YXhpczogXCI4LiBJbmNsdXNpw7NuIGRlIGdydXBvcyB2dWxuZXJhYmxlc1wiLCB2YWx1ZTogNH0sXG4gICAge2F4aXM6IFwiOS4gUGFydGljaXBhY2nDs24gZGUgbGFzIG11amVyZXNcIiwgdmFsdWU6IDN9LFxuICAgIHtheGlzOiBcIjEwLiBDb25vY2ltaWVudG8gZGUgZGVyZWNob3NcIiwgdmFsdWU6IDV9LFxuICAgIHtheGlzOiBcIjExLiBBbGlhbnphcyBwYXJhIGxhIFJSRFwiLCB2YWx1ZTogNH0sXG4gICAge2F4aXM6IFwiMTIuIEdlc3Rpw7NuIGFtYmllbnRhbCBzb3N0ZW5pYmxlXCIsIHZhbHVlOiA0fSxcbiAgICB7YXhpczogXCIxMy4gU2VndXJpZGFkIHkgZ2VzdGnDs24gZGVsIGFndWFcIiwgdmFsdWU6IDN9LFxuICAgIHtheGlzOiBcIjE0LiBBY2Nlc28geSBjb25jaWVuY2lhIGRlIGxhIHNhbHVkXCIsIHZhbHVlOiA0fSxcbiAgICB7YXhpczogXCIxNS4gU3VtaW5pc3RybyBzZWd1cm8gZGUgYWxpbWVudG9zXCIsIHZhbHVlOiA0fSxcbiAgICB7YXhpczogXCIxNi4gUHLDoWN0aWNhcyBkZSBtZWRpb3MgZGUgdmlkYVwiLCB2YWx1ZTogNH0sXG4gICAge2F4aXM6IFwiMTcuIEFjY2VzbyBhIG1lcmNhZG9cIiwgdmFsdWU6IDJ9LFxuICAgIHtheGlzOiBcIjE4LiBBY2Nlc28gYSBzZXJ2aWNpb3MgZmluYW5jaWVyb3NcIiwgdmFsdWU6IDN9LFxuICAgIHtheGlzOiBcIjE5LiBQcm90ZWNjacOzbiBkZSBpbmdyZXNvcyB5IGFjdGl2b3NcIiwgdmFsdWU6IDJ9LFxuICAgIHtheGlzOiBcIjIwLiBBY2Nlc28gYSBwcm90ZWNjacOzbiBzb2NpYWxcIiwgdmFsdWU6IDJ9LFxuICAgIHtheGlzOiBcIjIxLiBDb2hlc2nDs24gc29jaWFsXCIsIHZhbHVlOiAzfSxcbiAgICB7YXhpczogXCIyMi4gSW5mcmFlc3RydWN0dXJhIGNyw610aWNhXCIsIHZhbHVlOiAyfSxcbiAgICB7YXhpczogXCIyMy4gVml2aWVuZGFcIiwgdmFsdWU6IDN9LFxuICAgIHtheGlzOiBcIjI0LiBQbGFuaWZpY2FjacOzbiBkZSBjb250aW5nZW5jaWFcIiwgdmFsdWU6IDN9LFxuICAgIHtheGlzOiBcIjI1LiBTaXN0ZW1hIGRlIGFsZXJ0YSB0ZW1wcmFuYVwiLCB2YWx1ZTogM30sXG4gICAge2F4aXM6IFwiMjYuIENhcGFjaWRhZCBkZSBwcmVwYXJhY2nDs25cIiwgdmFsdWU6IDR9LFxuICAgIHtheGlzOiBcIjI3LiBTZXJ2aWNpb3MgZGUgc2FsdWRcIiwgdmFsdWU6IDR9LFxuICAgIHtheGlzOiBcIjI4LiBTZXJ2aWNpb3MgZGUgZWR1Y2FjacOzblwiLCB2YWx1ZTogNH0sXG4gICAge2F4aXM6IFwiMjkuIEluZnJhZXN0cnVjdHVyYSBlbiBlbWVyZ2VuY2lhc1wiLCB2YWx1ZTogNH0sXG4gICAge2F4aXM6IFwiMzAuIExpZGVyYXpnbyB5IHZvbHVudGFyaWFkb1wiLCB2YWx1ZTogMX1cbiAgXTtcblxuICBjb25zdCB3aWR0aCA9IDU1MCwgaGVpZ2h0ID0gNTUwO1xuICBjb25zdCByYWRpdXMgPSBNYXRoLm1pbih3aWR0aCwgaGVpZ2h0KSAvIDIgLSA2MDtcbiAgY29uc3QgbGV2ZWxzID0gNTsgLy8gbsO6bWVybyBkZSBjw61yY3Vsb3MgY29uY8OpbnRyaWNvcyAoYWhvcmEgNSBwYXJhIGVzY2FsYSAxLTUpXG4gIGNvbnN0IG1heFZhbHVlID0gNTsgLy8gZXNjYWxhIG3DoXhpbWEgKGFob3JhIDUgcG9ycXVlIGhheSB2YWxvcmVzIGRlIDUpXG5cbiAgY29uc3QgYW5nbGVTbGljZSA9IChNYXRoLlBJICogMikgLyBkYXRhLmxlbmd0aDtcblxuICBjb25zdCByU2NhbGUgPSBkMy5zY2FsZUxpbmVhcigpXG4gICAgLmRvbWFpbihbMCwgbWF4VmFsdWVdKVxuICAgIC5yYW5nZShbMCwgcmFkaXVzXSk7XG5cbiAgY29uc3Qgc3ZnID0gZDMuY3JlYXRlKFwic3ZnXCIpXG4gICAgLmF0dHIoXCJ3aWR0aFwiLCB3aWR0aClcbiAgICAuYXR0cihcImhlaWdodFwiLCBoZWlnaHQpO1xuXG4gIGNvbnN0IGcgPSBzdmcuYXBwZW5kKFwiZ1wiKVxuICAgIC5hdHRyKFwidHJhbnNmb3JtXCIsIGB0cmFuc2xhdGUoJHt3aWR0aC8yfSwke2hlaWdodC8yfSlgKTtcblxuICAvLyBEaWJ1amFyIGPDrXJjdWxvcyBjb25jw6ludHJpY29zXG4gIGZvciAobGV0IGkgPSAwOyBpIDw9IGxldmVsczsgaSsrKSB7XG4gICAgZy5hcHBlbmQoXCJjaXJjbGVcIilcbiAgICAgIC5hdHRyKFwiclwiLCByYWRpdXMvbGV2ZWxzICogaSlcbiAgICAgIC5hdHRyKFwiZmlsbFwiLCBcIm5vbmVcIilcbiAgICAgIC5hdHRyKFwic3Ryb2tlXCIsIFwiI2NjY1wiKTtcbiAgfVxuXG4gIC8vIEFncmVnYXIgZXRpcXVldGFzIGRlIGVzY2FsYSBlbiBlbCBlamUgdmVydGljYWwgc3VwZXJpb3JcbiAgZm9yIChsZXQgaSA9IDE7IGkgPD0gbGV2ZWxzOyBpKyspIHtcbiAgICBnLmFwcGVuZChcInRleHRcIilcbiAgICAgIC5hdHRyKFwieFwiLCA1KVxuICAgICAgLmF0dHIoXCJ5XCIsIC1yYWRpdXMvbGV2ZWxzICogaSlcbiAgICAgIC5hdHRyKFwiZHlcIiwgXCIwLjM1ZW1cIilcbiAgICAgIC5zdHlsZShcImZvbnQtc2l6ZVwiLCBcIjExcHhcIilcbiAgICAgIC5zdHlsZShcImZvbnQtd2VpZ2h0XCIsIFwiYm9sZFwiKVxuICAgICAgLnN0eWxlKFwiZmlsbFwiLCBcIiM2NjZcIilcbiAgICAgIC50ZXh0KGkpO1xuICB9XG5cbiAgLy8gRWplcyByYWRpYWxlc1xuICBkYXRhLmZvckVhY2goKGQsIGkpID0+IHtcbiAgICBjb25zdCBhbmdsZSA9IGFuZ2xlU2xpY2UgKiBpIC0gTWF0aC5QSS8yO1xuICAgIGcuYXBwZW5kKFwibGluZVwiKVxuICAgICAgLmF0dHIoXCJ4MVwiLCAwKVxuICAgICAgLmF0dHIoXCJ5MVwiLCAwKVxuICAgICAgLmF0dHIoXCJ4MlwiLCByU2NhbGUobWF4VmFsdWUpICogTWF0aC5jb3MoYW5nbGUpKVxuICAgICAgLmF0dHIoXCJ5MlwiLCByU2NhbGUobWF4VmFsdWUpICogTWF0aC5zaW4oYW5nbGUpKVxuICAgICAgLmF0dHIoXCJzdHJva2VcIiwgXCIjOTk5XCIpO1xuXG4gICAgLy8gRXRpcXVldGFzXG4gICAgZy5hcHBlbmQoXCJ0ZXh0XCIpXG4gICAgICAuYXR0cihcInhcIiwgKHJTY2FsZShtYXhWYWx1ZSArIDAuMikpICogTWF0aC5jb3MoYW5nbGUpKVxuICAgICAgLmF0dHIoXCJ5XCIsIChyU2NhbGUobWF4VmFsdWUgKyAwLjIpKSAqIE1hdGguc2luKGFuZ2xlKSlcbiAgICAgIC5hdHRyKFwiZHlcIiwgXCIwLjM1ZW1cIilcbiAgICAgIC5zdHlsZShcImZvbnQtc2l6ZVwiLCBcIjEwcHhcIilcbiAgICAgIC5zdHlsZShcInRleHQtYW5jaG9yXCIsIGFuZ2xlID4gTWF0aC5QSS8yICYmIGFuZ2xlIDwgMypNYXRoLlBJLzIgPyBcImVuZFwiIDogXCJzdGFydFwiKVxuICAgICAgLnRleHQoZC5heGlzKTtcbiAgfSk7XG5cbiAgLy8gTMOtbmVhIGRlIHZhbG9yZXNcbiAgY29uc3QgbGluZSA9IGQzLmxpbmVSYWRpYWwoKVxuICAgIC5yYWRpdXMoZCA9PiByU2NhbGUoZC52YWx1ZSkpXG4gICAgLmFuZ2xlKChkLGkpID0+IGkgKiBhbmdsZVNsaWNlKVxuICAgIC5jdXJ2ZShkMy5jdXJ2ZUxpbmVhckNsb3NlZCk7XG5cbiAgZy5hcHBlbmQoXCJwYXRoXCIpXG4gICAgLmRhdHVtKGRhdGEpXG4gICAgLmF0dHIoXCJkXCIsIGxpbmUpXG4gICAgLmF0dHIoXCJmaWxsXCIsIFwicmdiYSg1MCwxNTAsMjUwLDAuNSlcIilcbiAgICAuYXR0cihcInN0cm9rZVwiLCBcInN0ZWVsYmx1ZVwiKVxuICAgIC5hdHRyKFwic3Ryb2tlLXdpZHRoXCIsIDIpO1xuXG4gIHJldHVybiBzdmcubm9kZSgpO1xufVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0zIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXG4vLyBSYWRhciBjaGFydCBjb21wYXJhdGl2byBjb24gRDNcbntcbiAgLy8gRGF0b3MgZGUgZXZhbHVhY2nDs24gMjAxMSAoYW1hcmlsbG8pXG4gIGNvbnN0IGRhdGEyMDExID0gW1xuICAgIHtheGlzOiBcIjEuIEV2YWx1YWNpw7NuIGNvbXVuaXRhcmlhXCIsIHZhbHVlOiAzfSxcbiAgICB7YXhpczogXCIyLiBFdmFsdWFjacOzbiBjaWVudMOtZmljYSBkZWwgcmllc2dvXCIsIHZhbHVlOiAyLjB9LFxuICAgIHtheGlzOiBcIjMuIERpc2VtaW5hY2nDs24gZGUgaW5mb3JtYWNpw7NuIGVuIFJSRFwiLCB2YWx1ZTogMn0sXG4gICAge2F4aXM6IFwiNC4gRWR1Y2FjacOzbiBkZSBsb3MgbmnDsW9zIGVuIFJSRFwiLCB2YWx1ZTogMn0sXG4gICAge2F4aXM6IFwiNS4gUlJEIGVuIGxhIHBsYW5pZmljYWNpw7NuIGRlbCBkZXNhcnJvbGxvXCIsIHZhbHVlOiAxfSxcbiAgICB7YXhpczogXCI2LiBSUkQgZW4gbGEgcGxhbmlmaWNhY2nDs24gdGVycml0b3JpYWxcIiwgdmFsdWU6IDF9LFxuICAgIHtheGlzOiBcIjcuIFRvbWEgY29tdW5pdGFyaWEgZGUgZGVjaXNpb25lc1wiLCB2YWx1ZTogMX0sXG4gICAge2F4aXM6IFwiOC4gSW5jbHVzacOzbiBkZSBncnVwb3MgdnVsbmVyYWJsZXNcIiwgdmFsdWU6IDJ9LFxuICAgIHtheGlzOiBcIjkuIFBhcnRpY2lwYWNpw7NuIGRlIGxhcyBtdWplcmVzXCIsIHZhbHVlOiAyfSxcbiAgICB7YXhpczogXCIxMC4gQ29ub2NpbWllbnRvIGRlIGRlcmVjaG9zXCIsIHZhbHVlOiAyfSxcbiAgICB7YXhpczogXCIxMS4gQWxpYW56YXMgcGFyYSBsYSBSUkRcIiwgdmFsdWU6IDF9LFxuICAgIHtheGlzOiBcIjEyLiBHZXN0acOzbiBhbWJpZW50YWwgc29zdGVuaWJsZVwiLCB2YWx1ZTogMn0sXG4gICAge2F4aXM6IFwiMTMuIFNlZ3VyaWRhZCB5IGdlc3Rpw7NuIGRlbCBhZ3VhXCIsIHZhbHVlOiAyfSxcbiAgICB7YXhpczogXCIxNC4gQWNjZXNvIHkgY29uY2llbmNpYSBkZSBsYSBzYWx1ZFwiLCB2YWx1ZTogMn0sXG4gICAge2F4aXM6IFwiMTUuIFN1bWluaXN0cm8gc2VndXJvIGRlIGFsaW1lbnRvc1wiLCB2YWx1ZTogMn0sXG4gICAge2F4aXM6IFwiMTYuIFByw6FjdGljYXMgZGUgbWVkaW9zIGRlIHZpZGFcIiwgdmFsdWU6IDF9LFxuICAgIHtheGlzOiBcIjE3LiBBY2Nlc28gYSBtZXJjYWRvXCIsIHZhbHVlOiAxfSxcbiAgICB7YXhpczogXCIxOC4gQWNjZXNvIGEgc2VydmljaW9zIGZpbmFuY2llcm9zXCIsIHZhbHVlOiAxLjJ9LFxuICAgIHtheGlzOiBcIjE5LiBQcm90ZWNjacOzbiBkZSBpbmdyZXNvcyB5IGFjdGl2b3NcIiwgdmFsdWU6IDJ9LFxuICAgIHtheGlzOiBcIjIwLiBBY2Nlc28gYSBwcm90ZWNjacOzbiBzb2NpYWxcIiwgdmFsdWU6IDJ9LFxuICAgIHtheGlzOiBcIjIxLiBDb2hlc2nDs24gc29jaWFsXCIsIHZhbHVlOiA0fSxcbiAgICB7YXhpczogXCIyMi4gSW5mcmFlc3RydWN0dXJhIGNyw610aWNhXCIsIHZhbHVlOiAxfSxcbiAgICB7YXhpczogXCIyMy4gVml2aWVuZGFcIiwgdmFsdWU6IDF9LFxuICAgIHtheGlzOiBcIjI0LiBQbGFuaWZpY2FjacOzbiBkZSBjb250aW5nZW5jaWFcIiwgdmFsdWU6IDF9LFxuICAgIHtheGlzOiBcIjI1LiBTaXN0ZW1hIGRlIGFsZXJ0YSB0ZW1wcmFuYVwiLCB2YWx1ZTogMX0sXG4gICAge2F4aXM6IFwiMjYuIENhcGFjaWRhZCBkZSBwcmVwYXJhY2nDs25cIiwgdmFsdWU6IDJ9LFxuICAgIHtheGlzOiBcIjI3LiBTZXJ2aWNpb3MgZGUgc2FsdWRcIiwgdmFsdWU6IDJ9LFxuICAgIHtheGlzOiBcIjI4LiBTZXJ2aWNpb3MgZGUgZWR1Y2FjacOzblwiLCB2YWx1ZTogMn0sXG4gICAge2F4aXM6IFwiMjkuIEluZnJhZXN0cnVjdHVyYSBlbiBlbWVyZ2VuY2lhc1wiLCB2YWx1ZTogMX0sXG4gICAge2F4aXM6IFwiMzAuIExpZGVyYXpnbyB5IHZvbHVudGFyaWFkb1wiLCB2YWx1ZTogMX1cbiAgXTtcblxuICAvLyBEYXRvcyBkZSBldmFsdWFjacOzbiAyMDIxIChhenVsKVxuICBjb25zdCBkYXRhMjAyMSA9IFtcbiAgICB7YXhpczogXCIxLiBFdmFsdWFjacOzbiBjb211bml0YXJpYVwiLCB2YWx1ZTogNH0sXG4gICAge2F4aXM6IFwiMi4gRXZhbHVhY2nDs24gY2llbnTDrWZpY2EgZGVsIHJpZXNnb1wiLCB2YWx1ZTogNH0sXG4gICAge2F4aXM6IFwiMy4gRGlzZW1pbmFjacOzbiBkZSBpbmZvcm1hY2nDs24gZW4gUlJEXCIsIHZhbHVlOiAzfSxcbiAgICB7YXhpczogXCI0LiBFZHVjYWNpw7NuIGRlIGxvcyBuacOxb3MgZW4gUlJEXCIsIHZhbHVlOiA0fSxcbiAgICB7YXhpczogXCI1LiBSUkQgZW4gbGEgcGxhbmlmaWNhY2nDs24gZGVsIGRlc2Fycm9sbG9cIiwgdmFsdWU6IDN9LFxuICAgIHtheGlzOiBcIjYuIFJSRCBlbiBsYSBwbGFuaWZpY2FjacOzbiB0ZXJyaXRvcmlhbFwiLCB2YWx1ZTogMn0sXG4gICAge2F4aXM6IFwiNy4gVG9tYSBjb211bml0YXJpYSBkZSBkZWNpc2lvbmVzXCIsIHZhbHVlOiAxfSxcbiAgICB7YXhpczogXCI4LiBJbmNsdXNpw7NuIGRlIGdydXBvcyB2dWxuZXJhYmxlc1wiLCB2YWx1ZTogNH0sXG4gICAge2F4aXM6IFwiOS4gUGFydGljaXBhY2nDs24gZGUgbGFzIG11amVyZXNcIiwgdmFsdWU6IDN9LFxuICAgIHtheGlzOiBcIjEwLiBDb25vY2ltaWVudG8gZGUgZGVyZWNob3NcIiwgdmFsdWU6IDV9LFxuICAgIHtheGlzOiBcIjExLiBBbGlhbnphcyBwYXJhIGxhIFJSRFwiLCB2YWx1ZTogNH0sXG4gICAge2F4aXM6IFwiMTIuIEdlc3Rpw7NuIGFtYmllbnRhbCBzb3N0ZW5pYmxlXCIsIHZhbHVlOiA0fSxcbiAgICB7YXhpczogXCIxMy4gU2VndXJpZGFkIHkgZ2VzdGnDs24gZGVsIGFndWFcIiwgdmFsdWU6IDN9LFxuICAgIHtheGlzOiBcIjE0LiBBY2Nlc28geSBjb25jaWVuY2lhIGRlIGxhIHNhbHVkXCIsIHZhbHVlOiA0fSxcbiAgICB7YXhpczogXCIxNS4gU3VtaW5pc3RybyBzZWd1cm8gZGUgYWxpbWVudG9zXCIsIHZhbHVlOiA0fSxcbiAgICB7YXhpczogXCIxNi4gUHLDoWN0aWNhcyBkZSBtZWRpb3MgZGUgdmlkYVwiLCB2YWx1ZTogNH0sXG4gICAge2F4aXM6IFwiMTcuIEFjY2VzbyBhIG1lcmNhZG9cIiwgdmFsdWU6IDJ9LFxuICAgIHtheGlzOiBcIjE4LiBBY2Nlc28gYSBzZXJ2aWNpb3MgZmluYW5jaWVyb3NcIiwgdmFsdWU6IDN9LFxuICAgIHtheGlzOiBcIjE5LiBQcm90ZWNjacOzbiBkZSBpbmdyZXNvcyB5IGFjdGl2b3NcIiwgdmFsdWU6IDJ9LFxuICAgIHtheGlzOiBcIjIwLiBBY2Nlc28gYSBwcm90ZWNjacOzbiBzb2NpYWxcIiwgdmFsdWU6IDJ9LFxuICAgIHtheGlzOiBcIjIxLiBDb2hlc2nDs24gc29jaWFsXCIsIHZhbHVlOiAzfSxcbiAgICB7YXhpczogXCIyMi4gSW5mcmFlc3RydWN0dXJhIGNyw610aWNhXCIsIHZhbHVlOiAyfSxcbiAgICB7YXhpczogXCIyMy4gVml2aWVuZGFcIiwgdmFsdWU6IDN9LFxuICAgIHtheGlzOiBcIjI0LiBQbGFuaWZpY2FjacOzbiBkZSBjb250aW5nZW5jaWFcIiwgdmFsdWU6IDN9LFxuICAgIHtheGlzOiBcIjI1LiBTaXN0ZW1hIGRlIGFsZXJ0YSB0ZW1wcmFuYVwiLCB2YWx1ZTogM30sXG4gICAge2F4aXM6IFwiMjYuIENhcGFjaWRhZCBkZSBwcmVwYXJhY2nDs25cIiwgdmFsdWU6IDR9LFxuICAgIHtheGlzOiBcIjI3LiBTZXJ2aWNpb3MgZGUgc2FsdWRcIiwgdmFsdWU6IDR9LFxuICAgIHtheGlzOiBcIjI4LiBTZXJ2aWNpb3MgZGUgZWR1Y2FjacOzblwiLCB2YWx1ZTogNH0sXG4gICAge2F4aXM6IFwiMjkuIEluZnJhZXN0cnVjdHVyYSBlbiBlbWVyZ2VuY2lhc1wiLCB2YWx1ZTogNH0sXG4gICAge2F4aXM6IFwiMzAuIExpZGVyYXpnbyB5IHZvbHVudGFyaWFkb1wiLCB2YWx1ZTogMX1cbiAgXTtcblxuICBjb25zdCB3aWR0aCA9IDYwMCwgaGVpZ2h0ID0gNjAwO1xuICBjb25zdCByYWRpdXMgPSBNYXRoLm1pbih3aWR0aCwgaGVpZ2h0KSAvIDIgLSA4MDtcbiAgY29uc3QgbGV2ZWxzID0gNTtcbiAgY29uc3QgbWF4VmFsdWUgPSA1O1xuXG4gIGNvbnN0IGFuZ2xlU2xpY2UgPSAoTWF0aC5QSSAqIDIpIC8gZGF0YTIwMTEubGVuZ3RoO1xuXG4gIGNvbnN0IHJTY2FsZSA9IGQzLnNjYWxlTGluZWFyKClcbiAgICAuZG9tYWluKFswLCBtYXhWYWx1ZV0pXG4gICAgLnJhbmdlKFswLCByYWRpdXNdKTtcblxuICBjb25zdCBzdmcgPSBkMy5jcmVhdGUoXCJzdmdcIilcbiAgICAuYXR0cihcIndpZHRoXCIsIHdpZHRoKVxuICAgIC5hdHRyKFwiaGVpZ2h0XCIsIGhlaWdodCk7XG5cbiAgY29uc3QgZyA9IHN2Zy5hcHBlbmQoXCJnXCIpXG4gICAgLmF0dHIoXCJ0cmFuc2Zvcm1cIiwgYHRyYW5zbGF0ZSgke3dpZHRoLzJ9LCR7aGVpZ2h0LzJ9KWApO1xuXG4gIC8vIERpYnVqYXIgY8OtcmN1bG9zIGNvbmPDqW50cmljb3NcbiAgZm9yIChsZXQgaSA9IDA7IGkgPD0gbGV2ZWxzOyBpKyspIHtcbiAgICBnLmFwcGVuZChcImNpcmNsZVwiKVxuICAgICAgLmF0dHIoXCJyXCIsIHJhZGl1cy9sZXZlbHMgKiBpKVxuICAgICAgLmF0dHIoXCJmaWxsXCIsIFwibm9uZVwiKVxuICAgICAgLmF0dHIoXCJzdHJva2VcIiwgXCIjZGRkXCIpXG4gICAgICAuYXR0cihcInN0cm9rZS13aWR0aFwiLCBpID09PSAwID8gMCA6IDEpO1xuICB9XG5cbiAgLy8gQWdyZWdhciBldGlxdWV0YXMgZGUgZXNjYWxhXG4gIGZvciAobGV0IGkgPSAxOyBpIDw9IGxldmVsczsgaSsrKSB7XG4gICAgZy5hcHBlbmQoXCJ0ZXh0XCIpXG4gICAgICAuYXR0cihcInhcIiwgNSlcbiAgICAgIC5hdHRyKFwieVwiLCAtcmFkaXVzL2xldmVscyAqIGkpXG4gICAgICAuYXR0cihcImR5XCIsIFwiMC4zNWVtXCIpXG4gICAgICAuc3R5bGUoXCJmb250LXNpemVcIiwgXCIxMXB4XCIpXG4gICAgICAuc3R5bGUoXCJmb250LXdlaWdodFwiLCBcImJvbGRcIilcbiAgICAgIC5zdHlsZShcImZpbGxcIiwgXCIjNjY2XCIpXG4gICAgICAudGV4dChpKTtcbiAgfVxuXG4gIC8vIEVqZXMgcmFkaWFsZXNcbiAgZGF0YTIwMTEuZm9yRWFjaCgoZCwgaSkgPT4ge1xuICAgIGNvbnN0IGFuZ2xlID0gYW5nbGVTbGljZSAqIGkgLSBNYXRoLlBJLzI7XG4gICAgZy5hcHBlbmQoXCJsaW5lXCIpXG4gICAgICAuYXR0cihcIngxXCIsIDApXG4gICAgICAuYXR0cihcInkxXCIsIDApXG4gICAgICAuYXR0cihcIngyXCIsIHJTY2FsZShtYXhWYWx1ZSkgKiBNYXRoLmNvcyhhbmdsZSkpXG4gICAgICAuYXR0cihcInkyXCIsIHJTY2FsZShtYXhWYWx1ZSkgKiBNYXRoLnNpbihhbmdsZSkpXG4gICAgICAuYXR0cihcInN0cm9rZVwiLCBcIiM5OTlcIilcbiAgICAgIC5hdHRyKFwic3Ryb2tlLXdpZHRoXCIsIDAuNSk7XG5cbiAgICAvLyBFdGlxdWV0YXNcbiAgICBnLmFwcGVuZChcInRleHRcIilcbiAgICAgIC5hdHRyKFwieFwiLCAoclNjYWxlKG1heFZhbHVlICsgMC41KSkgKiBNYXRoLmNvcyhhbmdsZSkpXG4gICAgICAuYXR0cihcInlcIiwgKHJTY2FsZShtYXhWYWx1ZSArIDAuNSkpICogTWF0aC5zaW4oYW5nbGUpKVxuICAgICAgLmF0dHIoXCJkeVwiLCBcIjAuMzVlbVwiKVxuICAgICAgLnN0eWxlKFwiZm9udC1zaXplXCIsIFwiOXB4XCIpXG4gICAgICAuc3R5bGUoXCJ0ZXh0LWFuY2hvclwiLCBhbmdsZSA+IE1hdGguUEkvMiAmJiBhbmdsZSA8IDMqTWF0aC5QSS8yID8gXCJlbmRcIiA6IFwic3RhcnRcIilcbiAgICAgIC50ZXh0KGQuYXhpcyk7XG4gIH0pO1xuXG4gIC8vIEzDrW5lYSBkZSB2YWxvcmVzIDIwMTEgKGFtYXJpbGxvKVxuICBjb25zdCBsaW5lMjAxMSA9IGQzLmxpbmVSYWRpYWwoKVxuICAgIC5yYWRpdXMoZCA9PiByU2NhbGUoZC52YWx1ZSkpXG4gICAgLmFuZ2xlKChkLGkpID0+IGkgKiBhbmdsZVNsaWNlKVxuICAgIC5jdXJ2ZShkMy5jdXJ2ZUxpbmVhckNsb3NlZCk7XG5cbiAgZy5hcHBlbmQoXCJwYXRoXCIpXG4gICAgLmRhdHVtKGRhdGEyMDExKVxuICAgIC5hdHRyKFwiZFwiLCBsaW5lMjAxMSlcbiAgICAuYXR0cihcImZpbGxcIiwgXCJyZ2JhKDI1NSwyMzUsMTAwLDAuNClcIilcbiAgICAuYXR0cihcInN0cm9rZVwiLCBcImdvbGRlbnJvZFwiKVxuICAgIC5hdHRyKFwic3Ryb2tlLXdpZHRoXCIsIDIpO1xuXG4gIC8vIEzDrW5lYSBkZSB2YWxvcmVzIDIwMjEgKGF6dWwpXG4gIGNvbnN0IGxpbmUyMDIxID0gZDMubGluZVJhZGlhbCgpXG4gICAgLnJhZGl1cyhkID0+IHJTY2FsZShkLnZhbHVlKSlcbiAgICAuYW5nbGUoKGQsaSkgPT4gaSAqIGFuZ2xlU2xpY2UpXG4gICAgLmN1cnZlKGQzLmN1cnZlTGluZWFyQ2xvc2VkKTtcblxuICBnLmFwcGVuZChcInBhdGhcIilcbiAgICAuZGF0dW0oZGF0YTIwMjEpXG4gICAgLmF0dHIoXCJkXCIsIGxpbmUyMDIxKVxuICAgIC5hdHRyKFwiZmlsbFwiLCBcInJnYmEoNTAsMTUwLDI1MCwwLjQpXCIpXG4gICAgLmF0dHIoXCJzdHJva2VcIiwgXCJzdGVlbGJsdWVcIilcbiAgICAuYXR0cihcInN0cm9rZS13aWR0aFwiLCAyKTtcblxuICAvLyBMZXllbmRhIGNlbnRyYWRhIGRlYmFqbyBkZWwgZ3LDoWZpY29cbiAgY29uc3QgbGVnZW5kID0gc3ZnLmFwcGVuZChcImdcIilcbiAgICAuYXR0cihcInRyYW5zZm9ybVwiLCBgdHJhbnNsYXRlKCR7d2lkdGgvMiAtIDEwMH0sICR7aGVpZ2h0IC0gMjB9KWApO1xuXG4gIGxlZ2VuZC5hcHBlbmQoXCJyZWN0XCIpXG4gICAgLmF0dHIoXCJ4XCIsIDApXG4gICAgLmF0dHIoXCJ5XCIsIDApXG4gICAgLmF0dHIoXCJ3aWR0aFwiLCAxNSlcbiAgICAuYXR0cihcImhlaWdodFwiLCAxNSlcbiAgICAuYXR0cihcImZpbGxcIiwgXCJyZ2JhKDI1NSwyMzUsMTAwLDAuNilcIilcbiAgICAuYXR0cihcInN0cm9rZVwiLCBcImdvbGRlbnJvZFwiKTtcblxuICBsZWdlbmQuYXBwZW5kKFwidGV4dFwiKVxuICAgIC5hdHRyKFwieFwiLCAyMClcbiAgICAuYXR0cihcInlcIiwgMTIpXG4gICAgLnN0eWxlKFwiZm9udC1zaXplXCIsIFwiMTJweFwiKVxuICAgIC50ZXh0KFwiMjAxMSAoMzAuOCUpXCIpO1xuXG4gIGxlZ2VuZC5hcHBlbmQoXCJyZWN0XCIpXG4gICAgLmF0dHIoXCJ4XCIsIDExMClcbiAgICAuYXR0cihcInlcIiwgMClcbiAgICAuYXR0cihcIndpZHRoXCIsIDE1KVxuICAgIC5hdHRyKFwiaGVpZ2h0XCIsIDE1KVxuICAgIC5hdHRyKFwiZmlsbFwiLCBcInJnYmEoNTAsMTUwLDI1MCwwLjYpXCIpXG4gICAgLmF0dHIoXCJzdHJva2VcIiwgXCJzdGVlbGJsdWVcIik7XG5cbiAgbGVnZW5kLmFwcGVuZChcInRleHRcIilcbiAgICAuYXR0cihcInhcIiwgMTMwKVxuICAgIC5hdHRyKFwieVwiLCAxMilcbiAgICAuc3R5bGUoXCJmb250LXNpemVcIiwgXCIxMnB4XCIpXG4gICAgLnRleHQoXCIyMDIxICg2MC4yJSlcIik7XG5cbiAgcmV0dXJuIHN2Zy5ub2RlKCk7XG59XG4ifV19
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
