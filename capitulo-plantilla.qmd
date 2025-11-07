@@ -1,7 +1,28 @@
 ---
 title: "1. Terremotos de La Palma: Análisis sísmico de la actividad volcánica"
-author: "Tu Nombre"
-date: "2025"
+author:
+  - name: Nombre1 Apellido1
+    orcid: 0000-0000-0000-0000
+    corresponding: true
+    email: test@test.test
+    affiliations:
+      - ref: inst1
+  - name: Nombre2 Apellido2
+    orcid: 0000-0000-0000-0001
+    affiliations:
+      - ref: inst2
+affiliations:
+  - id: inst1
+    name: Instituto de Investigaciones del Sur
+    address: Dirección 123
+    city: Ciudad Sur
+    country: Colombia
+  - id: inst2
+    name: Instituto de Investigaciones del Norte
+    address: Dirección 456
+    city: Ciudad Norte
+    country: Colombia
+date: "01-12-2025"
 title-block-banner: bannerc1.png
 title-block-banner-color: "white"
 css: 
@@ -26,7 +47,6 @@ format:
     title-block-banner: bannerc1.png
     colorlinks: true
     keep-tex: true
-keywords: [Volcanic earthquakes, magma reservoirs, Cumbre Vieja, seismic analysis, eruption forecasting]
 bibliography: references.bib
 csl: vancouver-apa-hybrid.csl
 crossref:

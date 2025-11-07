@@ -246,3 +246,44 @@ table caption,
 #refs.references.csl-bib-body {
   display: block !important;
 }
+
+/* Force affiliations to appear below authors instead of side-by-side */
+.quarto-title-meta-author {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Heading "Autores/as" - order: 1 */
+.quarto-title-meta-author .quarto-title-meta-heading:nth-child(1) {
+  order: 1 !important;
+  font-weight: 600 !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.25rem !important;
+}
+
+/* Heading "Afiliaciones" - order: 100 (move to near end) */
+.quarto-title-meta-author .quarto-title-meta-heading:nth-child(2) {
+  order: 100 !important;
+  font-weight: 600 !important;
+  margin-top: 1rem !important;
+  margin-bottom: 0.25rem !important;
+}
+
+/* Author content blocks - detect by presence of .author class */
+.quarto-title-meta-author .quarto-title-meta-contents:has(.author) {
+  order: 2 !important;
+  margin-bottom: 0.25rem !important;
+}
+
+/* Affiliation content blocks - detect by presence of .affiliation class */
+.quarto-title-meta-author .quarto-title-meta-contents:has(.affiliation) {
+  order: 101 !important;
+  margin-bottom: 0.25rem !important;
+}
+
+/* Style adjustments */
+.affiliation {
+  font-style: italic;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
