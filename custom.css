@@ -331,3 +331,12 @@ table caption,
   color: #6b7280;
   font-size: 0.9rem;
 }
+
+/* Annual Reviews style - Bold citation numbers */
+/* Style for CSL citations in brackets */
+a.citation,
+.citation-number,
+sup a {
+  font-weight: 700 !important;
+  text-decoration: none;
+}
