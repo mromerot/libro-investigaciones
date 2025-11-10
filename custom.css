@@ -98,6 +98,25 @@ p {
   color: #4b5563;
 }
 
+/* Nature-style darker text for main content sections (Introduction onwards) */
+/* Apply to all content except Resumen and Abstract sections */
+main h1:not(#resumen h1):not(#abstract h1),
+main h2:not(#resumen h2):not(#abstract h2),
+main h3:not(#resumen h3):not(#abstract h3),
+main h4:not(#resumen h4):not(#abstract h4),
+main p:not(#resumen p):not(#abstract p),
+main li:not(#resumen li):not(#abstract li),
+main td:not(#resumen td):not(#abstract td),
+main th:not(#resumen th):not(#abstract th),
+main div:not(#resumen):not(#resumen *):not(#abstract):not(#abstract *) {
+  color: #333 !important;
+}
+
+/* Ensure strong/bold text in main sections also uses darker color */
+main strong:not(#resumen strong):not(#abstract strong) {
+  color: #1f2937 !important;
+}
+
 /* Clean section headers */
 h1, h2, h3, h4, h5, h6 {
   color: #1f2937;
