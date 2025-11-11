@@ -2,7 +2,7 @@
 
 # Contenido
 
----
+------------------------------------------------------------------------
 
 ## [Capítulo 1: Entre el conocimiento y la acción](Capitulo1.html)
 
@@ -10,7 +10,7 @@
 
 Estrategias para la gestión del riesgo de desastres y la adaptación climática en el Valle de Aburrá. Este estudio analiza el papel del proyecto SIATA frente a la apropiación social del conocimiento y el fortalecimiento ciudadano.
 
----
+------------------------------------------------------------------------
 
 ## [Capítulo 2: Enfoque etnodiferencial en la Gestión del Riesgo de Desastres](Capitulo2.html)
 
@@ -18,7 +18,7 @@ Estrategias para la gestión del riesgo de desastres y la adaptación climática
 
 Investigación cualitativa sobre la inclusión del enfoque etnodiferencial en la gestión del riesgo de desastres en Colombia. Basado en grupos focales y entrevistas con representantes de pueblos afrodescendientes, indígenas y personas con discapacidad.
 
----
+------------------------------------------------------------------------
 
 ## [Capítulo 3: Cartografía participativa y mapeo abierto](Capitulo3.html)
 
@@ -26,7 +26,7 @@ Investigación cualitativa sobre la inclusión del enfoque etnodiferencial en la
 
 Análisis de experiencias de cartografía participativa y mapeo abierto como herramientas metodológicas para la gestión del riesgo. Incluye casos de estudio en Medellín y otras ciudades, explorando el uso de tecnologías participativas y su rol en la construcción de territorios más seguros y resilientes.
 
----
+------------------------------------------------------------------------
 
 ## [Capítulo 4: Resiliencia comunitaria tras el desastre de 2011](Capitulo4.html)
 
@@ -34,7 +34,7 @@ Análisis de experiencias de cartografía participativa y mapeo abierto como her
 
 Estudio longitudinal (2011-2021) sobre la evolución de la resiliencia comunitaria en la Comuna 10 de Dosquebradas, Colombia, tras el desastre de 2011. Utilizando la herramienta ARC-D, se evalúan 30 componentes de resiliencia y se documenta un aumento del 100% en la capacidad de respuesta comunitaria, con análisis detallado de fortalezas, debilidades y lecciones aprendidas.
 
----
+------------------------------------------------------------------------
 
 ## [Capítulo 5: Gestión del riesgo volcánico en animales de producción](Capitulo5.html)
 
@@ -42,7 +42,7 @@ Estudio longitudinal (2011-2021) sobre la evolución de la resiliencia comunitar
 
 Revisión completa de estrategias para la gestión del riesgo volcánico en sistemas ganaderos, integrando el marco LEGS (Livestock Emergency Guidelines and Standards). Incluye análisis de casos reales de erupciones en Chile y Costa Rica, medidas de prevención, respuesta ante emergencias, y recomendaciones para la protección de animales de producción frente a amenazas volcánicas.
 
----
+------------------------------------------------------------------------
 
 ## Navegación
 
