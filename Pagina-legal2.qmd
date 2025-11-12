@@ -1,4 +1,7 @@
-# Página legal {.unnumbered}
+# Página legal 2 {.unnumbered}
+
+
+
 
 **Gustavo Petro Urrego** \| Presidente de la República
 
@@ -57,3 +60,4 @@ Copyright: © Unidad Nacional para la Gestión del Riesgo de Desastres, Diciembr
 Todos los derechos reservados. Excepto si se señala otra cosa, la licencia del ítem se describe como Atribución. NoComercial-SinDerivadas 2.5 Colombia Distribución gratuita – versión digital
 
 ![](images/UNGRD-Horizontal.png){fig-align="center" width="300"}
+
