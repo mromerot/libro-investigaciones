@@ -4,6 +4,75 @@ Registro de cambios y actualizaciones del sistema de conversión Word → Quarto
 
 ---
 
+## [Versión 1.2] - 2025-01-12
+
+### 🎨 Cambios Mayores en Estilos y Navegación
+
+#### Nuevo Archivo de Documentación
+- ✨ **NUEVO:** `05-ACTUALIZACIONES-2025.md` - Documentación completa de cambios recientes
+  - Cambios en tipografía (Merriweather + Source Sans Pro)
+  - Cambios en colores (Nature style #333)
+  - Nueva estructura de navegación
+  - Estilos de citación actualizados
+  - Guías y checklists actualizados
+
+#### Actualización de Tipografía
+- 🔄 **Fuente principal:** Source Sans Pro → **Merriweather (serif)**
+  - Mejor legibilidad académica
+  - Estilo profesional de revistas científicas
+- ✨ **Fuente navegación:** Source Sans Pro específico para sidebars
+  - Separación clara entre contenido y UI
+- ✅ **Fuentes preservadas:** Arial para tablas y cajas Box
+
+#### Actualización de Colores
+- 🔄 **Texto principal:** #4b5563 → **#333 (Nature style)**
+  - Mayor contraste y legibilidad
+  - Estilo de revistas de alto impacto
+- 🔄 **Líneas horizontales:** #e5e7eb → **#9ca3af**
+  - Mayor visibilidad de separadores
+- ✨ **Texto en negrita:** Color específico #1f2937
+
+#### Nueva Estructura de Navegación
+- ✨ **Títulos cortos en menú lateral**
+  - Uso de `text:` y `href:` en `_quarto.yml`
+  - Mejor experiencia de usuario
+  - Menú más limpio y legible
+- ✨ **Títulos completos en index.qmd**
+  - Página de índice con descripciones
+  - Enlaces clickeables a cada capítulo
+
+#### Estilos de Citación
+- ✨ **Números de citación en negrita** (estilo Annual Reviews)
+  - Mayor visibilidad de referencias
+  - Sin subrayado para mejor lectura
+
+#### Nuevas Páginas Preliminares
+- ✨ **Principios.qmd** - Página legal con créditos
+- ✨ **Presentacion.qmd** - Presentación del libro
+- ✨ **Prologo.qmd** - Prólogo
+
+#### Archivos Actualizados
+- `custom.css` - Todos los estilos nuevos aplicados
+- `_quarto.yml` - Estructura de navegación actualizada
+- `index.qmd` - Títulos completos con enlaces
+- Todos los capítulos con títulos completos en YAML
+
+### 📋 Impacto en el Workflow
+
+#### Para Nuevos Capítulos
+- Usar títulos cortos en `_quarto.yml` con `text:` y `href:`
+- Mantener títulos completos en el YAML del capítulo
+- Agregar entrada en `index.qmd` con descripción
+- Verificar renderizado con Merriweather
+- Confirmar citaciones en negrita
+
+#### Recursos Actualizados
+- **Consultar:** `05-ACTUALIZACIONES-2025.md` para todos los detalles
+- **Checklist:** Validación actualizada incluida
+- **Prompt:** Nueva versión para conversión de capítulos
+
+---
+
 ## [Versión 2.0] - 2025-10-28
 
 ### 🔄 Cambios Mayores
