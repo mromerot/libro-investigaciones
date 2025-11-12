@@ -1,5 +1,5 @@
 ---
-title: "1. Terremotos de La Palma: Análisis sísmico de la actividad volcánica"
+title: "1. Terremotos de La Palma: Análisis sísmico de la actividad volcánica. Capítulo plantilla"
 author:
   - name: Nombre1 Apellido1
     orcid: 0000-0000-0000-0000
@@ -70,39 +70,6 @@ Este estudio analiza la actividad sísmica asociada a la erupción volcánica de
 # 1. INTRODUCCIÓN
 
 La Palma, situated in the westernmost region of the Canary Islands archipelago, represents one of Earth's most active volcanic systems. Located approximately 100 km from the African coast, this Spanish territory exemplifies ongoing oceanic island formation processes. The island's geological evolution has been dominated by multiple phases of volcanism, with the *Cumbre Vieja* volcanic ridge—a north-south oriented structure comprising the southern half of the island—representing the most recent and currently active phase [@connor2015; @lindsay2018].
-
-```{mermaid}
-%%| fig-width: 8
-%%| fig-height: 6
-graph LR
-    %% Configuración general
-    classDef main fill:#7f7f7f,stroke:#333,stroke-width:2px,color:#fff,font-weight:bold
-    classDef part fill:#a0a0a0,stroke:#333,stroke-width:1.5px,color:#000,font-weight:bold
-    classDef text fill:none,stroke:none,color:#000,font-size:11px
-
-    %% Nodo central
-    ACRD[ACRC-D ETAPAS]:::main
-
-    %% Parte A y su contenido
-    A[PARTE A]:::part
-    A1[Contexto General de la Comunidad]:::text
-    A2[Identificación de grupos vulnerables]:::text
-
-    %% Parte B y su contenido
-    B[PARTE B]:::part
-    B1[Evaluación de Resiliencia Comunitaria]:::text
-    B2[5 Áreas Temáticas]:::text
-
-    %% Estructura general del flujo
-    ACRD --> A
-    ACRD --> B
-
-    A --> A1
-    A --> A2
-
-    B --> B1
-    B --> B2
-```
 
 Understanding volcanic earthquake patterns is crucial for eruption forecasting and hazard assessment. The 2021 eruption of Cumbre Vieja provided an exceptional opportunity to study real-time seismic signatures associated with magma movement through proposed multi-reservoir systems [@connor2015].
 
