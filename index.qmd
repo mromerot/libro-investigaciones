@@ -4,43 +4,43 @@
 
 ------------------------------------------------------------------------
 
-## [Capítulo 1: Entre el conocimiento y la acción](Capitulo1.html)
+## [Capítulo 1: Entre el conocimiento y la acción: estrategias para la gestión del riesgo de desastres y la adaptación climática en el Valle de Aburrá](Capitulo1.html)
 
 **Autores:** Yazmín Cardona, Adriana Carolina Herrera-López, María Alejandra Parra-Góez, Olga Ramírez, Julián Sepúlveda, Esneider Zapata
 
-Estrategias para la gestión del riesgo de desastres y la adaptación climática en el Valle de Aburrá. Este estudio analiza el papel del proyecto SIATA frente a la apropiación social del conocimiento y el fortalecimiento ciudadano.
+Este estudio analiza el papel del proyecto SIATA frente a la apropiación social del conocimiento y el fortalecimiento ciudadano en la gestión del riesgo de desastres y la adaptación climática en el Valle de Aburrá.
 
 ------------------------------------------------------------------------
 
-## [Capítulo 2: Enfoque etnodiferencial en la Gestión del Riesgo de Desastres](Capitulo2.html)
+## [Capítulo 2: Enfoque etnodiferencial y riesgo de desastre en Colombia: líneas de fuga para una digna vida](Capitulo2.html)
 
 **Autores:** William Oswaldo Gaviria-Gutiérrez, Lina Andrea Zambrano-Hernández
 
-Investigación cualitativa sobre la inclusión del enfoque etnodiferencial en la gestión del riesgo de desastres en Colombia. Basado en grupos focales y entrevistas con representantes de pueblos afrodescendientes, indígenas y personas con discapacidad.
+Este estudio explora las posibilidades de articulación del enfoque etnodiferencial en la gestión del riesgo de desastres en Colombia, buscando superar la subalternidad histórica de las voces comunitarias.
 
 ------------------------------------------------------------------------
 
-## [Capítulo 3: Cartografía participativa y mapeo abierto](Capitulo3.html)
+## [Capítulo 3: Gestión del Riesgo de Desastres Comunitario a través de Cartografía Participativa y Tecnologías Abiertas en San José del Prado, Colombia](Capitulo3.html)
 
 **Autores:** Yessica De los ríos Olarte, Ana Milena Prada Uribe, Céline Jacquin
 
-Análisis de experiencias de cartografía participativa y mapeo abierto como herramientas metodológicas para la gestión del riesgo. Incluye casos de estudio en Medellín y otras ciudades, explorando el uso de tecnologías participativas y su rol en la construcción de territorios más seguros y resilientes.
+Este capítulo explora el potencial de aplicaciones y tecnologías abiertas a través de la exposición de un caso de estudio en Medellín, San Antonio de Prado, Colombia.
 
 ------------------------------------------------------------------------
 
-## [Capítulo 4: Resiliencia comunitaria tras el desastre de 2011](Capitulo4.html)
+## [Capítulo 4: Evaluación multitemporal de la resiliencia comunitaria ante eventos tecnológicos en la Comuna 10 del municipio de Dosquebradas](Capitulo4.html)
 
-**Autores:** Jefferson Alexis Arias-Giraldo, Édgar Fernando Cataño-Hernández, Oscar Ariel López-Cortés
+**Autores:** Evelin Langebeck Cuéllar, Nicolás Giraldo Hernández
 
-Estudio longitudinal (2011-2021) sobre la evolución de la resiliencia comunitaria en la Comuna 10 de Dosquebradas, Colombia, tras el desastre de 2011. Utilizando la herramienta ARC-D, se evalúan 30 componentes de resiliencia y se documenta un aumento del 100% en la capacidad de respuesta comunitaria, con análisis detallado de fortalezas, debilidades y lecciones aprendidas.
+Aquí se mide y evalúa la resiliencia comunitaria ante desastres empleando la aplicación de la herramienta ARC-D en una población del municipio de Dosquebradas, Risaralda (barrio Villa Carola).
 
 ------------------------------------------------------------------------
 
-## [Capítulo 5: Gestión del riesgo volcánico en animales de producción](Capitulo5.html)
+## [Capítulo 5: Avances y desafíos del manejo de desastres y gestión del riesgo volcánico con animales de producción](Capitulo5.html)
 
-**Autores:** Jefferson Alexis Arias-Giraldo, Felipe Gómez-Gutiérrez, Diana Marcela Durango-Usuga
+**Autores:** Diego Hernández Pulido, Julia Inés Lema Vélez
 
-Revisión completa de estrategias para la gestión del riesgo volcánico en sistemas ganaderos, integrando el marco LEGS (Livestock Emergency Guidelines and Standards). Incluye análisis de casos reales de erupciones en Chile y Costa Rica, medidas de prevención, respuesta ante emergencias, y recomendaciones para la protección de animales de producción frente a amenazas volcánicas.
+Los animales sufren consecuencias crónicas como enfermedades, inanición o muerte por ingesta de ceniza volcánica, lo que amenaza la seguridad alimentaria y la salud pública.
 
 ------------------------------------------------------------------------
 

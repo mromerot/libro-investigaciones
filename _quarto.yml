@@ -13,11 +13,16 @@ book:
     - index.qmd
     - part: "Capítulos"
       chapters:
-        - Capitulo1.qmd
-        - Capitulo2.qmd
-        - Capitulo3.qmd
-        - Capitulo4.qmd
-        - Capitulo5.qmd
+        - text: "1: Entrategias en el Valle de Aburrá"
+          href: Capitulo1.qmd
+        - text: "2: Enfoque etnodiferencial"
+          href: Capitulo2.qmd
+        - text: "3: Cartografía participativa"
+          href: Capitulo3.qmd
+        - text: "4: Resiliencia comunitaria"
+          href: Capitulo4.qmd
+        - text: "5: Riesgo volcánico en animales"
+          href: Capitulo5.qmd
     - part: "Referencias"
       chapters:
         - glosario.qmd

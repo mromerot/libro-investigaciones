@@ -1,5 +1,5 @@
 ---
-title: "5. Avances y desafíos del manejo de desastres y gestión del riesgo volcánico con animales de producción"
+title: "5. Gestión del riesgo volcánico con animales de producción"
 author:
   - name: Diego Hernández Pulido ^1^
     url: https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001613874
