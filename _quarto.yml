@@ -8,7 +8,6 @@ book:
   date: "12-01-2025"
   chapters:
     - Pagina-legal1.qmd
-    - Pagina-legal2.qmd
     - Presentacion.qmd
     - Prologo.qmd
     - index.qmd
