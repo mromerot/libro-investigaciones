@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: "Investigaciones en Gestión del Riesgo de Desastres para Colombia. Enfoques Comunitarios, Territoriales y Animales"
+  title: "Investigaciones en Gestión del Riesgo de Desastres para Colombia. Enfoque Comunitario, Territorial y Animal"
   editor: "Comisión Nacional Asesora para la Investigación en Gestión del Riesgo de Desastres"
   date: "12-01-2025"
   chapters:
