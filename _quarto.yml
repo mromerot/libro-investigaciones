@@ -7,7 +7,8 @@ book:
   editor: "Comisión Nacional Asesora para la Investigación en Gestión del Riesgo de Desastres"
   date: "12-01-2025"
   chapters:
-    - Pagina-legal.qmd
+    - text: "Página legal"
+      href: Pagina-legal.qmd
     - Presentacion.qmd
     - Prologo.qmd
     - index.qmd
